@@ -1,5 +1,5 @@
 # TSMWSChart
-![image](https://github.com/tikeyc/TSMWSChart/raw/master/README/screen1.gif)     
+![image](https://github.com/tikeyc/TSMWSChart/raw/master/README/screen1.png)     
 
 
-![image](https://github.com/tikeyc/TSMWSChart/raw/master/README/screen2.gif)
+![image](https://github.com/tikeyc/TSMWSChart/raw/master/README/screen2.png)
