@@ -75,6 +75,9 @@
 		4E4F4DFB1CED63E4004301A5 /* TChart3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DFA1CED63E4004301A5 /* TChart3ViewController.m */; };
 		4E4F4DFC1CED63E4004301A5 /* TChart3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DFA1CED63E4004301A5 /* TChart3ViewController.m */; };
 		4E4F4DFD1CED63E4004301A5 /* TChart3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DFA1CED63E4004301A5 /* TChart3ViewController.m */; };
+		4ED260421CED77C400484581 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 4ED260411CED77C400484581 /* README.md */; };
+		4ED260451CED78B700484581 /* screen1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4ED260431CED78B700484581 /* screen1.png */; };
+		4ED260461CED78B700484581 /* screen2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4ED260441CED78B700484581 /* screen2.png */; };
 		BB198F0153BCE3F6972047DF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 919146E287F46529149D1569 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -150,6 +153,9 @@
 		4E4F4DBC1CED570D004301A5 /* TSMWSStandardAxisRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSMWSStandardAxisRenderer.m; sourceTree = "<group>"; };
 		4E4F4DF91CED63E4004301A5 /* TChart3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TChart3ViewController.h; sourceTree = "<group>"; };
 		4E4F4DFA1CED63E4004301A5 /* TChart3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TChart3ViewController.m; sourceTree = "<group>"; };
+		4ED260411CED77C400484581 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4ED260431CED78B700484581 /* screen1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen1.png; sourceTree = "<group>"; };
+		4ED260441CED78B700484581 /* screen2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen2.png; sourceTree = "<group>"; };
 		919146E287F46529149D1569 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5611418AD0DD795458B8E59 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -214,6 +220,9 @@
 		4E4F4D581CED567F004301A5 /* TSMWSChart */ = {
 			isa = PBXGroup;
 			children = (
+				4ED260431CED78B700484581 /* screen1.png */,
+				4ED260441CED78B700484581 /* screen2.png */,
+				4ED260411CED77C400484581 /* README.md */,
 				4E4F4D961CED570D004301A5 /* Pinyin */,
 				4E4F4DA51CED570D004301A5 /* WSAnalysisGraph */,
 				4E4F4D8F1CED570D004301A5 /* AppDelegate.h */,
@@ -439,7 +448,9 @@
 			files = (
 				4E4F4DC01CED570D004301A5 /* LaunchScreen.storyboard in Resources */,
 				4E4F4D691CED567F004301A5 /* Assets.xcassets in Resources */,
+				4ED260461CED78B700484581 /* screen2.png in Resources */,
 				4E4F4DC31CED570D004301A5 /* Main.storyboard in Resources */,
+				4ED260451CED78B700484581 /* screen1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -536,6 +547,7 @@
 				4E4F4DC91CED570D004301A5 /* NSArray+FirstLetterArray.m in Sources */,
 				4E4F4DC61CED570D004301A5 /* HTFirstLetter.m in Sources */,
 				4E4F4DBD1CED570D004301A5 /* AppDelegate.m in Sources */,
+				4ED260421CED77C400484581 /* README.md in Sources */,
 				4E4F4DE71CED570D004301A5 /* TSMWSBaseAxisRenderer+Protected.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
