@@ -1,0 +1,847 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E4F4D5B1CED567F004301A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4D5A1CED567F004301A5 /* main.m */; };
+		4E4F4D671CED567F004301A5 /* TSMWSChart.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4D651CED567F004301A5 /* TSMWSChart.xcdatamodeld */; };
+		4E4F4D691CED567F004301A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E4F4D681CED567F004301A5 /* Assets.xcassets */; };
+		4E4F4D771CED567F004301A5 /* TSMWSChartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4D761CED567F004301A5 /* TSMWSChartTests.m */; };
+		4E4F4D821CED567F004301A5 /* TSMWSChartUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4D811CED567F004301A5 /* TSMWSChartUITests.m */; };
+		4E4F4DBD1CED570D004301A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4D901CED570D004301A5 /* AppDelegate.m */; };
+		4E4F4DBE1CED570D004301A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4D901CED570D004301A5 /* AppDelegate.m */; };
+		4E4F4DBF1CED570D004301A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4D901CED570D004301A5 /* AppDelegate.m */; };
+		4E4F4DC01CED570D004301A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E4F4D921CED570D004301A5 /* LaunchScreen.storyboard */; };
+		4E4F4DC11CED570D004301A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E4F4D921CED570D004301A5 /* LaunchScreen.storyboard */; };
+		4E4F4DC21CED570D004301A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E4F4D921CED570D004301A5 /* LaunchScreen.storyboard */; };
+		4E4F4DC31CED570D004301A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E4F4D941CED570D004301A5 /* Main.storyboard */; };
+		4E4F4DC41CED570D004301A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E4F4D941CED570D004301A5 /* Main.storyboard */; };
+		4E4F4DC51CED570D004301A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E4F4D941CED570D004301A5 /* Main.storyboard */; };
+		4E4F4DC61CED570D004301A5 /* HTFirstLetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4D981CED570D004301A5 /* HTFirstLetter.m */; };
+		4E4F4DC71CED570D004301A5 /* HTFirstLetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4D981CED570D004301A5 /* HTFirstLetter.m */; };
+		4E4F4DC81CED570D004301A5 /* HTFirstLetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4D981CED570D004301A5 /* HTFirstLetter.m */; };
+		4E4F4DC91CED570D004301A5 /* NSArray+FirstLetterArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4D9A1CED570D004301A5 /* NSArray+FirstLetterArray.m */; };
+		4E4F4DCA1CED570D004301A5 /* NSArray+FirstLetterArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4D9A1CED570D004301A5 /* NSArray+FirstLetterArray.m */; };
+		4E4F4DCB1CED570D004301A5 /* NSArray+FirstLetterArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4D9A1CED570D004301A5 /* NSArray+FirstLetterArray.m */; };
+		4E4F4DCC1CED570D004301A5 /* NSString+FirstLetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4D9C1CED570D004301A5 /* NSString+FirstLetter.m */; };
+		4E4F4DCD1CED570D004301A5 /* NSString+FirstLetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4D9C1CED570D004301A5 /* NSString+FirstLetter.m */; };
+		4E4F4DCE1CED570D004301A5 /* NSString+FirstLetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4D9C1CED570D004301A5 /* NSString+FirstLetter.m */; };
+		4E4F4DCF1CED570D004301A5 /* POAPinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4D9E1CED570D004301A5 /* POAPinyin.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4E4F4DD01CED570D004301A5 /* POAPinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4D9E1CED570D004301A5 /* POAPinyin.m */; };
+		4E4F4DD11CED570D004301A5 /* POAPinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4D9E1CED570D004301A5 /* POAPinyin.m */; };
+		4E4F4DD21CED570D004301A5 /* TChart1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DA01CED570D004301A5 /* TChart1ViewController.m */; };
+		4E4F4DD31CED570D004301A5 /* TChart1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DA01CED570D004301A5 /* TChart1ViewController.m */; };
+		4E4F4DD41CED570D004301A5 /* TChart1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DA01CED570D004301A5 /* TChart1ViewController.m */; };
+		4E4F4DD51CED570D004301A5 /* TChart2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DA21CED570D004301A5 /* TChart2ViewController.m */; };
+		4E4F4DD61CED570D004301A5 /* TChart2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DA21CED570D004301A5 /* TChart2ViewController.m */; };
+		4E4F4DD71CED570D004301A5 /* TChart2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DA21CED570D004301A5 /* TChart2ViewController.m */; };
+		4E4F4DD81CED570D004301A5 /* TTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DA41CED570D004301A5 /* TTableViewController.m */; };
+		4E4F4DD91CED570D004301A5 /* TTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DA41CED570D004301A5 /* TTableViewController.m */; };
+		4E4F4DDA1CED570D004301A5 /* TTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DA41CED570D004301A5 /* TTableViewController.m */; };
+		4E4F4DDB1CED570D004301A5 /* TAxisXYInfoDrawingDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DA81CED570D004301A5 /* TAxisXYInfoDrawingDataSource.m */; };
+		4E4F4DDC1CED570D004301A5 /* TAxisXYInfoDrawingDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DA81CED570D004301A5 /* TAxisXYInfoDrawingDataSource.m */; };
+		4E4F4DDD1CED570D004301A5 /* TAxisXYInfoDrawingDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DA81CED570D004301A5 /* TAxisXYInfoDrawingDataSource.m */; };
+		4E4F4DDE1CED570D004301A5 /* THistogramInfoDrawingDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DAA1CED570D004301A5 /* THistogramInfoDrawingDataSource.m */; };
+		4E4F4DDF1CED570D004301A5 /* THistogramInfoDrawingDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DAA1CED570D004301A5 /* THistogramInfoDrawingDataSource.m */; };
+		4E4F4DE01CED570D004301A5 /* THistogramInfoDrawingDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DAA1CED570D004301A5 /* THistogramInfoDrawingDataSource.m */; };
+		4E4F4DE11CED570D004301A5 /* TLinearInfoDrawingDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DAC1CED570D004301A5 /* TLinearInfoDrawingDataSource.m */; };
+		4E4F4DE21CED570D004301A5 /* TLinearInfoDrawingDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DAC1CED570D004301A5 /* TLinearInfoDrawingDataSource.m */; };
+		4E4F4DE31CED570D004301A5 /* TLinearInfoDrawingDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DAC1CED570D004301A5 /* TLinearInfoDrawingDataSource.m */; };
+		4E4F4DE41CED570D004301A5 /* TLineBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DAE1CED570D004301A5 /* TLineBaseModel.m */; };
+		4E4F4DE51CED570D004301A5 /* TLineBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DAE1CED570D004301A5 /* TLineBaseModel.m */; };
+		4E4F4DE61CED570D004301A5 /* TLineBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DAE1CED570D004301A5 /* TLineBaseModel.m */; };
+		4E4F4DE71CED570D004301A5 /* TSMWSBaseAxisRenderer+Protected.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DB11CED570D004301A5 /* TSMWSBaseAxisRenderer+Protected.m */; };
+		4E4F4DE81CED570D004301A5 /* TSMWSBaseAxisRenderer+Protected.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DB11CED570D004301A5 /* TSMWSBaseAxisRenderer+Protected.m */; };
+		4E4F4DE91CED570D004301A5 /* TSMWSBaseAxisRenderer+Protected.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DB11CED570D004301A5 /* TSMWSBaseAxisRenderer+Protected.m */; };
+		4E4F4DEA1CED570D004301A5 /* TSMWSBaseAxisRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DB31CED570D004301A5 /* TSMWSBaseAxisRenderer.m */; };
+		4E4F4DEB1CED570D004301A5 /* TSMWSBaseAxisRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DB31CED570D004301A5 /* TSMWSBaseAxisRenderer.m */; };
+		4E4F4DEC1CED570D004301A5 /* TSMWSBaseAxisRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DB31CED570D004301A5 /* TSMWSBaseAxisRenderer.m */; };
+		4E4F4DED1CED570D004301A5 /* TSMWSBaseGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DB51CED570D004301A5 /* TSMWSBaseGraphView.m */; };
+		4E4F4DEE1CED570D004301A5 /* TSMWSBaseGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DB51CED570D004301A5 /* TSMWSBaseGraphView.m */; };
+		4E4F4DEF1CED570D004301A5 /* TSMWSBaseGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DB51CED570D004301A5 /* TSMWSBaseGraphView.m */; };
+		4E4F4DF01CED570D004301A5 /* TSMWSHistogramDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DB81CED570D004301A5 /* TSMWSHistogramDrawing.m */; };
+		4E4F4DF11CED570D004301A5 /* TSMWSHistogramDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DB81CED570D004301A5 /* TSMWSHistogramDrawing.m */; };
+		4E4F4DF21CED570D004301A5 /* TSMWSHistogramDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DB81CED570D004301A5 /* TSMWSHistogramDrawing.m */; };
+		4E4F4DF31CED570D004301A5 /* TSMWSLinearDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DBA1CED570D004301A5 /* TSMWSLinearDrawing.m */; };
+		4E4F4DF41CED570D004301A5 /* TSMWSLinearDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DBA1CED570D004301A5 /* TSMWSLinearDrawing.m */; };
+		4E4F4DF51CED570D004301A5 /* TSMWSLinearDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DBA1CED570D004301A5 /* TSMWSLinearDrawing.m */; };
+		4E4F4DF61CED570D004301A5 /* TSMWSStandardAxisRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DBC1CED570D004301A5 /* TSMWSStandardAxisRenderer.m */; };
+		4E4F4DF71CED570D004301A5 /* TSMWSStandardAxisRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DBC1CED570D004301A5 /* TSMWSStandardAxisRenderer.m */; };
+		4E4F4DF81CED570D004301A5 /* TSMWSStandardAxisRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DBC1CED570D004301A5 /* TSMWSStandardAxisRenderer.m */; };
+		4E4F4DFB1CED63E4004301A5 /* TChart3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DFA1CED63E4004301A5 /* TChart3ViewController.m */; };
+		4E4F4DFC1CED63E4004301A5 /* TChart3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DFA1CED63E4004301A5 /* TChart3ViewController.m */; };
+		4E4F4DFD1CED63E4004301A5 /* TChart3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DFA1CED63E4004301A5 /* TChart3ViewController.m */; };
+		BB198F0153BCE3F6972047DF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 919146E287F46529149D1569 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E4F4D731CED567F004301A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E4F4D4E1CED567F004301A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E4F4D551CED567F004301A5;
+			remoteInfo = TSMWSChart;
+		};
+		4E4F4D7E1CED567F004301A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E4F4D4E1CED567F004301A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E4F4D551CED567F004301A5;
+			remoteInfo = TSMWSChart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4CE9069AA3FC1309C52FA9FA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		4E4F4D561CED567F004301A5 /* TSMWSChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TSMWSChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E4F4D5A1CED567F004301A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E4F4D661CED567F004301A5 /* TSMWSChart.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TSMWSChart.xcdatamodel; sourceTree = "<group>"; };
+		4E4F4D681CED567F004301A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E4F4D6D1CED567F004301A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E4F4D721CED567F004301A5 /* TSMWSChartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TSMWSChartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E4F4D761CED567F004301A5 /* TSMWSChartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSMWSChartTests.m; sourceTree = "<group>"; };
+		4E4F4D781CED567F004301A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E4F4D7D1CED567F004301A5 /* TSMWSChartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TSMWSChartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E4F4D811CED567F004301A5 /* TSMWSChartUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSMWSChartUITests.m; sourceTree = "<group>"; };
+		4E4F4D831CED567F004301A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E4F4D8F1CED570D004301A5 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4E4F4D901CED570D004301A5 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4E4F4D931CED570D004301A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4E4F4D951CED570D004301A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		4E4F4D971CED570D004301A5 /* HTFirstLetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTFirstLetter.h; sourceTree = "<group>"; };
+		4E4F4D981CED570D004301A5 /* HTFirstLetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTFirstLetter.m; sourceTree = "<group>"; };
+		4E4F4D991CED570D004301A5 /* NSArray+FirstLetterArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+FirstLetterArray.h"; sourceTree = "<group>"; };
+		4E4F4D9A1CED570D004301A5 /* NSArray+FirstLetterArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+FirstLetterArray.m"; sourceTree = "<group>"; };
+		4E4F4D9B1CED570D004301A5 /* NSString+FirstLetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FirstLetter.h"; sourceTree = "<group>"; };
+		4E4F4D9C1CED570D004301A5 /* NSString+FirstLetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FirstLetter.m"; sourceTree = "<group>"; };
+		4E4F4D9D1CED570D004301A5 /* POAPinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POAPinyin.h; sourceTree = "<group>"; };
+		4E4F4D9E1CED570D004301A5 /* POAPinyin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POAPinyin.m; sourceTree = "<group>"; };
+		4E4F4D9F1CED570D004301A5 /* TChart1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TChart1ViewController.h; sourceTree = "<group>"; };
+		4E4F4DA01CED570D004301A5 /* TChart1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TChart1ViewController.m; sourceTree = "<group>"; };
+		4E4F4DA11CED570D004301A5 /* TChart2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TChart2ViewController.h; sourceTree = "<group>"; };
+		4E4F4DA21CED570D004301A5 /* TChart2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TChart2ViewController.m; sourceTree = "<group>"; };
+		4E4F4DA31CED570D004301A5 /* TTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTableViewController.h; sourceTree = "<group>"; };
+		4E4F4DA41CED570D004301A5 /* TTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTableViewController.m; sourceTree = "<group>"; };
+		4E4F4DA71CED570D004301A5 /* TAxisXYInfoDrawingDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAxisXYInfoDrawingDataSource.h; sourceTree = "<group>"; };
+		4E4F4DA81CED570D004301A5 /* TAxisXYInfoDrawingDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAxisXYInfoDrawingDataSource.m; sourceTree = "<group>"; };
+		4E4F4DA91CED570D004301A5 /* THistogramInfoDrawingDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THistogramInfoDrawingDataSource.h; sourceTree = "<group>"; };
+		4E4F4DAA1CED570D004301A5 /* THistogramInfoDrawingDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THistogramInfoDrawingDataSource.m; sourceTree = "<group>"; };
+		4E4F4DAB1CED570D004301A5 /* TLinearInfoDrawingDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLinearInfoDrawingDataSource.h; sourceTree = "<group>"; };
+		4E4F4DAC1CED570D004301A5 /* TLinearInfoDrawingDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLinearInfoDrawingDataSource.m; sourceTree = "<group>"; };
+		4E4F4DAD1CED570D004301A5 /* TLineBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLineBaseModel.h; sourceTree = "<group>"; };
+		4E4F4DAE1CED570D004301A5 /* TLineBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLineBaseModel.m; sourceTree = "<group>"; };
+		4E4F4DAF1CED570D004301A5 /* TSMWSCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSMWSCommon.h; sourceTree = "<group>"; };
+		4E4F4DB01CED570D004301A5 /* TSMWSBaseAxisRenderer+Protected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TSMWSBaseAxisRenderer+Protected.h"; sourceTree = "<group>"; };
+		4E4F4DB11CED570D004301A5 /* TSMWSBaseAxisRenderer+Protected.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TSMWSBaseAxisRenderer+Protected.m"; sourceTree = "<group>"; };
+		4E4F4DB21CED570D004301A5 /* TSMWSBaseAxisRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSMWSBaseAxisRenderer.h; sourceTree = "<group>"; };
+		4E4F4DB31CED570D004301A5 /* TSMWSBaseAxisRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSMWSBaseAxisRenderer.m; sourceTree = "<group>"; };
+		4E4F4DB41CED570D004301A5 /* TSMWSBaseGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSMWSBaseGraphView.h; sourceTree = "<group>"; };
+		4E4F4DB51CED570D004301A5 /* TSMWSBaseGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSMWSBaseGraphView.m; sourceTree = "<group>"; };
+		4E4F4DB61CED570D004301A5 /* TSMWSDrawingStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSMWSDrawingStrategy.h; sourceTree = "<group>"; };
+		4E4F4DB71CED570D004301A5 /* TSMWSHistogramDrawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSMWSHistogramDrawing.h; sourceTree = "<group>"; };
+		4E4F4DB81CED570D004301A5 /* TSMWSHistogramDrawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSMWSHistogramDrawing.m; sourceTree = "<group>"; };
+		4E4F4DB91CED570D004301A5 /* TSMWSLinearDrawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSMWSLinearDrawing.h; sourceTree = "<group>"; };
+		4E4F4DBA1CED570D004301A5 /* TSMWSLinearDrawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSMWSLinearDrawing.m; sourceTree = "<group>"; };
+		4E4F4DBB1CED570D004301A5 /* TSMWSStandardAxisRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSMWSStandardAxisRenderer.h; sourceTree = "<group>"; };
+		4E4F4DBC1CED570D004301A5 /* TSMWSStandardAxisRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSMWSStandardAxisRenderer.m; sourceTree = "<group>"; };
+		4E4F4DF91CED63E4004301A5 /* TChart3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TChart3ViewController.h; sourceTree = "<group>"; };
+		4E4F4DFA1CED63E4004301A5 /* TChart3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TChart3ViewController.m; sourceTree = "<group>"; };
+		919146E287F46529149D1569 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5611418AD0DD795458B8E59 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E4F4D531CED567F004301A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB198F0153BCE3F6972047DF /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E4F4D6F1CED567F004301A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E4F4D7A1CED567F004301A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1081D5355EDAFC544E89139E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5611418AD0DD795458B8E59 /* Pods.debug.xcconfig */,
+				4CE9069AA3FC1309C52FA9FA /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4E4F4D4D1CED567F004301A5 = {
+			isa = PBXGroup;
+			children = (
+				4E4F4D581CED567F004301A5 /* TSMWSChart */,
+				4E4F4D751CED567F004301A5 /* TSMWSChartTests */,
+				4E4F4D801CED567F004301A5 /* TSMWSChartUITests */,
+				4E4F4D571CED567F004301A5 /* Products */,
+				1081D5355EDAFC544E89139E /* Pods */,
+				C40758745ABA84E08E5D97C5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4E4F4D571CED567F004301A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E4F4D561CED567F004301A5 /* TSMWSChart.app */,
+				4E4F4D721CED567F004301A5 /* TSMWSChartTests.xctest */,
+				4E4F4D7D1CED567F004301A5 /* TSMWSChartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E4F4D581CED567F004301A5 /* TSMWSChart */ = {
+			isa = PBXGroup;
+			children = (
+				4E4F4D961CED570D004301A5 /* Pinyin */,
+				4E4F4DA51CED570D004301A5 /* WSAnalysisGraph */,
+				4E4F4D8F1CED570D004301A5 /* AppDelegate.h */,
+				4E4F4D901CED570D004301A5 /* AppDelegate.m */,
+				4E4F4DA31CED570D004301A5 /* TTableViewController.h */,
+				4E4F4DA41CED570D004301A5 /* TTableViewController.m */,
+				4E4F4D9F1CED570D004301A5 /* TChart1ViewController.h */,
+				4E4F4DA01CED570D004301A5 /* TChart1ViewController.m */,
+				4E4F4DA11CED570D004301A5 /* TChart2ViewController.h */,
+				4E4F4DA21CED570D004301A5 /* TChart2ViewController.m */,
+				4E4F4DF91CED63E4004301A5 /* TChart3ViewController.h */,
+				4E4F4DFA1CED63E4004301A5 /* TChart3ViewController.m */,
+				4E4F4D681CED567F004301A5 /* Assets.xcassets */,
+				4E4F4D6D1CED567F004301A5 /* Info.plist */,
+				4E4F4D651CED567F004301A5 /* TSMWSChart.xcdatamodeld */,
+				4E4F4D911CED570D004301A5 /* Base.lproj */,
+				4E4F4D591CED567F004301A5 /* Supporting Files */,
+			);
+			path = TSMWSChart;
+			sourceTree = "<group>";
+		};
+		4E4F4D591CED567F004301A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E4F4D5A1CED567F004301A5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4E4F4D751CED567F004301A5 /* TSMWSChartTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E4F4D761CED567F004301A5 /* TSMWSChartTests.m */,
+				4E4F4D781CED567F004301A5 /* Info.plist */,
+			);
+			path = TSMWSChartTests;
+			sourceTree = "<group>";
+		};
+		4E4F4D801CED567F004301A5 /* TSMWSChartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4E4F4D811CED567F004301A5 /* TSMWSChartUITests.m */,
+				4E4F4D831CED567F004301A5 /* Info.plist */,
+			);
+			path = TSMWSChartUITests;
+			sourceTree = "<group>";
+		};
+		4E4F4D911CED570D004301A5 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				4E4F4D921CED570D004301A5 /* LaunchScreen.storyboard */,
+				4E4F4D941CED570D004301A5 /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		4E4F4D961CED570D004301A5 /* Pinyin */ = {
+			isa = PBXGroup;
+			children = (
+				4E4F4D971CED570D004301A5 /* HTFirstLetter.h */,
+				4E4F4D981CED570D004301A5 /* HTFirstLetter.m */,
+				4E4F4D991CED570D004301A5 /* NSArray+FirstLetterArray.h */,
+				4E4F4D9A1CED570D004301A5 /* NSArray+FirstLetterArray.m */,
+				4E4F4D9B1CED570D004301A5 /* NSString+FirstLetter.h */,
+				4E4F4D9C1CED570D004301A5 /* NSString+FirstLetter.m */,
+				4E4F4D9D1CED570D004301A5 /* POAPinyin.h */,
+				4E4F4D9E1CED570D004301A5 /* POAPinyin.m */,
+			);
+			path = Pinyin;
+			sourceTree = "<group>";
+		};
+		4E4F4DA51CED570D004301A5 /* WSAnalysisGraph */ = {
+			isa = PBXGroup;
+			children = (
+				4E4F4DA61CED570D004301A5 /* Service */,
+				4E4F4DB01CED570D004301A5 /* TSMWSBaseAxisRenderer+Protected.h */,
+				4E4F4DB11CED570D004301A5 /* TSMWSBaseAxisRenderer+Protected.m */,
+				4E4F4DB21CED570D004301A5 /* TSMWSBaseAxisRenderer.h */,
+				4E4F4DB31CED570D004301A5 /* TSMWSBaseAxisRenderer.m */,
+				4E4F4DB41CED570D004301A5 /* TSMWSBaseGraphView.h */,
+				4E4F4DB51CED570D004301A5 /* TSMWSBaseGraphView.m */,
+				4E4F4DB61CED570D004301A5 /* TSMWSDrawingStrategy.h */,
+				4E4F4DB71CED570D004301A5 /* TSMWSHistogramDrawing.h */,
+				4E4F4DB81CED570D004301A5 /* TSMWSHistogramDrawing.m */,
+				4E4F4DB91CED570D004301A5 /* TSMWSLinearDrawing.h */,
+				4E4F4DBA1CED570D004301A5 /* TSMWSLinearDrawing.m */,
+				4E4F4DBB1CED570D004301A5 /* TSMWSStandardAxisRenderer.h */,
+				4E4F4DBC1CED570D004301A5 /* TSMWSStandardAxisRenderer.m */,
+			);
+			path = WSAnalysisGraph;
+			sourceTree = "<group>";
+		};
+		4E4F4DA61CED570D004301A5 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				4E4F4DA71CED570D004301A5 /* TAxisXYInfoDrawingDataSource.h */,
+				4E4F4DA81CED570D004301A5 /* TAxisXYInfoDrawingDataSource.m */,
+				4E4F4DA91CED570D004301A5 /* THistogramInfoDrawingDataSource.h */,
+				4E4F4DAA1CED570D004301A5 /* THistogramInfoDrawingDataSource.m */,
+				4E4F4DAB1CED570D004301A5 /* TLinearInfoDrawingDataSource.h */,
+				4E4F4DAC1CED570D004301A5 /* TLinearInfoDrawingDataSource.m */,
+				4E4F4DAD1CED570D004301A5 /* TLineBaseModel.h */,
+				4E4F4DAE1CED570D004301A5 /* TLineBaseModel.m */,
+				4E4F4DAF1CED570D004301A5 /* TSMWSCommon.h */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		C40758745ABA84E08E5D97C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				919146E287F46529149D1569 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E4F4D551CED567F004301A5 /* TSMWSChart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E4F4D861CED567F004301A5 /* Build configuration list for PBXNativeTarget "TSMWSChart" */;
+			buildPhases = (
+				49FFF4340823BEA0A561B1F4 /* Check Pods Manifest.lock */,
+				4E4F4D521CED567F004301A5 /* Sources */,
+				4E4F4D531CED567F004301A5 /* Frameworks */,
+				4E4F4D541CED567F004301A5 /* Resources */,
+				443379862B8DE0B447D5389B /* Embed Pods Frameworks */,
+				52F71755C0820ABB35D178BC /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TSMWSChart;
+			productName = TSMWSChart;
+			productReference = 4E4F4D561CED567F004301A5 /* TSMWSChart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E4F4D711CED567F004301A5 /* TSMWSChartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E4F4D891CED567F004301A5 /* Build configuration list for PBXNativeTarget "TSMWSChartTests" */;
+			buildPhases = (
+				4E4F4D6E1CED567F004301A5 /* Sources */,
+				4E4F4D6F1CED567F004301A5 /* Frameworks */,
+				4E4F4D701CED567F004301A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E4F4D741CED567F004301A5 /* PBXTargetDependency */,
+			);
+			name = TSMWSChartTests;
+			productName = TSMWSChartTests;
+			productReference = 4E4F4D721CED567F004301A5 /* TSMWSChartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4E4F4D7C1CED567F004301A5 /* TSMWSChartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E4F4D8C1CED567F004301A5 /* Build configuration list for PBXNativeTarget "TSMWSChartUITests" */;
+			buildPhases = (
+				4E4F4D791CED567F004301A5 /* Sources */,
+				4E4F4D7A1CED567F004301A5 /* Frameworks */,
+				4E4F4D7B1CED567F004301A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E4F4D7F1CED567F004301A5 /* PBXTargetDependency */,
+			);
+			name = TSMWSChartUITests;
+			productName = TSMWSChartUITests;
+			productReference = 4E4F4D7D1CED567F004301A5 /* TSMWSChartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E4F4D4E1CED567F004301A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = tikeyc;
+				TargetAttributes = {
+					4E4F4D551CED567F004301A5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = MX688SUQZ4;
+					};
+					4E4F4D711CED567F004301A5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4E4F4D551CED567F004301A5;
+					};
+					4E4F4D7C1CED567F004301A5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4E4F4D551CED567F004301A5;
+					};
+				};
+			};
+			buildConfigurationList = 4E4F4D511CED567F004301A5 /* Build configuration list for PBXProject "TSMWSChart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E4F4D4D1CED567F004301A5;
+			productRefGroup = 4E4F4D571CED567F004301A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E4F4D551CED567F004301A5 /* TSMWSChart */,
+				4E4F4D711CED567F004301A5 /* TSMWSChartTests */,
+				4E4F4D7C1CED567F004301A5 /* TSMWSChartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E4F4D541CED567F004301A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E4F4DC01CED570D004301A5 /* LaunchScreen.storyboard in Resources */,
+				4E4F4D691CED567F004301A5 /* Assets.xcassets in Resources */,
+				4E4F4DC31CED570D004301A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E4F4D701CED567F004301A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E4F4DC11CED570D004301A5 /* LaunchScreen.storyboard in Resources */,
+				4E4F4DC41CED570D004301A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E4F4D7B1CED567F004301A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E4F4DC21CED570D004301A5 /* LaunchScreen.storyboard in Resources */,
+				4E4F4DC51CED570D004301A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		443379862B8DE0B447D5389B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49FFF4340823BEA0A561B1F4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		52F71755C0820ABB35D178BC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E4F4D521CED567F004301A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E4F4DE11CED570D004301A5 /* TLinearInfoDrawingDataSource.m in Sources */,
+				4E4F4DED1CED570D004301A5 /* TSMWSBaseGraphView.m in Sources */,
+				4E4F4DD21CED570D004301A5 /* TChart1ViewController.m in Sources */,
+				4E4F4DCF1CED570D004301A5 /* POAPinyin.m in Sources */,
+				4E4F4DCC1CED570D004301A5 /* NSString+FirstLetter.m in Sources */,
+				4E4F4DDE1CED570D004301A5 /* THistogramInfoDrawingDataSource.m in Sources */,
+				4E4F4DF01CED570D004301A5 /* TSMWSHistogramDrawing.m in Sources */,
+				4E4F4D5B1CED567F004301A5 /* main.m in Sources */,
+				4E4F4DD81CED570D004301A5 /* TTableViewController.m in Sources */,
+				4E4F4DFB1CED63E4004301A5 /* TChart3ViewController.m in Sources */,
+				4E4F4DF61CED570D004301A5 /* TSMWSStandardAxisRenderer.m in Sources */,
+				4E4F4DEA1CED570D004301A5 /* TSMWSBaseAxisRenderer.m in Sources */,
+				4E4F4DD51CED570D004301A5 /* TChart2ViewController.m in Sources */,
+				4E4F4DF31CED570D004301A5 /* TSMWSLinearDrawing.m in Sources */,
+				4E4F4D671CED567F004301A5 /* TSMWSChart.xcdatamodeld in Sources */,
+				4E4F4DE41CED570D004301A5 /* TLineBaseModel.m in Sources */,
+				4E4F4DDB1CED570D004301A5 /* TAxisXYInfoDrawingDataSource.m in Sources */,
+				4E4F4DC91CED570D004301A5 /* NSArray+FirstLetterArray.m in Sources */,
+				4E4F4DC61CED570D004301A5 /* HTFirstLetter.m in Sources */,
+				4E4F4DBD1CED570D004301A5 /* AppDelegate.m in Sources */,
+				4E4F4DE71CED570D004301A5 /* TSMWSBaseAxisRenderer+Protected.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E4F4D6E1CED567F004301A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E4F4DF11CED570D004301A5 /* TSMWSHistogramDrawing.m in Sources */,
+				4E4F4DCD1CED570D004301A5 /* NSString+FirstLetter.m in Sources */,
+				4E4F4DD61CED570D004301A5 /* TChart2ViewController.m in Sources */,
+				4E4F4DDF1CED570D004301A5 /* THistogramInfoDrawingDataSource.m in Sources */,
+				4E4F4DBE1CED570D004301A5 /* AppDelegate.m in Sources */,
+				4E4F4DC71CED570D004301A5 /* HTFirstLetter.m in Sources */,
+				4E4F4DEE1CED570D004301A5 /* TSMWSBaseGraphView.m in Sources */,
+				4E4F4DE51CED570D004301A5 /* TLineBaseModel.m in Sources */,
+				4E4F4DDC1CED570D004301A5 /* TAxisXYInfoDrawingDataSource.m in Sources */,
+				4E4F4D771CED567F004301A5 /* TSMWSChartTests.m in Sources */,
+				4E4F4DE21CED570D004301A5 /* TLinearInfoDrawingDataSource.m in Sources */,
+				4E4F4DCA1CED570D004301A5 /* NSArray+FirstLetterArray.m in Sources */,
+				4E4F4DE81CED570D004301A5 /* TSMWSBaseAxisRenderer+Protected.m in Sources */,
+				4E4F4DD01CED570D004301A5 /* POAPinyin.m in Sources */,
+				4E4F4DFC1CED63E4004301A5 /* TChart3ViewController.m in Sources */,
+				4E4F4DEB1CED570D004301A5 /* TSMWSBaseAxisRenderer.m in Sources */,
+				4E4F4DD91CED570D004301A5 /* TTableViewController.m in Sources */,
+				4E4F4DF71CED570D004301A5 /* TSMWSStandardAxisRenderer.m in Sources */,
+				4E4F4DF41CED570D004301A5 /* TSMWSLinearDrawing.m in Sources */,
+				4E4F4DD31CED570D004301A5 /* TChart1ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E4F4D791CED567F004301A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E4F4DF21CED570D004301A5 /* TSMWSHistogramDrawing.m in Sources */,
+				4E4F4DCE1CED570D004301A5 /* NSString+FirstLetter.m in Sources */,
+				4E4F4DD71CED570D004301A5 /* TChart2ViewController.m in Sources */,
+				4E4F4DE01CED570D004301A5 /* THistogramInfoDrawingDataSource.m in Sources */,
+				4E4F4DBF1CED570D004301A5 /* AppDelegate.m in Sources */,
+				4E4F4DC81CED570D004301A5 /* HTFirstLetter.m in Sources */,
+				4E4F4DEF1CED570D004301A5 /* TSMWSBaseGraphView.m in Sources */,
+				4E4F4DE61CED570D004301A5 /* TLineBaseModel.m in Sources */,
+				4E4F4DDD1CED570D004301A5 /* TAxisXYInfoDrawingDataSource.m in Sources */,
+				4E4F4D821CED567F004301A5 /* TSMWSChartUITests.m in Sources */,
+				4E4F4DE31CED570D004301A5 /* TLinearInfoDrawingDataSource.m in Sources */,
+				4E4F4DCB1CED570D004301A5 /* NSArray+FirstLetterArray.m in Sources */,
+				4E4F4DE91CED570D004301A5 /* TSMWSBaseAxisRenderer+Protected.m in Sources */,
+				4E4F4DD11CED570D004301A5 /* POAPinyin.m in Sources */,
+				4E4F4DFD1CED63E4004301A5 /* TChart3ViewController.m in Sources */,
+				4E4F4DEC1CED570D004301A5 /* TSMWSBaseAxisRenderer.m in Sources */,
+				4E4F4DDA1CED570D004301A5 /* TTableViewController.m in Sources */,
+				4E4F4DF81CED570D004301A5 /* TSMWSStandardAxisRenderer.m in Sources */,
+				4E4F4DF51CED570D004301A5 /* TSMWSLinearDrawing.m in Sources */,
+				4E4F4DD41CED570D004301A5 /* TChart1ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E4F4D741CED567F004301A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E4F4D551CED567F004301A5 /* TSMWSChart */;
+			targetProxy = 4E4F4D731CED567F004301A5 /* PBXContainerItemProxy */;
+		};
+		4E4F4D7F1CED567F004301A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E4F4D551CED567F004301A5 /* TSMWSChart */;
+			targetProxy = 4E4F4D7E1CED567F004301A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4E4F4D921CED570D004301A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E4F4D931CED570D004301A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4E4F4D941CED570D004301A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E4F4D951CED570D004301A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E4F4D841CED567F004301A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4E4F4D851CED567F004301A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E4F4D871CED567F004301A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5611418AD0DD795458B8E59 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = TSMWSChart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ways.TSMWSChart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E4F4D881CED567F004301A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CE9069AA3FC1309C52FA9FA /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = TSMWSChart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ways.TSMWSChart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4E4F4D8A1CED567F004301A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TSMWSChartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ways.TSMWSChartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TSMWSChart.app/TSMWSChart";
+			};
+			name = Debug;
+		};
+		4E4F4D8B1CED567F004301A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TSMWSChartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ways.TSMWSChartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TSMWSChart.app/TSMWSChart";
+			};
+			name = Release;
+		};
+		4E4F4D8D1CED567F004301A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TSMWSChartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ways.TSMWSChartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TSMWSChart;
+			};
+			name = Debug;
+		};
+		4E4F4D8E1CED567F004301A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TSMWSChartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ways.TSMWSChartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TSMWSChart;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E4F4D511CED567F004301A5 /* Build configuration list for PBXProject "TSMWSChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E4F4D841CED567F004301A5 /* Debug */,
+				4E4F4D851CED567F004301A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E4F4D861CED567F004301A5 /* Build configuration list for PBXNativeTarget "TSMWSChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E4F4D871CED567F004301A5 /* Debug */,
+				4E4F4D881CED567F004301A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E4F4D891CED567F004301A5 /* Build configuration list for PBXNativeTarget "TSMWSChartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E4F4D8A1CED567F004301A5 /* Debug */,
+				4E4F4D8B1CED567F004301A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E4F4D8C1CED567F004301A5 /* Build configuration list for PBXNativeTarget "TSMWSChartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E4F4D8D1CED567F004301A5 /* Debug */,
+				4E4F4D8E1CED567F004301A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4E4F4D651CED567F004301A5 /* TSMWSChart.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4E4F4D661CED567F004301A5 /* TSMWSChart.xcdatamodel */,
+			);
+			currentVersion = 4E4F4D661CED567F004301A5 /* TSMWSChart.xcdatamodel */;
+			path = TSMWSChart.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4E4F4D4E1CED567F004301A5 /* Project object */;
+}

@@ -1,0 +1,5 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/ZCharts" "${PODS_ROOT}/Headers/Public/ZXPAutoLayout" "${PODS_ROOT}/Headers/Public/iOS-Echarts" "${PODS_ROOT}/Headers/Public/pop"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/ZCharts" -isystem "${PODS_ROOT}/Headers/Public/ZXPAutoLayout" -isystem "${PODS_ROOT}/Headers/Public/iOS-Echarts" -isystem "${PODS_ROOT}/Headers/Public/pop"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"ZCharts" -l"ZXPAutoLayout" -l"c++" -l"iOS-Echarts" -l"pop" -framework "UIKit"
+PODS_ROOT = ${SRCROOT}/Pods

@@ -1,0 +1,1528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		011B11BA778789D488792E1074E2035E /* POPAnimator.mm in Sources */ = {isa = PBXBuildFile; fileRef = 74B545A296281F8D0F3B38DA582B5862 /* POPAnimator.mm */; };
+		04F3E4FE7D094A0367583DFC972F33A3 /* POPVector.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C560F20A3C4F4298C65CD5A02E60986 /* POPVector.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		059BD600B7FE674D61FD61CA2B4C6A2D /* PYGrid.h in Headers */ = {isa = PBXBuildFile; fileRef = 1846C62D508A43C8EAF46E35C6E724C2 /* PYGrid.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		079A10A60A10B514090D7620CCB60C16 /* UnitBezier.h in Headers */ = {isa = PBXBuildFile; fileRef = 104137DEB80E3BCA59897D20948F89E1 /* UnitBezier.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		09E89700EFFDF4BDD6A489F6F8E55AFF /* PYItemStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 7867C2C34AEFD3BBEF0AD778817CECF6 /* PYItemStyle.m */; };
+		0A56EA26A019C2D06E45FB0F558E8CF0 /* PYCartesianSeries.m in Sources */ = {isa = PBXBuildFile; fileRef = BA690047135A5155B4641700E620374A /* PYCartesianSeries.m */; };
+		0D410DDD69E6D4D5D6D1850C3837B40D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		0ED074E24AAC4C570F50E3247FACCEC7 /* PYColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D70929E06D9F15E1E95299E91FD518E /* PYColor.m */; };
+		11ACC79776933772D50853314BA47C3C /* ZCharsBaseViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E0A0628297099390D880F3AC88A4C2EF /* ZCharsBaseViewCell.m */; };
+		124DC69573B1D02DC924F1353B721050 /* PYPolar.h in Headers */ = {isa = PBXBuildFile; fileRef = B850DCE2EDAB934769B83D4795A98974 /* PYPolar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1298126D968E14755D616E8AD34F6CF1 /* PYJsonUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A203A9D5B9F6524F4EA52695D7031CC /* PYJsonUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1347A93E2DD4095583471F06BE8335AC /* ZCharsLineViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = A5267B4920CA110FAEFE66A2A9FA67DB /* ZCharsLineViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		176D2B8CF2865AB04CE8AFBFDD269838 /* PYMarkLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 460B6501409D080892E568EF9E6FDF43 /* PYMarkLine.m */; };
+		1C6DD9A9566936C957AFE2F334A2D19E /* NSObject+PYObject.h in Headers */ = {isa = PBXBuildFile; fileRef = F7CAD0F56C11505030438B654F0DA9AF /* NSObject+PYObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D3336B6C09D4C7FD27946EF952DAF25 /* FloatConversion.h in Headers */ = {isa = PBXBuildFile; fileRef = A275A9B635E2227448D48D44DB010A2E /* FloatConversion.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1D8F481CAA9ECF8D85D9A2A37713AE45 /* ZcharsPaopao@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E317BA25AA99C2591C865029322BBA /* ZcharsPaopao@2x.png */; };
+		1F5B3A6B22C8AF4BB0A8E717B7AFD5F1 /* PYTimeline.m in Sources */ = {isa = PBXBuildFile; fileRef = 1112D00E2E10F060D719532BE3B21228 /* PYTimeline.m */; };
+		2169FBA55A8D9728B996D1A22098B1FC /* ZCharsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E2DEED36AB54196BB44C5566C4730872 /* ZCharsManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		244C22E9A217F0618584853E5E2D0638 /* PYSplitLine.h in Headers */ = {isa = PBXBuildFile; fileRef = 28C8403785FDC86A90942F2EF6035CED /* PYSplitLine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26A96F5A7AD7AF03658E0B9E0308537D /* PYItemStyleProp.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D89C6E664867919DBB7DC12A18FBA8B /* PYItemStyleProp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28A253473EBFD8E5DBDF6911BAB55FCC /* POPAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F1C1909C69FEE458E7C8632BFD33C89 /* POPAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2CE48F0546865FCBDB4B0B0D41EFD211 /* PYEchartsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C9D25F32468E03690E758076231BA1E /* PYEchartsView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FE9257EA75324A5CA1F3D84E32AED87 /* PYMarkPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 515363012831F145A45A3CD48F27217C /* PYMarkPoint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35D77AE126FF675961826E694BB4FD91 /* POPAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E26156C1D007429943A1E85BF961EF /* POPAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E4CB4D52D509F37179D9BE8E480C85F /* PYSeries.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FAFCC91863D3DC0395D950A2632775 /* PYSeries.m */; };
+		3F06D56D1F94831D5F6C8F503FD0731F /* PYRadarSeries.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC1FFF739D9EB43D0ABEC944B3828D5 /* PYRadarSeries.m */; };
+		3F41EA5080C0106ACBC32BD1E2C4FA7C /* POPBasicAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 31CF8C3CA631EC9ABB2FD92EC36B52EC /* POPBasicAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		41AA7955501BF1D39DE9077C1C8DF0AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		41E9D6EEFBED89E7F7F3146BFDEA3E79 /* PYAxis.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B1EC3D1B9A013205769ED3C0268888 /* PYAxis.m */; };
+		42AAF3757059F38BB9733EA52306ABFB /* ZCharsLeftView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCCE1054E99FCC7021057253FF67CC2 /* ZCharsLeftView.m */; };
+		43520572766A68570C3869BD404896EE /* POPCustomAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 28EA9B3754A701E5909E985A250D8B2F /* POPCustomAnimation.mm */; };
+		43F57C19218A1F6B0118C30815C6D2CF /* POPAnimationTracer.h in Headers */ = {isa = PBXBuildFile; fileRef = 878913EFF39CB9A517AEBDB108A85869 /* POPAnimationTracer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44429464E4FDC7FD54D1B36B8E384220 /* PYLineStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 304D54E4BD26893A4CC87814076A5F4E /* PYLineStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		452128E7BE7196AB76F3A287C4DB041D /* ZCharsLeftView.h in Headers */ = {isa = PBXBuildFile; fileRef = A41EE31DD0472FC333FE1337048E202C /* ZCharsLeftView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46508EDF7D856E0D931C980C44A9FA65 /* POPDecayAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = D4D9E27DD977E985F553A0786C72793C /* POPDecayAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		465D4D8A069320AD47C0CBB08C748AB6 /* POPAnimationRuntime.mm in Sources */ = {isa = PBXBuildFile; fileRef = 75F78493DE13F85F55F4532A42B98305 /* POPAnimationRuntime.mm */; };
+		470157D95B093B4D4BEC2EF25821E996 /* POPAnimationRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C17B32A10B98958EAD8082B7CEFDA7D /* POPAnimationRuntime.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4778F4E2396BDC0755478FE8950DF67E /* ZCharsRightView.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D712AF489B40AD6B59DE6ED0EB95C5 /* ZCharsRightView.m */; };
+		487AF817B00D4714BFD482F1FEF8E646 /* POPBasicAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = DAD41E330345F269B69A6FB186743F51 /* POPBasicAnimation.mm */; };
+		48968B756DAA889A6EE1AE71F024A101 /* PYAxisPointer.m in Sources */ = {isa = PBXBuildFile; fileRef = AF60D89D8F01903EB7FECFDCC6E769EC /* PYAxisPointer.m */; };
+		492529736118D12BB44BE29270FCA07C /* PYOption.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A2EC65623144EAB54BD608475B7E455 /* PYOption.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49CE137FDC0E87DE1F50DB44F8979CEA /* PYMarkPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6091562AAB14A45B4CFF2B91B1E8424F /* PYMarkPoint.m */; };
+		4ACB3A72279FEA8260264682590F7588 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		4C310B3B8C4BCF435E687A9E2032281D /* PYLabelLine.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DA5D9DE0B63F1B752BABC96343734DF /* PYLabelLine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D03448C696B75B158F70C9F9E0BB703 /* POPLayerExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = D37A5F68D1BB902E28B5E92A500F6520 /* POPLayerExtras.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D4804B8FC990D2BD7CDC518FA7A9C2C /* PYLineStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 21839515AC307E42EE78803579A27263 /* PYLineStyle.m */; };
+		515C049CE5668908F3A52A2838240600 /* PYDataZoom.h in Headers */ = {isa = PBXBuildFile; fileRef = F6DB4A4D50F3668B05B8345DD157CE6F /* PYDataZoom.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52498C2507CB416F3A0DEED74E0B27B8 /* PYAxisLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 66962230762FE0532B588BDED463A372 /* PYAxisLabel.m */; };
+		53E4C154B23B9965421F45FFD9E0E731 /* POPPropertyAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = E9B48211E027ECF1FF3C67CAAF1301BF /* POPPropertyAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		560BB224AFE2BA86A75A6963B41324C6 /* PYPieSeries.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBC18EFF5DCFDD8E7598F871DA2260E /* PYPieSeries.m */; };
+		56DE38E9005DA85B1785168AE9F3AF1F /* PYAxisLine.h in Headers */ = {isa = PBXBuildFile; fileRef = 17EC54FC821E19A4912B7F21C65FB067 /* PYAxisLine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58271C4B4AB81CD7335342F3CE8D9B2E /* POPAnimatableProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 284FBAC40568F3D1EF3864E09AF11678 /* POPAnimatableProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5828B5F12B66E4EA113C42FC210142B4 /* POPVector.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5093B9A132C3ACBB37F34514BB444B20 /* POPVector.mm */; };
+		5A586DB032C64611889F14A8E2308E09 /* PYNoDataLoadingOption.h in Headers */ = {isa = PBXBuildFile; fileRef = B6BBC4F6284EFE4276D274C51AD0D616 /* PYNoDataLoadingOption.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A95458CF2F5A92DCC71B9F512A17B5B /* PYTextStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 73016E8764EE788925785E5A5D50074C /* PYTextStyle.m */; };
+		5DA1FBFD77FCCDDEFB0BCDE79E7DE5C0 /* POPMath.mm in Sources */ = {isa = PBXBuildFile; fileRef = D6B3096B4DD264DFF4B3208E585892FB /* POPMath.mm */; };
+		5F931E06F01B1F6359D83D46AD4F7D5E /* POPAnimationExtras.mm in Sources */ = {isa = PBXBuildFile; fileRef = 595ABB6928A17C9AAB0DC56D01D49E2B /* POPAnimationExtras.mm */; };
+		5FE017541A92428A8D1687C58999BBCE /* POPCGUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C1BEADE8AF8E852250520AC62AD17CA /* POPCGUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6068D7B3EFE24B3EBBCD11B9A5A111AF /* PYEchartsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD401A74493E2328A5123DA29624096 /* PYEchartsView.m */; };
+		63BDD0A3A05DCEBA5BA204A94471116F /* POPSpringAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DDC8AA419A8872CF73A69CD8239C80C /* POPSpringAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6435727B66F29906D027832596FB0BD3 /* PYItemStyleProp.m in Sources */ = {isa = PBXBuildFile; fileRef = 890247BE87D347AB140B2138D3C44AA9 /* PYItemStyleProp.m */; };
+		65AB2E425F51DEFFB7798E7DF6347337 /* POPSpringAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ACB010D4993581550B1F8EBAA3DB3B6 /* POPSpringAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67F090F7EA26E0A2FFF14CC6C9FF0EA5 /* POP.h in Headers */ = {isa = PBXBuildFile; fileRef = 82915C0AD9F73EB9BF52ED349AA7C521 /* POP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6887EDE539281FB18AFD32C2E6622C81 /* PYMapSeries.m in Sources */ = {isa = PBXBuildFile; fileRef = A39F97C59FB3B8ADA1DCA717E8C70575 /* PYMapSeries.m */; };
+		68907A96BA5499CB512A0382FEFD0EF1 /* PYSplitArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C3B35EFA704ED980C6AD7D25203F018 /* PYSplitArea.m */; };
+		696202758848E405B3703FE4D7850224 /* ZCharsRightView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CD030D524D23C745445F6F46532ABF1 /* ZCharsRightView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		699197C482CED2380FD6F24D69527C7D /* PYLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 92AA346916CC6A3080FE499B63492FF2 /* PYLabel.m */; };
+		6A38DAFF1742AD742C384FE75A922433 /* PYPieSeries.h in Headers */ = {isa = PBXBuildFile; fileRef = AFD5FD499730A05F52EB8978A9481F0D /* PYPieSeries.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B2DB12BC061300D644412499653C992 /* PYAxis.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E9C87D35FDEBA6F5D2668120B5F206D /* PYAxis.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B64D726C177BF02D25789CD75F34284 /* POPPropertyAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = E3E55A5B01FC8131FF27EF28E9767AB4 /* POPPropertyAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6C47E67696DA2B7EB28D20331AF7E6C8 /* PYToolbox.h in Headers */ = {isa = PBXBuildFile; fileRef = 45B9D4FE48376E81D3BD3B5621A81759 /* PYToolbox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DD29BC0C29CD25730F92995B4573D33 /* PYPolar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF2AF469AADFFA3A4A6D99F07D58071 /* PYPolar.m */; };
+		714C27E2A2670CF8D0B93F297517B845 /* ZXPAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B2CCBEE609BA72D6AF7A1965E4EDD94 /* ZXPAutoLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7169D9E50F9A8CC924DBF8E4514374D9 /* PYTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = E14B5B4F875B7C9282CA65AA8BAB2565 /* PYTitle.m */; };
+		74022678E67669D7B78EB83D9781F31D /* TransformationMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1AB653EB5529D0EBF8E4C440D0FBD65 /* TransformationMatrix.cpp */; };
+		742748EC65EF14B638DCC148B2112A88 /* PYSplitLine.m in Sources */ = {isa = PBXBuildFile; fileRef = D64F60D47E4E7C2662D0FE1575C17752 /* PYSplitLine.m */; };
+		755E290E4CFBE080B178D6A0C23F80BB /* PYLegend.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9AEFE01416B3C309C93A56CF6EE2E8 /* PYLegend.m */; };
+		759C7392D81E9FE50864005E46208033 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		760642EBE7C7973523D8AF2CB57E8CD7 /* PYRadarSeries.h in Headers */ = {isa = PBXBuildFile; fileRef = B59F31622B1B3C0A784128122896E663 /* PYRadarSeries.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79F4774D609B495BBC524852376B3568 /* POPBasicAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = DD545C30DA792EFCA88AD4FB74871D06 /* POPBasicAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A30B451A3574ACF75FA4AC23867C3F2 /* PYJsonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 886D198CB6A694B8752CD558C3632E54 /* PYJsonUtil.m */; };
+		7BF2D18ECC690D1D49B7325F06E41D86 /* TransformationMatrix.h in Headers */ = {isa = PBXBuildFile; fileRef = 13C278D84402A25A3C663102EAFCC361 /* TransformationMatrix.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7D6AAE861D81E016C124FA3B833FE7CE /* iOS-Echarts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EDFA10ED147C702E0651E47B91148E2D /* iOS-Echarts-dummy.m */; };
+		7EFBBEB7DB153EDDD0AD10BEA8E01598 /* PYDataZoom.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CECE97268AAEEE601BE854054AC0C4D /* PYDataZoom.m */; };
+		822D269583D010638E55772EF93A58B4 /* ZCharsStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = E8A4B21F39DCBCD5A88E414315DB0E5A /* ZCharsStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84B544766921263BA0D4E91DEE8EF163 /* PYLoadingOption.h in Headers */ = {isa = PBXBuildFile; fileRef = BA9D48AFB2466823298EE823C857CAE6 /* PYLoadingOption.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84ED0B8766C82A38EF40C1BB09CEE5A8 /* PYMapSeries.h in Headers */ = {isa = PBXBuildFile; fileRef = DB7CBBC6EB511D353A7FC70746C60032 /* PYMapSeries.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		878F86B7C7F0B6BA9160149E197259E1 /* ZXPAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6645B38F0958B9038642FBA946162D /* ZXPAutoLayout.m */; };
+		8B0A69CFEBB5B4640ED4B0AB415DFE7E /* POPCGUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 204B893D8457CFBAE67E6F188E0DB651 /* POPCGUtils.mm */; };
+		8EEB098848D4B814DEE13B2AE4D2B965 /* POPAnimationTracer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 728905BAF529906120493B33290969D2 /* POPAnimationTracer.mm */; };
+		904E56190A10C3C4F4F4DD8EC793597F /* POPAnimationExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = B32F33439F02DD78034BE48C15459AFF /* POPAnimationExtras.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9275E67E25CE054B6959CA26A4F51BE0 /* PYToolboxFeature.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DF0B66D9CFF6D0F05A43E71F9B0957A /* PYToolboxFeature.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9460CAC4A4411912123BC5C9E51031DB /* PYTitle.h in Headers */ = {isa = PBXBuildFile; fileRef = 68A047607B4AFE3FC414977BA7ADB85F /* PYTitle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94A880A63421CD1604A7DF0A86F7CF8D /* POPDecayAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = C826208996E9FA8875249DE0DD173396 /* POPDecayAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9C037299A8B501DA180B17F8DB63D4CF /* POPSpringSolver.h in Headers */ = {isa = PBXBuildFile; fileRef = 06229779C3694A9B5D5EA5E88F3F6AA7 /* POPSpringSolver.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9C35EEE3A90D7F3889429F57BF202A06 /* POPPropertyAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8BA0A65968B9B1997FFF0981FEA3C09F /* POPPropertyAnimation.mm */; };
+		9FAE46C6045B880E517B9A8934D4BBCA /* POPGeometry.mm in Sources */ = {isa = PBXBuildFile; fileRef = 16FDF3CC8661DE1D6F483890DD8CBF39 /* POPGeometry.mm */; };
+		A04390848FD903E7E1A7585549C46A00 /* PYTextStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = DA8C8A000066985F853ACD0ED794BC1C /* PYTextStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A396E37C35B560E975F06944D68E460D /* PYZoomEchartsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E1EF40F2C661ED408E52918F2177BD4 /* PYZoomEchartsView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A45E7B3F3F34A1D6C4D345CF64E8D69F /* ZCharsDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 96591C75B52077D447B39AA255512EF1 /* ZCharsDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A80D55CE30DBE72ED5C6C01EE1C3E22E /* PYLabelLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BDA3B419250AADC25F8DA4A5C85AE1 /* PYLabelLine.m */; };
+		A8B20DBBAFDA8B5B4F814FF5A4D6D550 /* PYToolbox.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD138117F9D5D287174FD76DEB65CB0 /* PYToolbox.m */; };
+		A8F372F6498CA2423469C5A65701A864 /* ZCharsBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85E92674FF828F9237AE75792DA153D0 /* ZCharsBg@2x.png */; };
+		AA2467D018276C80BEF82732033600FB /* POPDecayAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = A4E4A30419569D705CBA43776BCCF590 /* POPDecayAnimation.mm */; };
+		AADCB5B14DD82BEA54BA553BB75F8E0D /* PYToolboxFeature.m in Sources */ = {isa = PBXBuildFile; fileRef = E920CCD1F797B397FBC0DC34BC702297 /* PYToolboxFeature.m */; };
+		AB8BCE54D897DE8169D016CB2FF06F30 /* PYAxisLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DBDC92BF63F92AC83918D067C95A279 /* PYAxisLine.m */; };
+		AC1B733D6FA88427E7123777B47A7E6B /* PYNoDataLoadingOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A68682BB39C63CB906DCDB70007B784 /* PYNoDataLoadingOption.m */; };
+		ACBA6C978A1FA9927BEF0A5F2E4B1B51 /* PYRoamController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9126585D0552D74F7B49F33B67A124DD /* PYRoamController.m */; };
+		B3493FD1FCA08C341D3F3626E2842E8C /* POPAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = C5506161C04459266E1130978955D576 /* POPAnimation.mm */; };
+		B4249752EB8B530895FDEC8E0C806B28 /* PYZoomEchartsView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE18068BEF7BB7B6829625A397673DC0 /* PYZoomEchartsView.m */; };
+		B42BAE18939E382ADD42D6971B97A501 /* PYAreaStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = EEE99596BBC83AADC2E6892D5BAF32EF /* PYAreaStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5259CFD3217408E932CB2B6AA36B9B5 /* PYSplitArea.h in Headers */ = {isa = PBXBuildFile; fileRef = 24102C1BE5C662B66D104837C22FDD76 /* PYSplitArea.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5499D563ABD54A03E57302F3D529187 /* PYLegend.h in Headers */ = {isa = PBXBuildFile; fileRef = 407AC529390CC418FC556C81D0D6B79C /* PYLegend.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B57E4AD1F0F8C594244C26FB982DC4CC /* PYRoamController.h in Headers */ = {isa = PBXBuildFile; fileRef = 72999DD8961DCC45BC06631472E03E5F /* PYRoamController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5B151983D64314B9AEF85D81059D1DB /* PYHeatmapSeries.h in Headers */ = {isa = PBXBuildFile; fileRef = F88E1F33481C5B4EBDE4F9624EF1F007 /* PYHeatmapSeries.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5B87C0E0086C059C3A53B34BB28451A /* ZCharsLineViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA632BF91ED7F8547F0D05585DE4A685 /* ZCharsLineViewCell.m */; };
+		B6565EF77DCA62FF306ACB50E7885D9A /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */; };
+		B7E4A412B0CCFA09235A22FD787D0B15 /* POPAnimationPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D54C2E534B0A3EF4F0DCDCDA05D85B /* POPAnimationPrivate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B9B0D8D85AC5B89326142FD4D654BC9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */; };
+		BA7E0D0FC63B54EDAF2BD2103E4C6546 /* PYTimeline.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BB5ED84B6ABB5BB6D99A1CB64A7275B /* PYTimeline.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBC10A6B4DC5CD4A6228676D5D760A29 /* ZCharsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FDAC3883622EFB9655D53AE997C6039 /* ZCharsManager.m */; };
+		BBEEE0656FB55A66DBD7910DE1927617 /* PYCartesianSeries.h in Headers */ = {isa = PBXBuildFile; fileRef = 78D25489982BCC3186E351155EB78D5D /* PYCartesianSeries.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC86D6D0B8D9FA5DFDFBF5AE33AC733C /* pop-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54831F41B9CE4B17E11FF9F508DF1F90 /* pop-dummy.m */; };
+		BCEF7348A5B30212EED11F040D8332E4 /* POPAnimationEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 62C4D8900F387243C4ECA89050EE2E4F /* POPAnimationEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE98B2281C65524343E6DE9BE1DB16C6 /* POPAnimationEvent.mm in Sources */ = {isa = PBXBuildFile; fileRef = 551C14BE5810DBE9BC2C5C4E715D4B24 /* POPAnimationEvent.mm */; };
+		BF6CD8ED420206C364376D3787D95D97 /* POPAnimatorPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 023F12ED884DA1922A139C5583C2D147 /* POPAnimatorPrivate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BFF1C48F0364AEB0BA7A442BE0C47851 /* POPAction.h in Headers */ = {isa = PBXBuildFile; fileRef = E210B506DB3D9AE3AD22E879CAB09A5D /* POPAction.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C6526DACF6785BD479CCD282C25B55CF /* PYAxisTick.h in Headers */ = {isa = PBXBuildFile; fileRef = 559D16CD8ECF64E42B98865AD26BE558 /* PYAxisTick.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C65D751556F59BAC27EC45BEBD6776AF /* PYAxisTick.m in Sources */ = {isa = PBXBuildFile; fileRef = 887CF424DCDABEB8866D2FCE4CCD72B9 /* PYAxisTick.m */; };
+		CA1978E2B9B4B016B4F0653C5A79220C /* POPAnimationEventInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = ECBABF4AD34B45574ED62F4133ECA017 /* POPAnimationEventInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CA53CAD7FC8E8D82B19264F02216242F /* POPAnimationTracerInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = DB5F647025282E6747138C61C0525172 /* POPAnimationTracerInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CBFC05AECA30A95207748F9876ED5BE4 /* PYAreaStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E32D53F24BA38A77E947265ADBF237 /* PYAreaStyle.m */; };
+		CD8AD92BA7739A0ECEF3BE33A2FB2413 /* PYItemStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A07DB47609BC70CEEE849C95B03157C /* PYItemStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE4DEE7950B619FFFC92AF974BA6B98B /* PYOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 37092C15DA3224D8D5CD588876D37FB5 /* PYOption.m */; };
+		D06B286C0106BF2472623E481E37F30C /* PYMarkLine.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B756B68CE27CCE3EFD68A3D9323CA7C /* PYMarkLine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0EE9CB83DAD01866C3AA1CC33130992 /* POPMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FEE3B8904D7765C2D98FD0667CBC287 /* POPMath.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D263AE01EB36715EEFDCE31C62040240 /* ZCharts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4A223D262ACB51D39521FC29497FDF /* ZCharts-dummy.m */; };
+		D60059D19712C6EE92E3E6B4B5464EB1 /* PYDataRange.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EA20F7470AA2C30CB04A84AD7521A16 /* PYDataRange.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D76D9F98839FBB61745BD5A53C6DBDDB /* POPCustomAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = B6EDCB3F9ECF03E789978571112D5879 /* POPCustomAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7A83D6C0F52694C2D1E70B102C66640 /* PYTooltip.m in Sources */ = {isa = PBXBuildFile; fileRef = B3345856025CF2D95330F6052FB746F7 /* PYTooltip.m */; };
+		D7E30A32F9BD956C78B1A765F8F20B7D /* PYDataRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC118E433AE1580DF7E48525BF319B8 /* PYDataRange.m */; };
+		D87475ECCDD6E4A2BAD29E0C19576D94 /* PYAxisLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = C6DA137C4032A5B697EDD68120DAE788 /* PYAxisLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA1CC2BB14D553791A688DE4CE0184FE /* POPLayerExtras.mm in Sources */ = {isa = PBXBuildFile; fileRef = 67FA96D90223C966AE28891BC03A2D0A /* POPLayerExtras.mm */; };
+		DAD0B9CC05FCEC2807D4A1CA173F781E /* PYColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 735A3D80F20567BAC7E933B8B11888D8 /* PYColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAED180E6DC7C6B9BF5C6A2E4B4FEBB5 /* ZXPAutoLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA08F14C925779E84637E919B9E50E21 /* ZXPAutoLayout-dummy.m */; };
+		DB92CB157A9E2C6763C6B1F0659C1A85 /* POPGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = CFAED345DF16B27EFBF79CA0E7270EF8 /* POPGeometry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE7362659614037A90D48B9A642F06C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		E0C518FB8883A912602E8D25C2FB618B /* ZCharsBaseViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 64F91488474F4BEF4A2D7659F1F2CBE6 /* ZCharsBaseViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E20F71DA695BAFDAB86227CFCA7FCA6E /* PYTooltip.h in Headers */ = {isa = PBXBuildFile; fileRef = 25D9B7630EE8016D94A0DFA271240D25 /* PYTooltip.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E686D5BF85893C6F4BDCBE5C21BA4748 /* ZCharsStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C8907464387F19C8ACA704F285F562C /* ZCharsStyle.m */; };
+		E825BC9C014ADA4696E4B66CDC7FB7F8 /* PYAxisPointer.h in Headers */ = {isa = PBXBuildFile; fileRef = EAA2BF8DB20EEE177BCCBC990A02BC67 /* PYAxisPointer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA715DE3D6E257B283ACE8A176754F85 /* PYGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF17125E321C163C17F9E21BBC6F9DA /* PYGrid.m */; };
+		ED0C0DC8386BF208B8273FB29AF30198 /* NSObject+PYObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B46199B561EE1658EC229B6EF948ABBD /* NSObject+PYObject.m */; };
+		EE1EDB527D37D4CE0FC0493C949FD186 /* POPSpringAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = C901C98CC201402C8C89F707F13B82F8 /* POPSpringAnimation.mm */; };
+		F126C3CDDD2A2632EAF4B6500BCB4E5B /* POPDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = FFB44DA8566D823F09BAB35204276017 /* POPDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3F0B9A3CBA91513A5FE616693EE6584 /* PYLoadingOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 8517AE046EF62AA411F3091954695F29 /* PYLoadingOption.m */; };
+		F5C5435CA530FD41C7E5C1A4808074E5 /* POPAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F9F1A501C0F601F1B77224061C83E4 /* POPAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F80D1758DD5E139D5B37D16D8E7B3054 /* POPAnimatableProperty.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4479EB31275B1229C3C911A67128CA86 /* POPAnimatableProperty.mm */; };
+		F9A26FEA2FB9D982DB2CE7D5ED72EEB3 /* ZCharsKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 86CE5D91C98E606289668A16731B25AC /* ZCharsKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD40BE625D19E765B7284273ECDFCE80 /* PYSeries.h in Headers */ = {isa = PBXBuildFile; fileRef = CA92BB69C47B14AB9C5B7F215B87C3E1 /* PYSeries.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD61D2F2F2E692F3B95091763275BCF7 /* PYHeatmapSeries.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A70F029562F191D2320A527A081DBF4 /* PYHeatmapSeries.m */; };
+		FF6A5687B7D72FDC7C0306831F1C0A12 /* PYLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C9FBB76FC102A5713025C11DE3BA5FE /* PYLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28FF268E624FBAAC3CFBB75BEA79B390 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 414E91DBB1FDD7CB8926C93755BB9F83;
+			remoteInfo = "ZCharts-ZCharts";
+		};
+		36F4C5C5DA4B4AF8C414F79F4462B421 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD584A64CFC29F53AF9A982BF767FB75;
+			remoteInfo = "iOS-Echarts";
+		};
+		9474DDDD6EACFE6498431756AE04D2CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC1E5D44B8648EFAE155ADBB555BD14A;
+			remoteInfo = ZXPAutoLayout;
+		};
+		9B3D9696E6647AC1D99F82656114E44A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24D91C37630C0113F6204E4002ED2FB9;
+			remoteInfo = pop;
+		};
+		FE90E4BDF12108E7694433EB9FBB376F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3BC8DBA2ECDC15A20A84B16C4522C54;
+			remoteInfo = ZCharts;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		023F12ED884DA1922A139C5583C2D147 /* POPAnimatorPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimatorPrivate.h; path = pop/POPAnimatorPrivate.h; sourceTree = "<group>"; };
+		06229779C3694A9B5D5EA5E88F3F6AA7 /* POPSpringSolver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPSpringSolver.h; path = pop/POPSpringSolver.h; sourceTree = "<group>"; };
+		085638468901A8F3289BBE3F49275007 /* pop.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = pop.xcconfig; sourceTree = "<group>"; };
+		0A68682BB39C63CB906DCDB70007B784 /* PYNoDataLoadingOption.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYNoDataLoadingOption.m; path = "iOS-Echarts/Model/PYNoDataLoadingOption.m"; sourceTree = "<group>"; };
+		0CECE97268AAEEE601BE854054AC0C4D /* PYDataZoom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYDataZoom.m; path = "iOS-Echarts/Model/PYDataZoom.m"; sourceTree = "<group>"; };
+		104137DEB80E3BCA59897D20948F89E1 /* UnitBezier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UnitBezier.h; path = pop/WebCore/UnitBezier.h; sourceTree = "<group>"; };
+		10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		1112D00E2E10F060D719532BE3B21228 /* PYTimeline.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYTimeline.m; path = "iOS-Echarts/Model/PYTimeline.m"; sourceTree = "<group>"; };
+		13C278D84402A25A3C663102EAFCC361 /* TransformationMatrix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TransformationMatrix.h; path = pop/WebCore/TransformationMatrix.h; sourceTree = "<group>"; };
+		15E32D53F24BA38A77E947265ADBF237 /* PYAreaStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYAreaStyle.m; path = "iOS-Echarts/Model/PYAreaStyle.m"; sourceTree = "<group>"; };
+		16FDF3CC8661DE1D6F483890DD8CBF39 /* POPGeometry.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPGeometry.mm; path = pop/POPGeometry.mm; sourceTree = "<group>"; };
+		17EC54FC821E19A4912B7F21C65FB067 /* PYAxisLine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYAxisLine.h; path = "iOS-Echarts/Model/PYAxisLine.h"; sourceTree = "<group>"; };
+		1846C62D508A43C8EAF46E35C6E724C2 /* PYGrid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYGrid.h; path = "iOS-Echarts/Model/PYGrid.h"; sourceTree = "<group>"; };
+		18FAFCC91863D3DC0395D950A2632775 /* PYSeries.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYSeries.m; path = "iOS-Echarts/Model/Series/PYSeries.m"; sourceTree = "<group>"; };
+		194F6B2F381FF1966AE00677BD14087B /* iOS-Echarts.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "iOS-Echarts.xcconfig"; sourceTree = "<group>"; };
+		1A3A4641F1F3974CF83C5170C75B9461 /* ZCharts.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZCharts.xcconfig; sourceTree = "<group>"; };
+		1A9AEFE01416B3C309C93A56CF6EE2E8 /* PYLegend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYLegend.m; path = "iOS-Echarts/Model/PYLegend.m"; sourceTree = "<group>"; };
+		1B0AF2554BEACD1D80A0B1602DEE8A7A /* ZCharts-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZCharts-prefix.pch"; sourceTree = "<group>"; };
+		1C9D25F32468E03690E758076231BA1E /* PYEchartsView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYEchartsView.h; path = "iOS-Echarts/PYEchartsView.h"; sourceTree = "<group>"; };
+		1C9FBB76FC102A5713025C11DE3BA5FE /* PYLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYLabel.h; path = "iOS-Echarts/Model/PYLabel.h"; sourceTree = "<group>"; };
+		1CBC18EFF5DCFDD8E7598F871DA2260E /* PYPieSeries.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYPieSeries.m; path = "iOS-Echarts/Model/Series/PYPieSeries.m"; sourceTree = "<group>"; };
+		1D70929E06D9F15E1E95299E91FD518E /* PYColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYColor.m; path = "iOS-Echarts/Model/PYColor.m"; sourceTree = "<group>"; };
+		204B893D8457CFBAE67E6F188E0DB651 /* POPCGUtils.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPCGUtils.mm; path = pop/POPCGUtils.mm; sourceTree = "<group>"; };
+		21839515AC307E42EE78803579A27263 /* PYLineStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYLineStyle.m; path = "iOS-Echarts/Model/PYLineStyle.m"; sourceTree = "<group>"; };
+		24102C1BE5C662B66D104837C22FDD76 /* PYSplitArea.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYSplitArea.h; path = "iOS-Echarts/Model/PYSplitArea.h"; sourceTree = "<group>"; };
+		25D9B7630EE8016D94A0DFA271240D25 /* PYTooltip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYTooltip.h; path = "iOS-Echarts/Model/PYTooltip.h"; sourceTree = "<group>"; };
+		272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		284FBAC40568F3D1EF3864E09AF11678 /* POPAnimatableProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimatableProperty.h; path = pop/POPAnimatableProperty.h; sourceTree = "<group>"; };
+		28C8403785FDC86A90942F2EF6035CED /* PYSplitLine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYSplitLine.h; path = "iOS-Echarts/Model/PYSplitLine.h"; sourceTree = "<group>"; };
+		28EA9B3754A701E5909E985A250D8B2F /* POPCustomAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPCustomAnimation.mm; path = pop/POPCustomAnimation.mm; sourceTree = "<group>"; };
+		2DDC8AA419A8872CF73A69CD8239C80C /* POPSpringAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPSpringAnimationInternal.h; path = pop/POPSpringAnimationInternal.h; sourceTree = "<group>"; };
+		304D54E4BD26893A4CC87814076A5F4E /* PYLineStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYLineStyle.h; path = "iOS-Echarts/Model/PYLineStyle.h"; sourceTree = "<group>"; };
+		31CF8C3CA631EC9ABB2FD92EC36B52EC /* POPBasicAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPBasicAnimationInternal.h; path = pop/POPBasicAnimationInternal.h; sourceTree = "<group>"; };
+		348747773BC03D93693F3B70FDE87096 /* pop-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "pop-prefix.pch"; sourceTree = "<group>"; };
+		37092C15DA3224D8D5CD588876D37FB5 /* PYOption.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYOption.m; path = "iOS-Echarts/Model/PYOption.m"; sourceTree = "<group>"; };
+		37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3B2CCBEE609BA72D6AF7A1965E4EDD94 /* ZXPAutoLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXPAutoLayout.h; path = ZXPAutoLayout/ZXPAutoLayout.h; sourceTree = "<group>"; };
+		3C560F20A3C4F4298C65CD5A02E60986 /* POPVector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPVector.h; path = pop/POPVector.h; sourceTree = "<group>"; };
+		3D89C6E664867919DBB7DC12A18FBA8B /* PYItemStyleProp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYItemStyleProp.h; path = "iOS-Echarts/Model/PYItemStyleProp.h"; sourceTree = "<group>"; };
+		3DD401A74493E2328A5123DA29624096 /* PYEchartsView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYEchartsView.m; path = "iOS-Echarts/PYEchartsView.m"; sourceTree = "<group>"; };
+		407AC529390CC418FC556C81D0D6B79C /* PYLegend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYLegend.h; path = "iOS-Echarts/Model/PYLegend.h"; sourceTree = "<group>"; };
+		43D54C2E534B0A3EF4F0DCDCDA05D85B /* POPAnimationPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationPrivate.h; path = pop/POPAnimationPrivate.h; sourceTree = "<group>"; };
+		4479EB31275B1229C3C911A67128CA86 /* POPAnimatableProperty.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimatableProperty.mm; path = pop/POPAnimatableProperty.mm; sourceTree = "<group>"; };
+		45B9D4FE48376E81D3BD3B5621A81759 /* PYToolbox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYToolbox.h; path = "iOS-Echarts/Model/PYToolbox.h"; sourceTree = "<group>"; };
+		460B6501409D080892E568EF9E6FDF43 /* PYMarkLine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYMarkLine.m; path = "iOS-Echarts/Model/Series/PYMarkLine.m"; sourceTree = "<group>"; };
+		48B80C943F3C6340090AC747C92967B0 /* iOS-Echarts-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOS-Echarts-prefix.pch"; sourceTree = "<group>"; };
+		49E26156C1D007429943A1E85BF961EF /* POPAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimator.h; path = pop/POPAnimator.h; sourceTree = "<group>"; };
+		4BB5ED84B6ABB5BB6D99A1CB64A7275B /* PYTimeline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYTimeline.h; path = "iOS-Echarts/Model/PYTimeline.h"; sourceTree = "<group>"; };
+		4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		4EA20F7470AA2C30CB04A84AD7521A16 /* PYDataRange.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYDataRange.h; path = "iOS-Echarts/Model/PYDataRange.h"; sourceTree = "<group>"; };
+		4FEE3B8904D7765C2D98FD0667CBC287 /* POPMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPMath.h; path = pop/POPMath.h; sourceTree = "<group>"; };
+		5093B9A132C3ACBB37F34514BB444B20 /* POPVector.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPVector.mm; path = pop/POPVector.mm; sourceTree = "<group>"; };
+		515363012831F145A45A3CD48F27217C /* PYMarkPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYMarkPoint.h; path = "iOS-Echarts/Model/Series/PYMarkPoint.h"; sourceTree = "<group>"; };
+		52426AD0ECF8FADE73F5152771E9ED65 /* js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = js; path = "iOS-Echarts/Resources/js"; sourceTree = "<group>"; };
+		54831F41B9CE4B17E11FF9F508DF1F90 /* pop-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "pop-dummy.m"; sourceTree = "<group>"; };
+		551C14BE5810DBE9BC2C5C4E715D4B24 /* POPAnimationEvent.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimationEvent.mm; path = pop/POPAnimationEvent.mm; sourceTree = "<group>"; };
+		559D16CD8ECF64E42B98865AD26BE558 /* PYAxisTick.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYAxisTick.h; path = "iOS-Echarts/Model/PYAxisTick.h"; sourceTree = "<group>"; };
+		595ABB6928A17C9AAB0DC56D01D49E2B /* POPAnimationExtras.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimationExtras.mm; path = pop/POPAnimationExtras.mm; sourceTree = "<group>"; };
+		5A07DB47609BC70CEEE849C95B03157C /* PYItemStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYItemStyle.h; path = "iOS-Echarts/Model/PYItemStyle.h"; sourceTree = "<group>"; };
+		5A70F029562F191D2320A527A081DBF4 /* PYHeatmapSeries.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYHeatmapSeries.m; path = "iOS-Echarts/Model/Series/PYHeatmapSeries.m"; sourceTree = "<group>"; };
+		5ACB010D4993581550B1F8EBAA3DB3B6 /* POPSpringAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPSpringAnimation.h; path = pop/POPSpringAnimation.h; sourceTree = "<group>"; };
+		5AF2AF469AADFFA3A4A6D99F07D58071 /* PYPolar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYPolar.m; path = "iOS-Echarts/Model/PYPolar.m"; sourceTree = "<group>"; };
+		5C8907464387F19C8ACA704F285F562C /* ZCharsStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZCharsStyle.m; path = Pod/Classes/ZCharsStyle.m; sourceTree = "<group>"; };
+		5DA5D9DE0B63F1B752BABC96343734DF /* PYLabelLine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYLabelLine.h; path = "iOS-Echarts/Model/PYLabelLine.h"; sourceTree = "<group>"; };
+		5DD138117F9D5D287174FD76DEB65CB0 /* PYToolbox.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYToolbox.m; path = "iOS-Echarts/Model/PYToolbox.m"; sourceTree = "<group>"; };
+		5E9C87D35FDEBA6F5D2668120B5F206D /* PYAxis.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYAxis.h; path = "iOS-Echarts/Model/PYAxis.h"; sourceTree = "<group>"; };
+		5F653181C3EAAD22E46A69227F3A725B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FDAC3883622EFB9655D53AE997C6039 /* ZCharsManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZCharsManager.m; path = Pod/Classes/ZCharsManager.m; sourceTree = "<group>"; };
+		6091562AAB14A45B4CFF2B91B1E8424F /* PYMarkPoint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYMarkPoint.m; path = "iOS-Echarts/Model/Series/PYMarkPoint.m"; sourceTree = "<group>"; };
+		61D712AF489B40AD6B59DE6ED0EB95C5 /* ZCharsRightView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZCharsRightView.m; path = Pod/Classes/ZCharsRightView.m; sourceTree = "<group>"; };
+		62C4D8900F387243C4ECA89050EE2E4F /* POPAnimationEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationEvent.h; path = pop/POPAnimationEvent.h; sourceTree = "<group>"; };
+		64F91488474F4BEF4A2D7659F1F2CBE6 /* ZCharsBaseViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCharsBaseViewCell.h; path = Pod/Classes/ZCharsBaseViewCell.h; sourceTree = "<group>"; };
+		66962230762FE0532B588BDED463A372 /* PYAxisLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYAxisLabel.m; path = "iOS-Echarts/Model/PYAxisLabel.m"; sourceTree = "<group>"; };
+		67FA96D90223C966AE28891BC03A2D0A /* POPLayerExtras.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPLayerExtras.mm; path = pop/POPLayerExtras.mm; sourceTree = "<group>"; };
+		68A047607B4AFE3FC414977BA7ADB85F /* PYTitle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYTitle.h; path = "iOS-Echarts/Model/PYTitle.h"; sourceTree = "<group>"; };
+		6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
+		6DBDC92BF63F92AC83918D067C95A279 /* PYAxisLine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYAxisLine.m; path = "iOS-Echarts/Model/PYAxisLine.m"; sourceTree = "<group>"; };
+		6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		728905BAF529906120493B33290969D2 /* POPAnimationTracer.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimationTracer.mm; path = pop/POPAnimationTracer.mm; sourceTree = "<group>"; };
+		72999DD8961DCC45BC06631472E03E5F /* PYRoamController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYRoamController.h; path = "iOS-Echarts/Model/PYRoamController.h"; sourceTree = "<group>"; };
+		73016E8764EE788925785E5A5D50074C /* PYTextStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYTextStyle.m; path = "iOS-Echarts/Model/PYTextStyle.m"; sourceTree = "<group>"; };
+		735A3D80F20567BAC7E933B8B11888D8 /* PYColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYColor.h; path = "iOS-Echarts/Model/PYColor.h"; sourceTree = "<group>"; };
+		74B545A296281F8D0F3B38DA582B5862 /* POPAnimator.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimator.mm; path = pop/POPAnimator.mm; sourceTree = "<group>"; };
+		75F78493DE13F85F55F4532A42B98305 /* POPAnimationRuntime.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimationRuntime.mm; path = pop/POPAnimationRuntime.mm; sourceTree = "<group>"; };
+		7867C2C34AEFD3BBEF0AD778817CECF6 /* PYItemStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYItemStyle.m; path = "iOS-Echarts/Model/PYItemStyle.m"; sourceTree = "<group>"; };
+		78D25489982BCC3186E351155EB78D5D /* PYCartesianSeries.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYCartesianSeries.h; path = "iOS-Echarts/Model/Series/PYCartesianSeries.h"; sourceTree = "<group>"; };
+		7BC118E433AE1580DF7E48525BF319B8 /* PYDataRange.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYDataRange.m; path = "iOS-Echarts/Model/PYDataRange.m"; sourceTree = "<group>"; };
+		7BE76AADB7D232A4743DAAD6EE7DF255 /* libiOS-Echarts.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libiOS-Echarts.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C17B32A10B98958EAD8082B7CEFDA7D /* POPAnimationRuntime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationRuntime.h; path = pop/POPAnimationRuntime.h; sourceTree = "<group>"; };
+		7C3B35EFA704ED980C6AD7D25203F018 /* PYSplitArea.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYSplitArea.m; path = "iOS-Echarts/Model/PYSplitArea.m"; sourceTree = "<group>"; };
+		7CD030D524D23C745445F6F46532ABF1 /* ZCharsRightView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCharsRightView.h; path = Pod/Classes/ZCharsRightView.h; sourceTree = "<group>"; };
+		81B1EC3D1B9A013205769ED3C0268888 /* PYAxis.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYAxis.m; path = "iOS-Echarts/Model/PYAxis.m"; sourceTree = "<group>"; };
+		82915C0AD9F73EB9BF52ED349AA7C521 /* POP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POP.h; path = pop/POP.h; sourceTree = "<group>"; };
+		8517AE046EF62AA411F3091954695F29 /* PYLoadingOption.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYLoadingOption.m; path = "iOS-Echarts/Model/PYLoadingOption.m"; sourceTree = "<group>"; };
+		85E92674FF828F9237AE75792DA153D0 /* ZCharsBg@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZCharsBg@2x.png"; path = "Pod/Assets/ZCharsBg@2x.png"; sourceTree = "<group>"; };
+		86CE5D91C98E606289668A16731B25AC /* ZCharsKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCharsKit.h; path = Pod/Classes/ZCharsKit.h; sourceTree = "<group>"; };
+		878913EFF39CB9A517AEBDB108A85869 /* POPAnimationTracer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationTracer.h; path = pop/POPAnimationTracer.h; sourceTree = "<group>"; };
+		886D198CB6A694B8752CD558C3632E54 /* PYJsonUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYJsonUtil.m; path = "iOS-Echarts/Util/PYJsonUtil.m"; sourceTree = "<group>"; };
+		887CF424DCDABEB8866D2FCE4CCD72B9 /* PYAxisTick.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYAxisTick.m; path = "iOS-Echarts/Model/PYAxisTick.m"; sourceTree = "<group>"; };
+		890247BE87D347AB140B2138D3C44AA9 /* PYItemStyleProp.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYItemStyleProp.m; path = "iOS-Echarts/Model/PYItemStyleProp.m"; sourceTree = "<group>"; };
+		8A2EC65623144EAB54BD608475B7E455 /* PYOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYOption.h; path = "iOS-Echarts/Model/PYOption.h"; sourceTree = "<group>"; };
+		8BA0A65968B9B1997FFF0981FEA3C09F /* POPPropertyAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPPropertyAnimation.mm; path = pop/POPPropertyAnimation.mm; sourceTree = "<group>"; };
+		8D9B260BF4874B0849C89F7AA53D62BD /* libpop.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libpop.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9126585D0552D74F7B49F33B67A124DD /* PYRoamController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYRoamController.m; path = "iOS-Echarts/Model/PYRoamController.m"; sourceTree = "<group>"; };
+		92AA346916CC6A3080FE499B63492FF2 /* PYLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYLabel.m; path = "iOS-Echarts/Model/PYLabel.m"; sourceTree = "<group>"; };
+		96591C75B52077D447B39AA255512EF1 /* ZCharsDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCharsDelegate.h; path = Pod/Classes/ZCharsDelegate.h; sourceTree = "<group>"; };
+		97BDA3B419250AADC25F8DA4A5C85AE1 /* PYLabelLine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYLabelLine.m; path = "iOS-Echarts/Model/PYLabelLine.m"; sourceTree = "<group>"; };
+		98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		9A203A9D5B9F6524F4EA52695D7031CC /* PYJsonUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYJsonUtil.h; path = "iOS-Echarts/Util/PYJsonUtil.h"; sourceTree = "<group>"; };
+		9B756B68CE27CCE3EFD68A3D9323CA7C /* PYMarkLine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYMarkLine.h; path = "iOS-Echarts/Model/Series/PYMarkLine.h"; sourceTree = "<group>"; };
+		9C1BEADE8AF8E852250520AC62AD17CA /* POPCGUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPCGUtils.h; path = pop/POPCGUtils.h; sourceTree = "<group>"; };
+		9CB7DC2153330C601AE7F3F23D0E5895 /* echarts.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = echarts.html; path = "iOS-Echarts/Resources/echarts.html"; sourceTree = "<group>"; };
+		9DF0B66D9CFF6D0F05A43E71F9B0957A /* PYToolboxFeature.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYToolboxFeature.h; path = "iOS-Echarts/Model/PYToolboxFeature.h"; sourceTree = "<group>"; };
+		9E1EF40F2C661ED408E52918F2177BD4 /* PYZoomEchartsView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYZoomEchartsView.h; path = "iOS-Echarts/PYZoomEchartsView.h"; sourceTree = "<group>"; };
+		9E557A680C16C937023FD3924C3974BE /* ZXPAutoLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZXPAutoLayout.xcconfig; sourceTree = "<group>"; };
+		9F1C1909C69FEE458E7C8632BFD33C89 /* POPAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationInternal.h; path = pop/POPAnimationInternal.h; sourceTree = "<group>"; };
+		A124049BF3C5853DE2D95A0A297FAFBE /* ZCharts.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZCharts.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		A275A9B635E2227448D48D44DB010A2E /* FloatConversion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FloatConversion.h; path = pop/WebCore/FloatConversion.h; sourceTree = "<group>"; };
+		A39F97C59FB3B8ADA1DCA717E8C70575 /* PYMapSeries.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYMapSeries.m; path = "iOS-Echarts/Model/Series/PYMapSeries.m"; sourceTree = "<group>"; };
+		A41EE31DD0472FC333FE1337048E202C /* ZCharsLeftView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCharsLeftView.h; path = Pod/Classes/ZCharsLeftView.h; sourceTree = "<group>"; };
+		A4E4A30419569D705CBA43776BCCF590 /* POPDecayAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPDecayAnimation.mm; path = pop/POPDecayAnimation.mm; sourceTree = "<group>"; };
+		A5267B4920CA110FAEFE66A2A9FA67DB /* ZCharsLineViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCharsLineViewCell.h; path = Pod/Classes/Line/ZCharsLineViewCell.h; sourceTree = "<group>"; };
+		AA08F14C925779E84637E919B9E50E21 /* ZXPAutoLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZXPAutoLayout-dummy.m"; sourceTree = "<group>"; };
+		AF60D89D8F01903EB7FECFDCC6E769EC /* PYAxisPointer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYAxisPointer.m; path = "iOS-Echarts/Model/PYAxisPointer.m"; sourceTree = "<group>"; };
+		AFD5FD499730A05F52EB8978A9481F0D /* PYPieSeries.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYPieSeries.h; path = "iOS-Echarts/Model/Series/PYPieSeries.h"; sourceTree = "<group>"; };
+		B1AB653EB5529D0EBF8E4C440D0FBD65 /* TransformationMatrix.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = TransformationMatrix.cpp; path = pop/WebCore/TransformationMatrix.cpp; sourceTree = "<group>"; };
+		B32F33439F02DD78034BE48C15459AFF /* POPAnimationExtras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationExtras.h; path = pop/POPAnimationExtras.h; sourceTree = "<group>"; };
+		B3345856025CF2D95330F6052FB746F7 /* PYTooltip.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYTooltip.m; path = "iOS-Echarts/Model/PYTooltip.m"; sourceTree = "<group>"; };
+		B46199B561EE1658EC229B6EF948ABBD /* NSObject+PYObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+PYObject.m"; path = "iOS-Echarts/Model/NSObject+PYObject.m"; sourceTree = "<group>"; };
+		B59F31622B1B3C0A784128122896E663 /* PYRadarSeries.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYRadarSeries.h; path = "iOS-Echarts/Model/Series/PYRadarSeries.h"; sourceTree = "<group>"; };
+		B6BBC4F6284EFE4276D274C51AD0D616 /* PYNoDataLoadingOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYNoDataLoadingOption.h; path = "iOS-Echarts/Model/PYNoDataLoadingOption.h"; sourceTree = "<group>"; };
+		B6EDCB3F9ECF03E789978571112D5879 /* POPCustomAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPCustomAnimation.h; path = pop/POPCustomAnimation.h; sourceTree = "<group>"; };
+		B850DCE2EDAB934769B83D4795A98974 /* PYPolar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYPolar.h; path = "iOS-Echarts/Model/PYPolar.h"; sourceTree = "<group>"; };
+		BA632BF91ED7F8547F0D05585DE4A685 /* ZCharsLineViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZCharsLineViewCell.m; path = Pod/Classes/Line/ZCharsLineViewCell.m; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BA690047135A5155B4641700E620374A /* PYCartesianSeries.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYCartesianSeries.m; path = "iOS-Echarts/Model/Series/PYCartesianSeries.m"; sourceTree = "<group>"; };
+		BA9D48AFB2466823298EE823C857CAE6 /* PYLoadingOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYLoadingOption.h; path = "iOS-Echarts/Model/PYLoadingOption.h"; sourceTree = "<group>"; };
+		BF4A223D262ACB51D39521FC29497FDF /* ZCharts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZCharts-dummy.m"; sourceTree = "<group>"; };
+		C395B00DF4718416910E978DC5C16D8F /* libZXPAutoLayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libZXPAutoLayout.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C5506161C04459266E1130978955D576 /* POPAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimation.mm; path = pop/POPAnimation.mm; sourceTree = "<group>"; };
+		C6DA137C4032A5B697EDD68120DAE788 /* PYAxisLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYAxisLabel.h; path = "iOS-Echarts/Model/PYAxisLabel.h"; sourceTree = "<group>"; };
+		C826208996E9FA8875249DE0DD173396 /* POPDecayAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPDecayAnimationInternal.h; path = pop/POPDecayAnimationInternal.h; sourceTree = "<group>"; };
+		C901C98CC201402C8C89F707F13B82F8 /* POPSpringAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPSpringAnimation.mm; path = pop/POPSpringAnimation.mm; sourceTree = "<group>"; };
+		CA92BB69C47B14AB9C5B7F215B87C3E1 /* PYSeries.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYSeries.h; path = "iOS-Echarts/Model/Series/PYSeries.h"; sourceTree = "<group>"; };
+		CBF17125E321C163C17F9E21BBC6F9DA /* PYGrid.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYGrid.m; path = "iOS-Echarts/Model/PYGrid.m"; sourceTree = "<group>"; };
+		CCF70C80E26E227D0CF3541C06F6D279 /* libZCharts.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libZCharts.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFAED345DF16B27EFBF79CA0E7270EF8 /* POPGeometry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPGeometry.h; path = pop/POPGeometry.h; sourceTree = "<group>"; };
+		D37A5F68D1BB902E28B5E92A500F6520 /* POPLayerExtras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPLayerExtras.h; path = pop/POPLayerExtras.h; sourceTree = "<group>"; };
+		D3E317BA25AA99C2591C865029322BBA /* ZcharsPaopao@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZcharsPaopao@2x.png"; path = "Pod/Assets/ZcharsPaopao@2x.png"; sourceTree = "<group>"; };
+		D4D9E27DD977E985F553A0786C72793C /* POPDecayAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPDecayAnimation.h; path = pop/POPDecayAnimation.h; sourceTree = "<group>"; };
+		D64F60D47E4E7C2662D0FE1575C17752 /* PYSplitLine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYSplitLine.m; path = "iOS-Echarts/Model/PYSplitLine.m"; sourceTree = "<group>"; };
+		D6B3096B4DD264DFF4B3208E585892FB /* POPMath.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPMath.mm; path = pop/POPMath.mm; sourceTree = "<group>"; };
+		DA8C8A000066985F853ACD0ED794BC1C /* PYTextStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYTextStyle.h; path = "iOS-Echarts/Model/PYTextStyle.h"; sourceTree = "<group>"; };
+		DAD41E330345F269B69A6FB186743F51 /* POPBasicAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPBasicAnimation.mm; path = pop/POPBasicAnimation.mm; sourceTree = "<group>"; };
+		DB5F647025282E6747138C61C0525172 /* POPAnimationTracerInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationTracerInternal.h; path = pop/POPAnimationTracerInternal.h; sourceTree = "<group>"; };
+		DB7CBBC6EB511D353A7FC70746C60032 /* PYMapSeries.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYMapSeries.h; path = "iOS-Echarts/Model/Series/PYMapSeries.h"; sourceTree = "<group>"; };
+		DCCCE1054E99FCC7021057253FF67CC2 /* ZCharsLeftView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZCharsLeftView.m; path = Pod/Classes/ZCharsLeftView.m; sourceTree = "<group>"; };
+		DD545C30DA792EFCA88AD4FB74871D06 /* POPBasicAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPBasicAnimation.h; path = pop/POPBasicAnimation.h; sourceTree = "<group>"; };
+		E0A0628297099390D880F3AC88A4C2EF /* ZCharsBaseViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZCharsBaseViewCell.m; path = Pod/Classes/ZCharsBaseViewCell.m; sourceTree = "<group>"; };
+		E14B5B4F875B7C9282CA65AA8BAB2565 /* PYTitle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYTitle.m; path = "iOS-Echarts/Model/PYTitle.m"; sourceTree = "<group>"; };
+		E210B506DB3D9AE3AD22E879CAB09A5D /* POPAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAction.h; path = pop/POPAction.h; sourceTree = "<group>"; };
+		E2DEED36AB54196BB44C5566C4730872 /* ZCharsManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCharsManager.h; path = Pod/Classes/ZCharsManager.h; sourceTree = "<group>"; };
+		E3E55A5B01FC8131FF27EF28E9767AB4 /* POPPropertyAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPPropertyAnimationInternal.h; path = pop/POPPropertyAnimationInternal.h; sourceTree = "<group>"; };
+		E8A4B21F39DCBCD5A88E414315DB0E5A /* ZCharsStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCharsStyle.h; path = Pod/Classes/ZCharsStyle.h; sourceTree = "<group>"; };
+		E920CCD1F797B397FBC0DC34BC702297 /* PYToolboxFeature.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYToolboxFeature.m; path = "iOS-Echarts/Model/PYToolboxFeature.m"; sourceTree = "<group>"; };
+		E9B48211E027ECF1FF3C67CAAF1301BF /* POPPropertyAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPPropertyAnimation.h; path = pop/POPPropertyAnimation.h; sourceTree = "<group>"; };
+		EAA2BF8DB20EEE177BCCBC990A02BC67 /* PYAxisPointer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYAxisPointer.h; path = "iOS-Echarts/Model/PYAxisPointer.h"; sourceTree = "<group>"; };
+		ECBABF4AD34B45574ED62F4133ECA017 /* POPAnimationEventInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationEventInternal.h; path = pop/POPAnimationEventInternal.h; sourceTree = "<group>"; };
+		EDFA10ED147C702E0651E47B91148E2D /* iOS-Echarts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iOS-Echarts-dummy.m"; sourceTree = "<group>"; };
+		EE18068BEF7BB7B6829625A397673DC0 /* PYZoomEchartsView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYZoomEchartsView.m; path = "iOS-Echarts/PYZoomEchartsView.m"; sourceTree = "<group>"; };
+		EEE99596BBC83AADC2E6892D5BAF32EF /* PYAreaStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYAreaStyle.h; path = "iOS-Echarts/Model/PYAreaStyle.h"; sourceTree = "<group>"; };
+		F4F9F1A501C0F601F1B77224061C83E4 /* POPAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimation.h; path = pop/POPAnimation.h; sourceTree = "<group>"; };
+		F6DB4A4D50F3668B05B8345DD157CE6F /* PYDataZoom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYDataZoom.h; path = "iOS-Echarts/Model/PYDataZoom.h"; sourceTree = "<group>"; };
+		F7CAD0F56C11505030438B654F0DA9AF /* NSObject+PYObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+PYObject.h"; path = "iOS-Echarts/Model/NSObject+PYObject.h"; sourceTree = "<group>"; };
+		F88E1F33481C5B4EBDE4F9624EF1F007 /* PYHeatmapSeries.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYHeatmapSeries.h; path = "iOS-Echarts/Model/Series/PYHeatmapSeries.h"; sourceTree = "<group>"; };
+		F89E8A98AFA35CCBD8713A4EAAA9CD52 /* ZXPAutoLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZXPAutoLayout-prefix.pch"; sourceTree = "<group>"; };
+		FA6645B38F0958B9038642FBA946162D /* ZXPAutoLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXPAutoLayout.m; path = ZXPAutoLayout/ZXPAutoLayout.m; sourceTree = "<group>"; };
+		FEC1FFF739D9EB43D0ABEC944B3828D5 /* PYRadarSeries.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYRadarSeries.m; path = "iOS-Echarts/Model/Series/PYRadarSeries.m"; sourceTree = "<group>"; };
+		FFB44DA8566D823F09BAB35204276017 /* POPDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPDefines.h; path = pop/POPDefines.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BB39590237E29F4C5C8593E8C8D43A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41AA7955501BF1D39DE9077C1C8DF0AE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		568839E71C2AFE0FDF80144336FF1402 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE7362659614037A90D48B9A642F06C3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B811493E8F873CD674289DE362E6403 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D410DDD69E6D4D5D6D1850C3837B40D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2101A2DEA630D8299B8E2C00B0E498C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ACB3A72279FEA8260264682590F7588 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC39A598C65AD41EB1136F4E9E9C378D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				759C7392D81E9FE50864005E46208033 /* Foundation.framework in Frameworks */,
+				B9B0D8D85AC5B89326142FD4D654BC9B /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7FD9C0EC3032222D9A1F41C89F1E71E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3D1D13E0C6553800746CB8FD61CF946 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		17E5B29836EDD1B5B463642F9980F6E6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A3A4641F1F3974CF83C5170C75B9461 /* ZCharts.xcconfig */,
+				BF4A223D262ACB51D39521FC29497FDF /* ZCharts-dummy.m */,
+				1B0AF2554BEACD1D80A0B1602DEE8A7A /* ZCharts-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZCharts";
+			sourceTree = "<group>";
+		};
+		18340F12838DEE43507667CC74401EB1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */,
+				C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		402DC4250E61339057E45F4670D79174 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9CB7DC2153330C601AE7F3F23D0E5895 /* echarts.html */,
+				52426AD0ECF8FADE73F5152771E9ED65 /* js */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18340F12838DEE43507667CC74401EB1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4AC8421468237CF4BF5B9837A4661073 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				85E92674FF828F9237AE75792DA153D0 /* ZCharsBg@2x.png */,
+				D3E317BA25AA99C2591C865029322BBA /* ZcharsPaopao@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		780C5E3D1DB321F023AD8D18B4721206 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E557A680C16C937023FD3924C3974BE /* ZXPAutoLayout.xcconfig */,
+				AA08F14C925779E84637E919B9E50E21 /* ZXPAutoLayout-dummy.m */,
+				F89E8A98AFA35CCBD8713A4EAAA9CD52 /* ZXPAutoLayout-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZXPAutoLayout";
+			sourceTree = "<group>";
+		};
+		7D16C6789BCAFDBB73E5AF1CCBADEBD5 /* iOS-Echarts */ = {
+			isa = PBXGroup;
+			children = (
+				9E1EF40F2C661ED408E52918F2177BD4 /* PYZoomEchartsView.h */,
+				EE18068BEF7BB7B6829625A397673DC0 /* PYZoomEchartsView.m */,
+				1C9D25F32468E03690E758076231BA1E /* PYEchartsView.h */,
+				3DD401A74493E2328A5123DA29624096 /* PYEchartsView.m */,
+				8A2EC65623144EAB54BD608475B7E455 /* PYOption.h */,
+				37092C15DA3224D8D5CD588876D37FB5 /* PYOption.m */,
+				F7CAD0F56C11505030438B654F0DA9AF /* NSObject+PYObject.h */,
+				B46199B561EE1658EC229B6EF948ABBD /* NSObject+PYObject.m */,
+				EEE99596BBC83AADC2E6892D5BAF32EF /* PYAreaStyle.h */,
+				15E32D53F24BA38A77E947265ADBF237 /* PYAreaStyle.m */,
+				5E9C87D35FDEBA6F5D2668120B5F206D /* PYAxis.h */,
+				81B1EC3D1B9A013205769ED3C0268888 /* PYAxis.m */,
+				C6DA137C4032A5B697EDD68120DAE788 /* PYAxisLabel.h */,
+				66962230762FE0532B588BDED463A372 /* PYAxisLabel.m */,
+				17EC54FC821E19A4912B7F21C65FB067 /* PYAxisLine.h */,
+				6DBDC92BF63F92AC83918D067C95A279 /* PYAxisLine.m */,
+				EAA2BF8DB20EEE177BCCBC990A02BC67 /* PYAxisPointer.h */,
+				AF60D89D8F01903EB7FECFDCC6E769EC /* PYAxisPointer.m */,
+				559D16CD8ECF64E42B98865AD26BE558 /* PYAxisTick.h */,
+				887CF424DCDABEB8866D2FCE4CCD72B9 /* PYAxisTick.m */,
+				78D25489982BCC3186E351155EB78D5D /* PYCartesianSeries.h */,
+				BA690047135A5155B4641700E620374A /* PYCartesianSeries.m */,
+				735A3D80F20567BAC7E933B8B11888D8 /* PYColor.h */,
+				1D70929E06D9F15E1E95299E91FD518E /* PYColor.m */,
+				4EA20F7470AA2C30CB04A84AD7521A16 /* PYDataRange.h */,
+				7BC118E433AE1580DF7E48525BF319B8 /* PYDataRange.m */,
+				F6DB4A4D50F3668B05B8345DD157CE6F /* PYDataZoom.h */,
+				0CECE97268AAEEE601BE854054AC0C4D /* PYDataZoom.m */,
+				1846C62D508A43C8EAF46E35C6E724C2 /* PYGrid.h */,
+				CBF17125E321C163C17F9E21BBC6F9DA /* PYGrid.m */,
+				F88E1F33481C5B4EBDE4F9624EF1F007 /* PYHeatmapSeries.h */,
+				5A70F029562F191D2320A527A081DBF4 /* PYHeatmapSeries.m */,
+				5A07DB47609BC70CEEE849C95B03157C /* PYItemStyle.h */,
+				7867C2C34AEFD3BBEF0AD778817CECF6 /* PYItemStyle.m */,
+				3D89C6E664867919DBB7DC12A18FBA8B /* PYItemStyleProp.h */,
+				890247BE87D347AB140B2138D3C44AA9 /* PYItemStyleProp.m */,
+				9A203A9D5B9F6524F4EA52695D7031CC /* PYJsonUtil.h */,
+				886D198CB6A694B8752CD558C3632E54 /* PYJsonUtil.m */,
+				1C9FBB76FC102A5713025C11DE3BA5FE /* PYLabel.h */,
+				92AA346916CC6A3080FE499B63492FF2 /* PYLabel.m */,
+				5DA5D9DE0B63F1B752BABC96343734DF /* PYLabelLine.h */,
+				97BDA3B419250AADC25F8DA4A5C85AE1 /* PYLabelLine.m */,
+				407AC529390CC418FC556C81D0D6B79C /* PYLegend.h */,
+				1A9AEFE01416B3C309C93A56CF6EE2E8 /* PYLegend.m */,
+				304D54E4BD26893A4CC87814076A5F4E /* PYLineStyle.h */,
+				21839515AC307E42EE78803579A27263 /* PYLineStyle.m */,
+				BA9D48AFB2466823298EE823C857CAE6 /* PYLoadingOption.h */,
+				8517AE046EF62AA411F3091954695F29 /* PYLoadingOption.m */,
+				DB7CBBC6EB511D353A7FC70746C60032 /* PYMapSeries.h */,
+				A39F97C59FB3B8ADA1DCA717E8C70575 /* PYMapSeries.m */,
+				9B756B68CE27CCE3EFD68A3D9323CA7C /* PYMarkLine.h */,
+				460B6501409D080892E568EF9E6FDF43 /* PYMarkLine.m */,
+				515363012831F145A45A3CD48F27217C /* PYMarkPoint.h */,
+				6091562AAB14A45B4CFF2B91B1E8424F /* PYMarkPoint.m */,
+				B6BBC4F6284EFE4276D274C51AD0D616 /* PYNoDataLoadingOption.h */,
+				0A68682BB39C63CB906DCDB70007B784 /* PYNoDataLoadingOption.m */,
+				AFD5FD499730A05F52EB8978A9481F0D /* PYPieSeries.h */,
+				1CBC18EFF5DCFDD8E7598F871DA2260E /* PYPieSeries.m */,
+				B850DCE2EDAB934769B83D4795A98974 /* PYPolar.h */,
+				5AF2AF469AADFFA3A4A6D99F07D58071 /* PYPolar.m */,
+				B59F31622B1B3C0A784128122896E663 /* PYRadarSeries.h */,
+				FEC1FFF739D9EB43D0ABEC944B3828D5 /* PYRadarSeries.m */,
+				72999DD8961DCC45BC06631472E03E5F /* PYRoamController.h */,
+				9126585D0552D74F7B49F33B67A124DD /* PYRoamController.m */,
+				CA92BB69C47B14AB9C5B7F215B87C3E1 /* PYSeries.h */,
+				18FAFCC91863D3DC0395D950A2632775 /* PYSeries.m */,
+				24102C1BE5C662B66D104837C22FDD76 /* PYSplitArea.h */,
+				7C3B35EFA704ED980C6AD7D25203F018 /* PYSplitArea.m */,
+				28C8403785FDC86A90942F2EF6035CED /* PYSplitLine.h */,
+				D64F60D47E4E7C2662D0FE1575C17752 /* PYSplitLine.m */,
+				DA8C8A000066985F853ACD0ED794BC1C /* PYTextStyle.h */,
+				73016E8764EE788925785E5A5D50074C /* PYTextStyle.m */,
+				4BB5ED84B6ABB5BB6D99A1CB64A7275B /* PYTimeline.h */,
+				1112D00E2E10F060D719532BE3B21228 /* PYTimeline.m */,
+				68A047607B4AFE3FC414977BA7ADB85F /* PYTitle.h */,
+				E14B5B4F875B7C9282CA65AA8BAB2565 /* PYTitle.m */,
+				45B9D4FE48376E81D3BD3B5621A81759 /* PYToolbox.h */,
+				5DD138117F9D5D287174FD76DEB65CB0 /* PYToolbox.m */,
+				9DF0B66D9CFF6D0F05A43E71F9B0957A /* PYToolboxFeature.h */,
+				E920CCD1F797B397FBC0DC34BC702297 /* PYToolboxFeature.m */,
+				25D9B7630EE8016D94A0DFA271240D25 /* PYTooltip.h */,
+				B3345856025CF2D95330F6052FB746F7 /* PYTooltip.m */,
+				402DC4250E61339057E45F4670D79174 /* Resources */,
+				AAEF251DD7D61FC1350D56824BAD7113 /* Support Files */,
+			);
+			path = "iOS-Echarts";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				ED6F2B333543CE34CAC78BEAB8E91A0A /* Pods */,
+				E29E5196C1A9CF5B2F41F2224DB14FCA /* Products */,
+				037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		854CFE022D362507E0525057F18BD149 /* ZCharts */ = {
+			isa = PBXGroup;
+			children = (
+				64F91488474F4BEF4A2D7659F1F2CBE6 /* ZCharsBaseViewCell.h */,
+				E0A0628297099390D880F3AC88A4C2EF /* ZCharsBaseViewCell.m */,
+				96591C75B52077D447B39AA255512EF1 /* ZCharsDelegate.h */,
+				86CE5D91C98E606289668A16731B25AC /* ZCharsKit.h */,
+				A41EE31DD0472FC333FE1337048E202C /* ZCharsLeftView.h */,
+				DCCCE1054E99FCC7021057253FF67CC2 /* ZCharsLeftView.m */,
+				A5267B4920CA110FAEFE66A2A9FA67DB /* ZCharsLineViewCell.h */,
+				BA632BF91ED7F8547F0D05585DE4A685 /* ZCharsLineViewCell.m */,
+				E2DEED36AB54196BB44C5566C4730872 /* ZCharsManager.h */,
+				5FDAC3883622EFB9655D53AE997C6039 /* ZCharsManager.m */,
+				7CD030D524D23C745445F6F46532ABF1 /* ZCharsRightView.h */,
+				61D712AF489B40AD6B59DE6ED0EB95C5 /* ZCharsRightView.m */,
+				E8A4B21F39DCBCD5A88E414315DB0E5A /* ZCharsStyle.h */,
+				5C8907464387F19C8ACA704F285F562C /* ZCharsStyle.m */,
+				4AC8421468237CF4BF5B9837A4661073 /* Resources */,
+				17E5B29836EDD1B5B463642F9980F6E6 /* Support Files */,
+			);
+			path = ZCharts;
+			sourceTree = "<group>";
+		};
+		AAEF251DD7D61FC1350D56824BAD7113 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				194F6B2F381FF1966AE00677BD14087B /* iOS-Echarts.xcconfig */,
+				EDFA10ED147C702E0651E47B91148E2D /* iOS-Echarts-dummy.m */,
+				48B80C943F3C6340090AC747C92967B0 /* iOS-Echarts-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/iOS-Echarts";
+			sourceTree = "<group>";
+		};
+		ABCF3C97F476AEBB3F0707F630588C92 /* ZXPAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				3B2CCBEE609BA72D6AF7A1965E4EDD94 /* ZXPAutoLayout.h */,
+				FA6645B38F0958B9038642FBA946162D /* ZXPAutoLayout.m */,
+				780C5E3D1DB321F023AD8D18B4721206 /* Support Files */,
+			);
+			path = ZXPAutoLayout;
+			sourceTree = "<group>";
+		};
+		B3D1D13E0C6553800746CB8FD61CF946 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */,
+				10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */,
+				272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */,
+				6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */,
+				A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */,
+				4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */,
+				98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		B9020B3E8C900BDB7B55BD6F387B42AF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				085638468901A8F3289BBE3F49275007 /* pop.xcconfig */,
+				54831F41B9CE4B17E11FF9F508DF1F90 /* pop-dummy.m */,
+				348747773BC03D93693F3B70FDE87096 /* pop-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/pop";
+			sourceTree = "<group>";
+		};
+		D3E18741326A871883F5F5973D7FB3A7 /* pop */ = {
+			isa = PBXGroup;
+			children = (
+				A275A9B635E2227448D48D44DB010A2E /* FloatConversion.h */,
+				82915C0AD9F73EB9BF52ED349AA7C521 /* POP.h */,
+				E210B506DB3D9AE3AD22E879CAB09A5D /* POPAction.h */,
+				284FBAC40568F3D1EF3864E09AF11678 /* POPAnimatableProperty.h */,
+				4479EB31275B1229C3C911A67128CA86 /* POPAnimatableProperty.mm */,
+				F4F9F1A501C0F601F1B77224061C83E4 /* POPAnimation.h */,
+				C5506161C04459266E1130978955D576 /* POPAnimation.mm */,
+				62C4D8900F387243C4ECA89050EE2E4F /* POPAnimationEvent.h */,
+				551C14BE5810DBE9BC2C5C4E715D4B24 /* POPAnimationEvent.mm */,
+				ECBABF4AD34B45574ED62F4133ECA017 /* POPAnimationEventInternal.h */,
+				B32F33439F02DD78034BE48C15459AFF /* POPAnimationExtras.h */,
+				595ABB6928A17C9AAB0DC56D01D49E2B /* POPAnimationExtras.mm */,
+				9F1C1909C69FEE458E7C8632BFD33C89 /* POPAnimationInternal.h */,
+				43D54C2E534B0A3EF4F0DCDCDA05D85B /* POPAnimationPrivate.h */,
+				7C17B32A10B98958EAD8082B7CEFDA7D /* POPAnimationRuntime.h */,
+				75F78493DE13F85F55F4532A42B98305 /* POPAnimationRuntime.mm */,
+				878913EFF39CB9A517AEBDB108A85869 /* POPAnimationTracer.h */,
+				728905BAF529906120493B33290969D2 /* POPAnimationTracer.mm */,
+				DB5F647025282E6747138C61C0525172 /* POPAnimationTracerInternal.h */,
+				49E26156C1D007429943A1E85BF961EF /* POPAnimator.h */,
+				74B545A296281F8D0F3B38DA582B5862 /* POPAnimator.mm */,
+				023F12ED884DA1922A139C5583C2D147 /* POPAnimatorPrivate.h */,
+				DD545C30DA792EFCA88AD4FB74871D06 /* POPBasicAnimation.h */,
+				DAD41E330345F269B69A6FB186743F51 /* POPBasicAnimation.mm */,
+				31CF8C3CA631EC9ABB2FD92EC36B52EC /* POPBasicAnimationInternal.h */,
+				9C1BEADE8AF8E852250520AC62AD17CA /* POPCGUtils.h */,
+				204B893D8457CFBAE67E6F188E0DB651 /* POPCGUtils.mm */,
+				B6EDCB3F9ECF03E789978571112D5879 /* POPCustomAnimation.h */,
+				28EA9B3754A701E5909E985A250D8B2F /* POPCustomAnimation.mm */,
+				D4D9E27DD977E985F553A0786C72793C /* POPDecayAnimation.h */,
+				A4E4A30419569D705CBA43776BCCF590 /* POPDecayAnimation.mm */,
+				C826208996E9FA8875249DE0DD173396 /* POPDecayAnimationInternal.h */,
+				FFB44DA8566D823F09BAB35204276017 /* POPDefines.h */,
+				CFAED345DF16B27EFBF79CA0E7270EF8 /* POPGeometry.h */,
+				16FDF3CC8661DE1D6F483890DD8CBF39 /* POPGeometry.mm */,
+				D37A5F68D1BB902E28B5E92A500F6520 /* POPLayerExtras.h */,
+				67FA96D90223C966AE28891BC03A2D0A /* POPLayerExtras.mm */,
+				4FEE3B8904D7765C2D98FD0667CBC287 /* POPMath.h */,
+				D6B3096B4DD264DFF4B3208E585892FB /* POPMath.mm */,
+				E9B48211E027ECF1FF3C67CAAF1301BF /* POPPropertyAnimation.h */,
+				8BA0A65968B9B1997FFF0981FEA3C09F /* POPPropertyAnimation.mm */,
+				E3E55A5B01FC8131FF27EF28E9767AB4 /* POPPropertyAnimationInternal.h */,
+				5ACB010D4993581550B1F8EBAA3DB3B6 /* POPSpringAnimation.h */,
+				C901C98CC201402C8C89F707F13B82F8 /* POPSpringAnimation.mm */,
+				2DDC8AA419A8872CF73A69CD8239C80C /* POPSpringAnimationInternal.h */,
+				06229779C3694A9B5D5EA5E88F3F6AA7 /* POPSpringSolver.h */,
+				3C560F20A3C4F4298C65CD5A02E60986 /* POPVector.h */,
+				5093B9A132C3ACBB37F34514BB444B20 /* POPVector.mm */,
+				B1AB653EB5529D0EBF8E4C440D0FBD65 /* TransformationMatrix.cpp */,
+				13C278D84402A25A3C663102EAFCC361 /* TransformationMatrix.h */,
+				104137DEB80E3BCA59897D20948F89E1 /* UnitBezier.h */,
+				B9020B3E8C900BDB7B55BD6F387B42AF /* Support Files */,
+			);
+			path = pop;
+			sourceTree = "<group>";
+		};
+		E29E5196C1A9CF5B2F41F2224DB14FCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BE76AADB7D232A4743DAAD6EE7DF255 /* libiOS-Echarts.a */,
+				5F653181C3EAAD22E46A69227F3A725B /* libPods.a */,
+				8D9B260BF4874B0849C89F7AA53D62BD /* libpop.a */,
+				CCF70C80E26E227D0CF3541C06F6D279 /* libZCharts.a */,
+				C395B00DF4718416910E978DC5C16D8F /* libZXPAutoLayout.a */,
+				A124049BF3C5853DE2D95A0A297FAFBE /* ZCharts.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED6F2B333543CE34CAC78BEAB8E91A0A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D16C6789BCAFDBB73E5AF1CCBADEBD5 /* iOS-Echarts */,
+				D3E18741326A871883F5F5973D7FB3A7 /* pop */,
+				854CFE022D362507E0525057F18BD149 /* ZCharts */,
+				ABCF3C97F476AEBB3F0707F630588C92 /* ZXPAutoLayout */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		130C76DFC23AC1C8EBB8A4489744DD8E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0C518FB8883A912602E8D25C2FB618B /* ZCharsBaseViewCell.h in Headers */,
+				A45E7B3F3F34A1D6C4D345CF64E8D69F /* ZCharsDelegate.h in Headers */,
+				F9A26FEA2FB9D982DB2CE7D5ED72EEB3 /* ZCharsKit.h in Headers */,
+				452128E7BE7196AB76F3A287C4DB041D /* ZCharsLeftView.h in Headers */,
+				1347A93E2DD4095583471F06BE8335AC /* ZCharsLineViewCell.h in Headers */,
+				2169FBA55A8D9728B996D1A22098B1FC /* ZCharsManager.h in Headers */,
+				696202758848E405B3703FE4D7850224 /* ZCharsRightView.h in Headers */,
+				822D269583D010638E55772EF93A58B4 /* ZCharsStyle.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15513EC8BCE9A835BA761AF8C0F363BA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D3336B6C09D4C7FD27946EF952DAF25 /* FloatConversion.h in Headers */,
+				67F090F7EA26E0A2FFF14CC6C9FF0EA5 /* POP.h in Headers */,
+				BFF1C48F0364AEB0BA7A442BE0C47851 /* POPAction.h in Headers */,
+				58271C4B4AB81CD7335342F3CE8D9B2E /* POPAnimatableProperty.h in Headers */,
+				F5C5435CA530FD41C7E5C1A4808074E5 /* POPAnimation.h in Headers */,
+				BCEF7348A5B30212EED11F040D8332E4 /* POPAnimationEvent.h in Headers */,
+				CA1978E2B9B4B016B4F0653C5A79220C /* POPAnimationEventInternal.h in Headers */,
+				904E56190A10C3C4F4F4DD8EC793597F /* POPAnimationExtras.h in Headers */,
+				28A253473EBFD8E5DBDF6911BAB55FCC /* POPAnimationInternal.h in Headers */,
+				B7E4A412B0CCFA09235A22FD787D0B15 /* POPAnimationPrivate.h in Headers */,
+				470157D95B093B4D4BEC2EF25821E996 /* POPAnimationRuntime.h in Headers */,
+				43F57C19218A1F6B0118C30815C6D2CF /* POPAnimationTracer.h in Headers */,
+				CA53CAD7FC8E8D82B19264F02216242F /* POPAnimationTracerInternal.h in Headers */,
+				35D77AE126FF675961826E694BB4FD91 /* POPAnimator.h in Headers */,
+				BF6CD8ED420206C364376D3787D95D97 /* POPAnimatorPrivate.h in Headers */,
+				79F4774D609B495BBC524852376B3568 /* POPBasicAnimation.h in Headers */,
+				3F41EA5080C0106ACBC32BD1E2C4FA7C /* POPBasicAnimationInternal.h in Headers */,
+				5FE017541A92428A8D1687C58999BBCE /* POPCGUtils.h in Headers */,
+				D76D9F98839FBB61745BD5A53C6DBDDB /* POPCustomAnimation.h in Headers */,
+				46508EDF7D856E0D931C980C44A9FA65 /* POPDecayAnimation.h in Headers */,
+				94A880A63421CD1604A7DF0A86F7CF8D /* POPDecayAnimationInternal.h in Headers */,
+				F126C3CDDD2A2632EAF4B6500BCB4E5B /* POPDefines.h in Headers */,
+				DB92CB157A9E2C6763C6B1F0659C1A85 /* POPGeometry.h in Headers */,
+				4D03448C696B75B158F70C9F9E0BB703 /* POPLayerExtras.h in Headers */,
+				D0EE9CB83DAD01866C3AA1CC33130992 /* POPMath.h in Headers */,
+				53E4C154B23B9965421F45FFD9E0E731 /* POPPropertyAnimation.h in Headers */,
+				6B64D726C177BF02D25789CD75F34284 /* POPPropertyAnimationInternal.h in Headers */,
+				65AB2E425F51DEFFB7798E7DF6347337 /* POPSpringAnimation.h in Headers */,
+				63BDD0A3A05DCEBA5BA204A94471116F /* POPSpringAnimationInternal.h in Headers */,
+				9C037299A8B501DA180B17F8DB63D4CF /* POPSpringSolver.h in Headers */,
+				04F3E4FE7D094A0367583DFC972F33A3 /* POPVector.h in Headers */,
+				7BF2D18ECC690D1D49B7325F06E41D86 /* TransformationMatrix.h in Headers */,
+				079A10A60A10B514090D7620CCB60C16 /* UnitBezier.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39FF88AA6CC4484E305BCBF5690E8EA6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				714C27E2A2670CF8D0B93F297517B845 /* ZXPAutoLayout.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6AB3A998A4CA6D2EE5B04C35D9D7041 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C6DD9A9566936C957AFE2F334A2D19E /* NSObject+PYObject.h in Headers */,
+				B42BAE18939E382ADD42D6971B97A501 /* PYAreaStyle.h in Headers */,
+				6B2DB12BC061300D644412499653C992 /* PYAxis.h in Headers */,
+				D87475ECCDD6E4A2BAD29E0C19576D94 /* PYAxisLabel.h in Headers */,
+				56DE38E9005DA85B1785168AE9F3AF1F /* PYAxisLine.h in Headers */,
+				E825BC9C014ADA4696E4B66CDC7FB7F8 /* PYAxisPointer.h in Headers */,
+				C6526DACF6785BD479CCD282C25B55CF /* PYAxisTick.h in Headers */,
+				BBEEE0656FB55A66DBD7910DE1927617 /* PYCartesianSeries.h in Headers */,
+				DAD0B9CC05FCEC2807D4A1CA173F781E /* PYColor.h in Headers */,
+				D60059D19712C6EE92E3E6B4B5464EB1 /* PYDataRange.h in Headers */,
+				515C049CE5668908F3A52A2838240600 /* PYDataZoom.h in Headers */,
+				2CE48F0546865FCBDB4B0B0D41EFD211 /* PYEchartsView.h in Headers */,
+				059BD600B7FE674D61FD61CA2B4C6A2D /* PYGrid.h in Headers */,
+				B5B151983D64314B9AEF85D81059D1DB /* PYHeatmapSeries.h in Headers */,
+				CD8AD92BA7739A0ECEF3BE33A2FB2413 /* PYItemStyle.h in Headers */,
+				26A96F5A7AD7AF03658E0B9E0308537D /* PYItemStyleProp.h in Headers */,
+				1298126D968E14755D616E8AD34F6CF1 /* PYJsonUtil.h in Headers */,
+				FF6A5687B7D72FDC7C0306831F1C0A12 /* PYLabel.h in Headers */,
+				4C310B3B8C4BCF435E687A9E2032281D /* PYLabelLine.h in Headers */,
+				B5499D563ABD54A03E57302F3D529187 /* PYLegend.h in Headers */,
+				44429464E4FDC7FD54D1B36B8E384220 /* PYLineStyle.h in Headers */,
+				84B544766921263BA0D4E91DEE8EF163 /* PYLoadingOption.h in Headers */,
+				84ED0B8766C82A38EF40C1BB09CEE5A8 /* PYMapSeries.h in Headers */,
+				D06B286C0106BF2472623E481E37F30C /* PYMarkLine.h in Headers */,
+				2FE9257EA75324A5CA1F3D84E32AED87 /* PYMarkPoint.h in Headers */,
+				5A586DB032C64611889F14A8E2308E09 /* PYNoDataLoadingOption.h in Headers */,
+				492529736118D12BB44BE29270FCA07C /* PYOption.h in Headers */,
+				6A38DAFF1742AD742C384FE75A922433 /* PYPieSeries.h in Headers */,
+				124DC69573B1D02DC924F1353B721050 /* PYPolar.h in Headers */,
+				760642EBE7C7973523D8AF2CB57E8CD7 /* PYRadarSeries.h in Headers */,
+				B57E4AD1F0F8C594244C26FB982DC4CC /* PYRoamController.h in Headers */,
+				FD40BE625D19E765B7284273ECDFCE80 /* PYSeries.h in Headers */,
+				B5259CFD3217408E932CB2B6AA36B9B5 /* PYSplitArea.h in Headers */,
+				244C22E9A217F0618584853E5E2D0638 /* PYSplitLine.h in Headers */,
+				A04390848FD903E7E1A7585549C46A00 /* PYTextStyle.h in Headers */,
+				BA7E0D0FC63B54EDAF2BD2103E4C6546 /* PYTimeline.h in Headers */,
+				9460CAC4A4411912123BC5C9E51031DB /* PYTitle.h in Headers */,
+				6C47E67696DA2B7EB28D20331AF7E6C8 /* PYToolbox.h in Headers */,
+				9275E67E25CE054B6959CA26A4F51BE0 /* PYToolboxFeature.h in Headers */,
+				E20F71DA695BAFDAB86227CFCA7FCA6E /* PYTooltip.h in Headers */,
+				A396E37C35B560E975F06944D68E460D /* PYZoomEchartsView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		24D91C37630C0113F6204E4002ED2FB9 /* pop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A75BABCBBE1C27FF2FD579BA78D51DC /* Build configuration list for PBXNativeTarget "pop" */;
+			buildPhases = (
+				C44B263C3E983C6C1EA4E13AD1B1A93D /* Sources */,
+				9B811493E8F873CD674289DE362E6403 /* Frameworks */,
+				15513EC8BCE9A835BA761AF8C0F363BA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pop;
+			productName = pop;
+			productReference = 8D9B260BF4874B0849C89F7AA53D62BD /* libpop.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		414E91DBB1FDD7CB8926C93755BB9F83 /* ZCharts-ZCharts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A46437931CD4D7BD21A24180A59FA32 /* Build configuration list for PBXNativeTarget "ZCharts-ZCharts" */;
+			buildPhases = (
+				B90870473FFD7859381D77AD1EAA071D /* Sources */,
+				E7FD9C0EC3032222D9A1F41C89F1E71E /* Frameworks */,
+				2620FB5CD7987FCE01A8306849BCFA5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ZCharts-ZCharts";
+			productName = "ZCharts-ZCharts";
+			productReference = A124049BF3C5853DE2D95A0A297FAFBE /* ZCharts.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		70F1D418C876A713ABC7D285FC42B324 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8807987943A0C9F343D36F5F7A117467 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				36D027BF17DDAB1E31DAC2B9E48E26DB /* Sources */,
+				568839E71C2AFE0FDF80144336FF1402 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C558D78A327FBFAEBE4A087641EB5C67 /* PBXTargetDependency */,
+				D8B795E0C457980D9C1873817D96B01B /* PBXTargetDependency */,
+				0B8ADB83A7037E05AFE57D8F7AC8DACA /* PBXTargetDependency */,
+				F7995627C421E2A9BD96B441FA8B6DA6 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 5F653181C3EAAD22E46A69227F3A725B /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B3BC8DBA2ECDC15A20A84B16C4522C54 /* ZCharts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C854A7F04E41D22D029DA8F3FE536254 /* Build configuration list for PBXNativeTarget "ZCharts" */;
+			buildPhases = (
+				6E3AC676B7F9EA3431BDB64E7AD424E1 /* Sources */,
+				2BB39590237E29F4C5C8593E8C8D43A3 /* Frameworks */,
+				130C76DFC23AC1C8EBB8A4489744DD8E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				112397553133140EFAE9E7B4CAB40CF2 /* PBXTargetDependency */,
+			);
+			name = ZCharts;
+			productName = ZCharts;
+			productReference = CCF70C80E26E227D0CF3541C06F6D279 /* libZCharts.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CD584A64CFC29F53AF9A982BF767FB75 /* iOS-Echarts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37A17EFD9F9D533808893343C291C387 /* Build configuration list for PBXNativeTarget "iOS-Echarts" */;
+			buildPhases = (
+				F53E7E8360CA5F972D2067D5E7CF7678 /* Sources */,
+				DC39A598C65AD41EB1136F4E9E9C378D /* Frameworks */,
+				F6AB3A998A4CA6D2EE5B04C35D9D7041 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-Echarts";
+			productName = "iOS-Echarts";
+			productReference = 7BE76AADB7D232A4743DAAD6EE7DF255 /* libiOS-Echarts.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DC1E5D44B8648EFAE155ADBB555BD14A /* ZXPAutoLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A56D138F31236F45FEFC89897377AC04 /* Build configuration list for PBXNativeTarget "ZXPAutoLayout" */;
+			buildPhases = (
+				0B246FC2E82AFA63C5DDF6DCFF6FA601 /* Sources */,
+				B2101A2DEA630D8299B8E2C00B0E498C /* Frameworks */,
+				39FF88AA6CC4484E305BCBF5690E8EA6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZXPAutoLayout;
+			productName = ZXPAutoLayout;
+			productReference = C395B00DF4718416910E978DC5C16D8F /* libZXPAutoLayout.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E29E5196C1A9CF5B2F41F2224DB14FCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD584A64CFC29F53AF9A982BF767FB75 /* iOS-Echarts */,
+				70F1D418C876A713ABC7D285FC42B324 /* Pods */,
+				24D91C37630C0113F6204E4002ED2FB9 /* pop */,
+				B3BC8DBA2ECDC15A20A84B16C4522C54 /* ZCharts */,
+				414E91DBB1FDD7CB8926C93755BB9F83 /* ZCharts-ZCharts */,
+				DC1E5D44B8648EFAE155ADBB555BD14A /* ZXPAutoLayout */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2620FB5CD7987FCE01A8306849BCFA5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8F372F6498CA2423469C5A65701A864 /* ZCharsBg@2x.png in Resources */,
+				1D8F481CAA9ECF8D85D9A2A37713AE45 /* ZcharsPaopao@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B246FC2E82AFA63C5DDF6DCFF6FA601 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAED180E6DC7C6B9BF5C6A2E4B4FEBB5 /* ZXPAutoLayout-dummy.m in Sources */,
+				878F86B7C7F0B6BA9160149E197259E1 /* ZXPAutoLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36D027BF17DDAB1E31DAC2B9E48E26DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6565EF77DCA62FF306ACB50E7885D9A /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E3AC676B7F9EA3431BDB64E7AD424E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11ACC79776933772D50853314BA47C3C /* ZCharsBaseViewCell.m in Sources */,
+				42AAF3757059F38BB9733EA52306ABFB /* ZCharsLeftView.m in Sources */,
+				B5B87C0E0086C059C3A53B34BB28451A /* ZCharsLineViewCell.m in Sources */,
+				BBC10A6B4DC5CD4A6228676D5D760A29 /* ZCharsManager.m in Sources */,
+				4778F4E2396BDC0755478FE8950DF67E /* ZCharsRightView.m in Sources */,
+				E686D5BF85893C6F4BDCBE5C21BA4748 /* ZCharsStyle.m in Sources */,
+				D263AE01EB36715EEFDCE31C62040240 /* ZCharts-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B90870473FFD7859381D77AD1EAA071D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C44B263C3E983C6C1EA4E13AD1B1A93D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC86D6D0B8D9FA5DFDFBF5AE33AC733C /* pop-dummy.m in Sources */,
+				F80D1758DD5E139D5B37D16D8E7B3054 /* POPAnimatableProperty.mm in Sources */,
+				B3493FD1FCA08C341D3F3626E2842E8C /* POPAnimation.mm in Sources */,
+				BE98B2281C65524343E6DE9BE1DB16C6 /* POPAnimationEvent.mm in Sources */,
+				5F931E06F01B1F6359D83D46AD4F7D5E /* POPAnimationExtras.mm in Sources */,
+				465D4D8A069320AD47C0CBB08C748AB6 /* POPAnimationRuntime.mm in Sources */,
+				8EEB098848D4B814DEE13B2AE4D2B965 /* POPAnimationTracer.mm in Sources */,
+				011B11BA778789D488792E1074E2035E /* POPAnimator.mm in Sources */,
+				487AF817B00D4714BFD482F1FEF8E646 /* POPBasicAnimation.mm in Sources */,
+				8B0A69CFEBB5B4640ED4B0AB415DFE7E /* POPCGUtils.mm in Sources */,
+				43520572766A68570C3869BD404896EE /* POPCustomAnimation.mm in Sources */,
+				AA2467D018276C80BEF82732033600FB /* POPDecayAnimation.mm in Sources */,
+				9FAE46C6045B880E517B9A8934D4BBCA /* POPGeometry.mm in Sources */,
+				DA1CC2BB14D553791A688DE4CE0184FE /* POPLayerExtras.mm in Sources */,
+				5DA1FBFD77FCCDDEFB0BCDE79E7DE5C0 /* POPMath.mm in Sources */,
+				9C35EEE3A90D7F3889429F57BF202A06 /* POPPropertyAnimation.mm in Sources */,
+				EE1EDB527D37D4CE0FC0493C949FD186 /* POPSpringAnimation.mm in Sources */,
+				5828B5F12B66E4EA113C42FC210142B4 /* POPVector.mm in Sources */,
+				74022678E67669D7B78EB83D9781F31D /* TransformationMatrix.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F53E7E8360CA5F972D2067D5E7CF7678 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D6AAE861D81E016C124FA3B833FE7CE /* iOS-Echarts-dummy.m in Sources */,
+				ED0C0DC8386BF208B8273FB29AF30198 /* NSObject+PYObject.m in Sources */,
+				CBFC05AECA30A95207748F9876ED5BE4 /* PYAreaStyle.m in Sources */,
+				41E9D6EEFBED89E7F7F3146BFDEA3E79 /* PYAxis.m in Sources */,
+				52498C2507CB416F3A0DEED74E0B27B8 /* PYAxisLabel.m in Sources */,
+				AB8BCE54D897DE8169D016CB2FF06F30 /* PYAxisLine.m in Sources */,
+				48968B756DAA889A6EE1AE71F024A101 /* PYAxisPointer.m in Sources */,
+				C65D751556F59BAC27EC45BEBD6776AF /* PYAxisTick.m in Sources */,
+				0A56EA26A019C2D06E45FB0F558E8CF0 /* PYCartesianSeries.m in Sources */,
+				0ED074E24AAC4C570F50E3247FACCEC7 /* PYColor.m in Sources */,
+				D7E30A32F9BD956C78B1A765F8F20B7D /* PYDataRange.m in Sources */,
+				7EFBBEB7DB153EDDD0AD10BEA8E01598 /* PYDataZoom.m in Sources */,
+				6068D7B3EFE24B3EBBCD11B9A5A111AF /* PYEchartsView.m in Sources */,
+				EA715DE3D6E257B283ACE8A176754F85 /* PYGrid.m in Sources */,
+				FD61D2F2F2E692F3B95091763275BCF7 /* PYHeatmapSeries.m in Sources */,
+				09E89700EFFDF4BDD6A489F6F8E55AFF /* PYItemStyle.m in Sources */,
+				6435727B66F29906D027832596FB0BD3 /* PYItemStyleProp.m in Sources */,
+				7A30B451A3574ACF75FA4AC23867C3F2 /* PYJsonUtil.m in Sources */,
+				699197C482CED2380FD6F24D69527C7D /* PYLabel.m in Sources */,
+				A80D55CE30DBE72ED5C6C01EE1C3E22E /* PYLabelLine.m in Sources */,
+				755E290E4CFBE080B178D6A0C23F80BB /* PYLegend.m in Sources */,
+				4D4804B8FC990D2BD7CDC518FA7A9C2C /* PYLineStyle.m in Sources */,
+				F3F0B9A3CBA91513A5FE616693EE6584 /* PYLoadingOption.m in Sources */,
+				6887EDE539281FB18AFD32C2E6622C81 /* PYMapSeries.m in Sources */,
+				176D2B8CF2865AB04CE8AFBFDD269838 /* PYMarkLine.m in Sources */,
+				49CE137FDC0E87DE1F50DB44F8979CEA /* PYMarkPoint.m in Sources */,
+				AC1B733D6FA88427E7123777B47A7E6B /* PYNoDataLoadingOption.m in Sources */,
+				CE4DEE7950B619FFFC92AF974BA6B98B /* PYOption.m in Sources */,
+				560BB224AFE2BA86A75A6963B41324C6 /* PYPieSeries.m in Sources */,
+				6DD29BC0C29CD25730F92995B4573D33 /* PYPolar.m in Sources */,
+				3F06D56D1F94831D5F6C8F503FD0731F /* PYRadarSeries.m in Sources */,
+				ACBA6C978A1FA9927BEF0A5F2E4B1B51 /* PYRoamController.m in Sources */,
+				3E4CB4D52D509F37179D9BE8E480C85F /* PYSeries.m in Sources */,
+				68907A96BA5499CB512A0382FEFD0EF1 /* PYSplitArea.m in Sources */,
+				742748EC65EF14B638DCC148B2112A88 /* PYSplitLine.m in Sources */,
+				5A95458CF2F5A92DCC71B9F512A17B5B /* PYTextStyle.m in Sources */,
+				1F5B3A6B22C8AF4BB0A8E717B7AFD5F1 /* PYTimeline.m in Sources */,
+				7169D9E50F9A8CC924DBF8E4514374D9 /* PYTitle.m in Sources */,
+				A8B20DBBAFDA8B5B4F814FF5A4D6D550 /* PYToolbox.m in Sources */,
+				AADCB5B14DD82BEA54BA553BB75F8E0D /* PYToolboxFeature.m in Sources */,
+				D7A83D6C0F52694C2D1E70B102C66640 /* PYTooltip.m in Sources */,
+				B4249752EB8B530895FDEC8E0C806B28 /* PYZoomEchartsView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B8ADB83A7037E05AFE57D8F7AC8DACA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "iOS-Echarts";
+			target = CD584A64CFC29F53AF9A982BF767FB75 /* iOS-Echarts */;
+			targetProxy = 36F4C5C5DA4B4AF8C414F79F4462B421 /* PBXContainerItemProxy */;
+		};
+		112397553133140EFAE9E7B4CAB40CF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ZCharts-ZCharts";
+			target = 414E91DBB1FDD7CB8926C93755BB9F83 /* ZCharts-ZCharts */;
+			targetProxy = 28FF268E624FBAAC3CFBB75BEA79B390 /* PBXContainerItemProxy */;
+		};
+		C558D78A327FBFAEBE4A087641EB5C67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZCharts;
+			target = B3BC8DBA2ECDC15A20A84B16C4522C54 /* ZCharts */;
+			targetProxy = FE90E4BDF12108E7694433EB9FBB376F /* PBXContainerItemProxy */;
+		};
+		D8B795E0C457980D9C1873817D96B01B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZXPAutoLayout;
+			target = DC1E5D44B8648EFAE155ADBB555BD14A /* ZXPAutoLayout */;
+			targetProxy = 9474DDDD6EACFE6498431756AE04D2CC /* PBXContainerItemProxy */;
+		};
+		F7995627C421E2A9BD96B441FA8B6DA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = pop;
+			target = 24D91C37630C0113F6204E4002ED2FB9 /* pop */;
+			targetProxy = 9B3D9696E6647AC1D99F82656114E44A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		007786E71CDFB4C8E71CB0694BF26202 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A3A4641F1F3974CF83C5170C75B9461 /* ZCharts.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZCharts/ZCharts-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		04912806297AED91778D7472CFD635EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 194F6B2F381FF1966AE00677BD14087B /* iOS-Echarts.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/iOS-Echarts/iOS-Echarts-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		074AEB0DBE389E40E73C1319B41047B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1740714C63343E5CF5C9DBDDE27B1ECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 085638468901A8F3289BBE3F49275007 /* pop.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/pop/pop-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2B389FAB51F6EEA43F72CA7BDC8E8E28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		44C986B0B82D2C6D0D41B88DE0B3E7C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 085638468901A8F3289BBE3F49275007 /* pop.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/pop/pop-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4A40E280E16CA0529DF949B48EA5F167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E557A680C16C937023FD3924C3974BE /* ZXPAutoLayout.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZXPAutoLayout/ZXPAutoLayout-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5A0C6FE968931D888F00C9EC18DDF5BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61ACF3893BDBFB0F51191D44A92E3A13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E557A680C16C937023FD3924C3974BE /* ZXPAutoLayout.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZXPAutoLayout/ZXPAutoLayout-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		ADA41DE454532790974CC109F3AE3F80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A3A4641F1F3974CF83C5170C75B9461 /* ZCharts.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ZCharts;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		D208E538F4A6F0DB0EC0AC7E88CBA391 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 194F6B2F381FF1966AE00677BD14087B /* iOS-Echarts.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/iOS-Echarts/iOS-Echarts-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E152303CF2635FC6DE425D0D88390C07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E2E3BB7863A12BC5CDAA2EBC8EC681C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A3A4641F1F3974CF83C5170C75B9461 /* ZCharts.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ZCharts;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		F170021772549E875ADE33033654EE4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A3A4641F1F3974CF83C5170C75B9461 /* ZCharts.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZCharts/ZCharts-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B389FAB51F6EEA43F72CA7BDC8E8E28 /* Debug */,
+				5A0C6FE968931D888F00C9EC18DDF5BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37A17EFD9F9D533808893343C291C387 /* Build configuration list for PBXNativeTarget "iOS-Echarts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D208E538F4A6F0DB0EC0AC7E88CBA391 /* Debug */,
+				04912806297AED91778D7472CFD635EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A46437931CD4D7BD21A24180A59FA32 /* Build configuration list for PBXNativeTarget "ZCharts-ZCharts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2E3BB7863A12BC5CDAA2EBC8EC681C1 /* Debug */,
+				ADA41DE454532790974CC109F3AE3F80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8807987943A0C9F343D36F5F7A117467 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E152303CF2635FC6DE425D0D88390C07 /* Debug */,
+				074AEB0DBE389E40E73C1319B41047B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A75BABCBBE1C27FF2FD579BA78D51DC /* Build configuration list for PBXNativeTarget "pop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1740714C63343E5CF5C9DBDDE27B1ECB /* Debug */,
+				44C986B0B82D2C6D0D41B88DE0B3E7C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A56D138F31236F45FEFC89897377AC04 /* Build configuration list for PBXNativeTarget "ZXPAutoLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A40E280E16CA0529DF949B48EA5F167 /* Debug */,
+				61ACF3893BDBFB0F51191D44A92E3A13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C854A7F04E41D22D029DA8F3FE536254 /* Build configuration list for PBXNativeTarget "ZCharts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F170021772549E875ADE33033654EE4B /* Debug */,
+				007786E71CDFB4C8E71CB0694BF26202 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
