@@ -8,3 +8,5 @@ pod 'ZXPAutoLayout', '~> 1.3.4'
 
 pod 'iOS-Echarts', '~> 1.1.6'
 
+pod 'YYKit', '~> 1.0.5'
+

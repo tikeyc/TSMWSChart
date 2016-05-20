@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'CA061B37237994F8A0BF2EA2'
+               BlueprintIdentifier = '68DDA6ABA48D188DF1AF8169'
                BlueprintName = 'ZCharts'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libZCharts.a'>

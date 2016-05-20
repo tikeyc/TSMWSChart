@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>YYKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>ZCharts-ZCharts.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -37,22 +42,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>24D91C37630C0113F6204E4002ED2FB9</key>
+		<key>00AAEC8867FD0A02173DB91E7F74765F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>414E91DBB1FDD7CB8926C93755BB9F83</key>
+		<key>2469622BC7D946B6EFD42FE762D7FEB5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>70F1D418C876A713ABC7D285FC42B324</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>B3BC8DBA2ECDC15A20A84B16C4522C54</key>
+		<key>3C9D38B152A33F40D3D73BE3CF470274</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -62,7 +62,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DC1E5D44B8648EFAE155ADBB555BD14A</key>
+		<key>DD45201F04FFCAF0459C07999C1C16ED</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DF828C53125923D3EA9205D69B9D6935</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EAD193E469AAC472F2C1B53078F6D138</key>
 		<dict>
 			<key>primary</key>
 			<true/>

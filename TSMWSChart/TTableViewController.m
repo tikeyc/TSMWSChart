@@ -37,7 +37,7 @@
 //}
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 3;
+    return 4;
 }
 
 /**/
@@ -45,6 +45,10 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
     
     // Configure the cell...
+    
+    UILabel *label = (UILabel *)[cell.contentView viewWithTag:111];
+    
+    label.text = [NSString stringWithFormat:@"Chart %ld",(long)indexPath.row];
     
     return cell;
 }
@@ -70,6 +74,11 @@
             identifier = @"TChart3ViewController";
         }
         break;
+        case 3:
+        {
+            identifier = @"TChart4ViewController";
+        }
+            break;
         
         default:
             break;
