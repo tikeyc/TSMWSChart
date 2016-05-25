@@ -182,9 +182,6 @@
 		4EB7652C1CF4516900333EC5 /* TChart4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB765231CF4516900333EC5 /* TChart4ViewController.m */; };
 		4EB7652D1CF4516900333EC5 /* TChart5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB765251CF4516900333EC5 /* TChart5ViewController.m */; };
 		4EB7652E1CF4516900333EC5 /* TTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB765281CF4516900333EC5 /* TTableViewController.m */; };
-		4EB765331CF451B100333EC5 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 4EB765301CF451B100333EC5 /* README.md */; };
-		4EB765341CF451B100333EC5 /* screen1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB765311CF451B100333EC5 /* screen1.png */; };
-		4EB765351CF451B100333EC5 /* screen2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB765321CF451B100333EC5 /* screen2.png */; };
 		4EB765391CF4537000333EC5 /* OBShapedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB765381CF4537000333EC5 /* OBShapedButton.m */; };
 		4EB7653E1CF4543B00333EC5 /* WSAreaInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB7653D1CF4543B00333EC5 /* WSAreaInfo.m */; };
 		4EB765441CF4569E00333EC5 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB765431CF4569E00333EC5 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -195,6 +192,9 @@
 		4ED83B611CF57B94008A213D /* XLPhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4ED83B5E1CF57B94008A213D /* XLPhotoCell.xib */; };
 		4ED83B671CF57C1B008A213D /* CoverFlow1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED83B661CF57C1B008A213D /* CoverFlow1ViewController.m */; };
 		4ED83B7D1CF581E6008A213D /* CoverFlow2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED83B7C1CF581E6008A213D /* CoverFlow2ViewController.m */; };
+		4ED83C181CF5A1B9008A213D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 4ED83C151CF5A1B9008A213D /* README.md */; };
+		4ED83C191CF5A1B9008A213D /* screen1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4ED83C161CF5A1B9008A213D /* screen1.png */; };
+		4ED83C1A1CF5A1B9008A213D /* screen2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4ED83C171CF5A1B9008A213D /* screen2.png */; };
 		4EDD82211CEEEF1400DDF834 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4EDD81B71CEEEF1400DDF834 /* Info.plist */; };
 		4EDD82221CEEEF1400DDF834 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4EDD81B71CEEEF1400DDF834 /* Info.plist */; };
 		4EDD82231CEEEF1400DDF834 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4EDD81B71CEEEF1400DDF834 /* Info.plist */; };
@@ -709,9 +709,6 @@
 		4EB765251CF4516900333EC5 /* TChart5ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TChart5ViewController.m; sourceTree = "<group>"; };
 		4EB765271CF4516900333EC5 /* TTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTableViewController.h; sourceTree = "<group>"; };
 		4EB765281CF4516900333EC5 /* TTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTableViewController.m; sourceTree = "<group>"; };
-		4EB765301CF451B100333EC5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		4EB765311CF451B100333EC5 /* screen1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen1.png; sourceTree = "<group>"; };
-		4EB765321CF451B100333EC5 /* screen2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen2.png; sourceTree = "<group>"; };
 		4EB765371CF4537000333EC5 /* OBShapedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBShapedButton.h; sourceTree = "<group>"; };
 		4EB765381CF4537000333EC5 /* OBShapedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBShapedButton.m; sourceTree = "<group>"; };
 		4EB7653C1CF4543B00333EC5 /* WSAreaInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSAreaInfo.h; sourceTree = "<group>"; };
@@ -730,6 +727,9 @@
 		4ED83B661CF57C1B008A213D /* CoverFlow1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoverFlow1ViewController.m; sourceTree = "<group>"; };
 		4ED83B7B1CF581E6008A213D /* CoverFlow2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoverFlow2ViewController.h; sourceTree = "<group>"; };
 		4ED83B7C1CF581E6008A213D /* CoverFlow2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoverFlow2ViewController.m; sourceTree = "<group>"; };
+		4ED83C151CF5A1B9008A213D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4ED83C161CF5A1B9008A213D /* screen1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen1.png; sourceTree = "<group>"; };
+		4ED83C171CF5A1B9008A213D /* screen2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen2.png; sourceTree = "<group>"; };
 		4EDD81B21CEEEF1400DDF834 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Charts.xcodeproj; sourceTree = "<group>"; };
 		4EDD81B61CEEEF1400DDF834 /* ChartsTV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartsTV.h; sourceTree = "<group>"; };
 		4EDD81B71CEEEF1400DDF834 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -870,7 +870,7 @@
 			isa = PBXGroup;
 			children = (
 				4E89742A1CF306490021F1BD /* Document */,
-				4EB7652F1CF451B100333EC5 /* ReadMe */,
+				4ED83C141CF5A1B9008A213D /* ReadMe */,
 				4EDD81B11CEEEF1400DDF834 /* Charts */,
 				4E4F4D581CED567F004301A5 /* TSMWSChart */,
 				4E4F4D751CED567F004301A5 /* TSMWSChartTests */,
@@ -1273,17 +1273,6 @@
 			path = Map;
 			sourceTree = "<group>";
 		};
-		4EB7652F1CF451B100333EC5 /* ReadMe */ = {
-			isa = PBXGroup;
-			children = (
-				4EB765301CF451B100333EC5 /* README.md */,
-				4EB765311CF451B100333EC5 /* screen1.png */,
-				4EB765321CF451B100333EC5 /* screen2.png */,
-			);
-			name = ReadMe;
-			path = TSMWSChart/ReadMe;
-			sourceTree = "<group>";
-		};
 		4EB765361CF4537000333EC5 /* OBShapedButton */ = {
 			isa = PBXGroup;
 			children = (
@@ -1343,6 +1332,16 @@
 				4ED83B7C1CF581E6008A213D /* CoverFlow2ViewController.m */,
 			);
 			path = CoverFlow;
+			sourceTree = "<group>";
+		};
+		4ED83C141CF5A1B9008A213D /* ReadMe */ = {
+			isa = PBXGroup;
+			children = (
+				4ED83C151CF5A1B9008A213D /* README.md */,
+				4ED83C161CF5A1B9008A213D /* screen1.png */,
+				4ED83C171CF5A1B9008A213D /* screen2.png */,
+			);
+			path = ReadMe;
 			sourceTree = "<group>";
 		};
 		4EDD81B11CEEEF1400DDF834 /* Charts */ = {
@@ -1786,8 +1785,9 @@
 				4EB7649D1CF4515D00333EC5 /* buick-7.json in Resources */,
 				4EB764B81CF4515D00333EC5 /* 14-15@2x.png in Resources */,
 				4EB764CB1CF4515D00333EC5 /* 上海 - 10.json in Resources */,
+				4ED83C1A1CF5A1B9008A213D /* screen2.png in Resources */,
+				4ED83C191CF5A1B9008A213D /* screen1.png in Resources */,
 				4EB764D81CF4515D00333EC5 /* 新疆 - 30.json in Resources */,
-				4EB765351CF451B100333EC5 /* screen2.png in Resources */,
 				4EB764951CF4515D00333EC5 /* 15-9@2x.png in Resources */,
 				4EB7648E1CF4515D00333EC5 /* 15-6.png in Resources */,
 				4EB764B31CF4515D00333EC5 /* 14-13.png in Resources */,
@@ -1832,7 +1832,6 @@
 				4EB764811CF4515D00333EC5 /* area-46.json in Resources */,
 				4EB764FC1CF4515D00333EC5 /* 河南 - 9.json in Resources */,
 				4EB764D31CF4515D00333EC5 /* 安徽 - 13.json in Resources */,
-				4EB765341CF451B100333EC5 /* screen1.png in Resources */,
 				4EB764971CF4515D00333EC5 /* buick-10.json in Resources */,
 				4EB764841CF4515D00333EC5 /* 15-10@2x.png in Resources */,
 				4EB764C61CF4515D00333EC5 /* chervolet-16.json in Resources */,
@@ -1994,6 +1993,7 @@
 				4EDD82B11CEEEF1400DDF834 /* ChartDataBaseFilter.swift in Sources */,
 				4EDD83111CEEEF1400DDF834 /* HorizontalBarChartRenderer.swift in Sources */,
 				4EDD83231CEEEF1400DDF834 /* ChartColorTemplates.swift in Sources */,
+				4ED83C181CF5A1B9008A213D /* README.md in Sources */,
 				4EDD82B41CEEEF1400DDF834 /* ChartDefaultXAxisValueFormatter.swift in Sources */,
 				4EDD83141CEEEF1400DDF834 /* LineChartRenderer.swift in Sources */,
 				4EDD829F1CEEEF1400DDF834 /* PieChartDataSet.swift in Sources */,
@@ -2008,7 +2008,6 @@
 				4EDD82961CEEEF1400DDF834 /* LineRadarChartDataSet.swift in Sources */,
 				4EDD82C01CEEEF1400DDF834 /* ChartHighlight.swift in Sources */,
 				4EB7652D1CF4516900333EC5 /* TChart5ViewController.m in Sources */,
-				4EB765331CF451B100333EC5 /* README.md in Sources */,
 				4EB765141CF4515D00333EC5 /* TSMWSBaseAxisRenderer+Protected.m in Sources */,
 				4EDD828D1CEEEF1400DDF834 /* CombinedChartData.swift in Sources */,
 				4EB765171CF4515D00333EC5 /* TSMWSHistogramDrawing.m in Sources */,
