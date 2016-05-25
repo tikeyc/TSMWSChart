@@ -3,3 +3,5 @@
 
 
 ![image](https://github.com/tikeyc/TSMWSChart/raw/master/ReadMe/screen2.png)
+
+![image](https://github.com/tikeyc/TSMWSChart/raw/master/ReadMe/screen3.png)
