@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'AC86C15D05ACC90823CB37BC'
+               BlueprintIdentifier = '82BEDF0954F0D2E1CF399F41'
                BlueprintName = 'iOS-Echarts'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libiOS-Echarts.a'>

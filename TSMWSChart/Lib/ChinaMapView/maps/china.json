@@ -1,0 +1,250 @@
+[
+  {
+    "id" : "13",
+    "imageName" : "anhui.png",
+    "name" : "安徽",
+    "tag" : 20,
+    "x" : 410,
+    "y" : 245
+  },
+  {
+    "id" : "1",
+    "imageName" : "beijing.png",
+    "name" : "北京",
+    "tag" : 22,
+    "x" : 406,
+    "y" : 165
+  },
+  {
+    "id" : "21",
+    "imageName" : "chongqing.png",
+    "name" : "重庆",
+    "tag" : 13,
+    "x" : 315,
+    "y" : 282
+  },
+  {
+    "id" : "15",
+    "imageName" : "fujian.png",
+    "name" : "福建",
+    "tag" : 19,
+    "x" : 428,
+    "y" : 320
+  },
+  {
+    "id" : "18",
+    "imageName" : "guangdong.png",
+    "name" : "广东",
+    "tag" : 17,
+    "x" : 363,
+    "y" : 359
+  },
+  {
+    "id" : "27",
+    "imageName" : "gansu.png",
+    "name" : "甘肃",
+    "tag" : 2,
+    "x" : 193,
+    "y" : 148
+  },
+  {
+    "id" : "19",
+    "imageName" : "guangxi.png",
+    "name" : "广西",
+    "tag" : 16,
+    "x" : 303,
+    "y" : 350
+  },
+  {
+    "id" : "24",
+    "imageName" : "guizhou.png",
+    "name" : "贵州",
+    "tag" : 15,
+    "x" : 293,
+    "y" : 317
+  },
+  {
+    "id" : "20",
+    "imageName" : "hainan.png",
+    "name" : "海南",
+    "tag" : 31,
+    "x" : 351,
+    "y" : 429
+  },
+  {
+    "id" : "3",
+    "imageName" : "hebei.png",
+    "name" : "河北",
+    "tag" : 9,
+    "x" : 390,
+    "y" : 145
+  },
+  {
+    "id" : "7",
+    "imageName" : "heilongjiang.png",
+    "name" : "黑龙江",
+    "tag" : 29,
+    "x" : 432,
+    "y" : 7
+  },
+  {
+    "id" : "14",
+    "imageName" : "hubei.png",
+    "name" : "湖北",
+    "tag" : 11,
+    "x" : 345,
+    "y" : 267
+  },
+  {
+    "id" : "9",
+    "imageName" : "henan.png",
+    "name" : "河南",
+    "tag" : 10,
+    "x" : 364,
+    "y" : 227
+  },
+  {
+    "id" : "17",
+    "imageName" : "hunan.png",
+    "name" : "湖南",
+    "tag" : 12,
+    "x" : 351,
+    "y" : 305
+  },
+  {
+    "id" : "6",
+    "imageName" : "jilin.png",
+    "name" : "吉林",
+    "tag" : 28,
+    "x" : 451,
+    "y" : 93
+  },
+  {
+    "id" : "11",
+    "imageName" : "jiangsu.png",
+    "name" : "江苏",
+    "tag" : 24,
+    "x" : 422,
+    "y" : 237
+  },
+  {
+    "id" : "16",
+    "imageName" : "jiangxi.png",
+    "name" : "江西",
+    "tag" : 18,
+    "x" : 402,
+    "y" : 302
+  },
+  {
+    "id" : "5",
+    "imageName" : "liaoning.png",
+    "name" : "辽宁",
+    "tag" : 27,
+    "x" : 435,
+    "y" : 128
+  },
+  {
+    "id" : "4",
+    "imageName" : "neimenggu.png",
+    "name" : "内蒙古",
+    "tag" : 6,
+    "x" : 238,
+    "y" : 13
+  },
+  {
+    "id" : "29",
+    "imageName" : "ningxia.png",
+    "name" : "宁夏",
+    "tag" : 5,
+    "x" : 301,
+    "y" : 192
+  },
+  {
+    "id" : "28",
+    "imageName" : "qinghai.png",
+    "name" : "青海",
+    "tag" : 3,
+    "x" : 152,
+    "y" : 188
+  },
+  {
+    "id" : "23",
+    "imageName" : "sichuan.png",
+    "name" : "四川",
+    "tag" : 4,
+    "x" : 230,
+    "y" : 255
+  },
+  {
+    "id" : "8",
+    "imageName" : "shandong.png",
+    "name" : "山东",
+    "tag" : 21,
+    "x" : 408,
+    "y" : 200
+  },
+  {
+    "id" : "10",
+    "imageName" : "shanghai.png",
+    "name" : "上海",
+    "tag" : 26,
+    "x" : 476,
+    "y" : 275
+  },
+  {
+    "id" : "26",
+    "imageName" : "shanxii.png",
+    "name" : "陕西",
+    "tag" : 7,
+    "x" : 315,
+    "y" : 190
+  },
+  {
+    "id" : "22",
+    "imageName" : "shanxi.png",
+    "name" : "山西",
+    "tag" : 8,
+    "x" : 361,
+    "y" : 172
+  },
+  {
+    "id" : "2",
+    "imageName" : "tianjin.png",
+    "name" : "天津",
+    "tag" : 23,
+    "x" : 420,
+    "y" : 173
+  },
+  {
+    "id" : "31",
+    "imageName" : "xizang.png",
+    "name" : "西藏",
+    "tag" : 1,
+    "x" : 37,
+    "y" : 214
+  },
+  {
+    "id" : "30",
+    "imageName" : "xinjiang.png",
+    "name" : "新疆",
+    "tag" : 100,
+    "x" : 12,
+    "y" : 61
+  },
+  {
+    "id" : "25",
+    "imageName" : "yunnan.png",
+    "name" : "云南",
+    "tag" : 14,
+    "x" : 226,
+    "y" : 318
+  },
+  {
+    "id" : "12",
+    "imageName" : "zhejiang.png",
+    "name" : "浙江",
+    "tag" : 25,
+    "x" : 449,
+    "y" : 285
+  }
+]

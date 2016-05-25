@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '5A6BD6153B1870D476A7E6D6'
+               BlueprintIdentifier = 'AD2DB1A77487EC8DA2D1AA0B'
                BlueprintName = 'ZXPAutoLayout'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libZXPAutoLayout.a'>

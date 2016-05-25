@@ -21,63 +21,180 @@
 		4E4F4DC31CED570D004301A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E4F4D941CED570D004301A5 /* Main.storyboard */; };
 		4E4F4DC41CED570D004301A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E4F4D941CED570D004301A5 /* Main.storyboard */; };
 		4E4F4DC51CED570D004301A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E4F4D941CED570D004301A5 /* Main.storyboard */; };
-		4E4F4DC61CED570D004301A5 /* HTFirstLetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4D981CED570D004301A5 /* HTFirstLetter.m */; };
-		4E4F4DC71CED570D004301A5 /* HTFirstLetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4D981CED570D004301A5 /* HTFirstLetter.m */; };
-		4E4F4DC81CED570D004301A5 /* HTFirstLetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4D981CED570D004301A5 /* HTFirstLetter.m */; };
-		4E4F4DC91CED570D004301A5 /* NSArray+FirstLetterArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4D9A1CED570D004301A5 /* NSArray+FirstLetterArray.m */; };
-		4E4F4DCA1CED570D004301A5 /* NSArray+FirstLetterArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4D9A1CED570D004301A5 /* NSArray+FirstLetterArray.m */; };
-		4E4F4DCB1CED570D004301A5 /* NSArray+FirstLetterArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4D9A1CED570D004301A5 /* NSArray+FirstLetterArray.m */; };
-		4E4F4DCC1CED570D004301A5 /* NSString+FirstLetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4D9C1CED570D004301A5 /* NSString+FirstLetter.m */; };
-		4E4F4DCD1CED570D004301A5 /* NSString+FirstLetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4D9C1CED570D004301A5 /* NSString+FirstLetter.m */; };
-		4E4F4DCE1CED570D004301A5 /* NSString+FirstLetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4D9C1CED570D004301A5 /* NSString+FirstLetter.m */; };
-		4E4F4DCF1CED570D004301A5 /* POAPinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4D9E1CED570D004301A5 /* POAPinyin.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		4E4F4DD01CED570D004301A5 /* POAPinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4D9E1CED570D004301A5 /* POAPinyin.m */; };
-		4E4F4DD11CED570D004301A5 /* POAPinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4D9E1CED570D004301A5 /* POAPinyin.m */; };
-		4E4F4DD21CED570D004301A5 /* TChart1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DA01CED570D004301A5 /* TChart1ViewController.m */; };
-		4E4F4DD31CED570D004301A5 /* TChart1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DA01CED570D004301A5 /* TChart1ViewController.m */; };
-		4E4F4DD41CED570D004301A5 /* TChart1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DA01CED570D004301A5 /* TChart1ViewController.m */; };
-		4E4F4DD51CED570D004301A5 /* TChart2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DA21CED570D004301A5 /* TChart2ViewController.m */; };
-		4E4F4DD61CED570D004301A5 /* TChart2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DA21CED570D004301A5 /* TChart2ViewController.m */; };
-		4E4F4DD71CED570D004301A5 /* TChart2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DA21CED570D004301A5 /* TChart2ViewController.m */; };
-		4E4F4DD81CED570D004301A5 /* TTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DA41CED570D004301A5 /* TTableViewController.m */; };
-		4E4F4DD91CED570D004301A5 /* TTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DA41CED570D004301A5 /* TTableViewController.m */; };
-		4E4F4DDA1CED570D004301A5 /* TTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DA41CED570D004301A5 /* TTableViewController.m */; };
-		4E4F4DDB1CED570D004301A5 /* TAxisXYInfoDrawingDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DA81CED570D004301A5 /* TAxisXYInfoDrawingDataSource.m */; };
-		4E4F4DDC1CED570D004301A5 /* TAxisXYInfoDrawingDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DA81CED570D004301A5 /* TAxisXYInfoDrawingDataSource.m */; };
-		4E4F4DDD1CED570D004301A5 /* TAxisXYInfoDrawingDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DA81CED570D004301A5 /* TAxisXYInfoDrawingDataSource.m */; };
-		4E4F4DDE1CED570D004301A5 /* THistogramInfoDrawingDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DAA1CED570D004301A5 /* THistogramInfoDrawingDataSource.m */; };
-		4E4F4DDF1CED570D004301A5 /* THistogramInfoDrawingDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DAA1CED570D004301A5 /* THistogramInfoDrawingDataSource.m */; };
-		4E4F4DE01CED570D004301A5 /* THistogramInfoDrawingDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DAA1CED570D004301A5 /* THistogramInfoDrawingDataSource.m */; };
-		4E4F4DE11CED570D004301A5 /* TLinearInfoDrawingDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DAC1CED570D004301A5 /* TLinearInfoDrawingDataSource.m */; };
-		4E4F4DE21CED570D004301A5 /* TLinearInfoDrawingDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DAC1CED570D004301A5 /* TLinearInfoDrawingDataSource.m */; };
-		4E4F4DE31CED570D004301A5 /* TLinearInfoDrawingDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DAC1CED570D004301A5 /* TLinearInfoDrawingDataSource.m */; };
-		4E4F4DE41CED570D004301A5 /* TLineBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DAE1CED570D004301A5 /* TLineBaseModel.m */; };
-		4E4F4DE51CED570D004301A5 /* TLineBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DAE1CED570D004301A5 /* TLineBaseModel.m */; };
-		4E4F4DE61CED570D004301A5 /* TLineBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DAE1CED570D004301A5 /* TLineBaseModel.m */; };
-		4E4F4DE71CED570D004301A5 /* TSMWSBaseAxisRenderer+Protected.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DB11CED570D004301A5 /* TSMWSBaseAxisRenderer+Protected.m */; };
-		4E4F4DE81CED570D004301A5 /* TSMWSBaseAxisRenderer+Protected.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DB11CED570D004301A5 /* TSMWSBaseAxisRenderer+Protected.m */; };
-		4E4F4DE91CED570D004301A5 /* TSMWSBaseAxisRenderer+Protected.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DB11CED570D004301A5 /* TSMWSBaseAxisRenderer+Protected.m */; };
-		4E4F4DEA1CED570D004301A5 /* TSMWSBaseAxisRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DB31CED570D004301A5 /* TSMWSBaseAxisRenderer.m */; };
-		4E4F4DEB1CED570D004301A5 /* TSMWSBaseAxisRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DB31CED570D004301A5 /* TSMWSBaseAxisRenderer.m */; };
-		4E4F4DEC1CED570D004301A5 /* TSMWSBaseAxisRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DB31CED570D004301A5 /* TSMWSBaseAxisRenderer.m */; };
-		4E4F4DED1CED570D004301A5 /* TSMWSBaseGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DB51CED570D004301A5 /* TSMWSBaseGraphView.m */; };
-		4E4F4DEE1CED570D004301A5 /* TSMWSBaseGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DB51CED570D004301A5 /* TSMWSBaseGraphView.m */; };
-		4E4F4DEF1CED570D004301A5 /* TSMWSBaseGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DB51CED570D004301A5 /* TSMWSBaseGraphView.m */; };
-		4E4F4DF01CED570D004301A5 /* TSMWSHistogramDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DB81CED570D004301A5 /* TSMWSHistogramDrawing.m */; };
-		4E4F4DF11CED570D004301A5 /* TSMWSHistogramDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DB81CED570D004301A5 /* TSMWSHistogramDrawing.m */; };
-		4E4F4DF21CED570D004301A5 /* TSMWSHistogramDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DB81CED570D004301A5 /* TSMWSHistogramDrawing.m */; };
-		4E4F4DF31CED570D004301A5 /* TSMWSLinearDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DBA1CED570D004301A5 /* TSMWSLinearDrawing.m */; };
-		4E4F4DF41CED570D004301A5 /* TSMWSLinearDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DBA1CED570D004301A5 /* TSMWSLinearDrawing.m */; };
-		4E4F4DF51CED570D004301A5 /* TSMWSLinearDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DBA1CED570D004301A5 /* TSMWSLinearDrawing.m */; };
-		4E4F4DF61CED570D004301A5 /* TSMWSStandardAxisRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DBC1CED570D004301A5 /* TSMWSStandardAxisRenderer.m */; };
-		4E4F4DF71CED570D004301A5 /* TSMWSStandardAxisRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DBC1CED570D004301A5 /* TSMWSStandardAxisRenderer.m */; };
-		4E4F4DF81CED570D004301A5 /* TSMWSStandardAxisRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DBC1CED570D004301A5 /* TSMWSStandardAxisRenderer.m */; };
-		4E4F4DFB1CED63E4004301A5 /* TChart3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DFA1CED63E4004301A5 /* TChart3ViewController.m */; };
-		4E4F4DFC1CED63E4004301A5 /* TChart3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DFA1CED63E4004301A5 /* TChart3ViewController.m */; };
-		4E4F4DFD1CED63E4004301A5 /* TChart3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F4DFA1CED63E4004301A5 /* TChart3ViewController.m */; };
-		4ED260421CED77C400484581 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 4ED260411CED77C400484581 /* README.md */; };
-		4ED260451CED78B700484581 /* screen1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4ED260431CED78B700484581 /* screen1.png */; };
-		4ED260461CED78B700484581 /* screen2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4ED260441CED78B700484581 /* screen2.png */; };
+		4E89742B1CF306490021F1BD /* Document in Resources */ = {isa = PBXBuildFile; fileRef = 4E89742A1CF306490021F1BD /* Document */; };
+		4EB7647F1CF4515D00333EC5 /* area-14.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB763C61CF4515D00333EC5 /* area-14.json */; };
+		4EB764801CF4515D00333EC5 /* area-15.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB763C71CF4515D00333EC5 /* area-15.json */; };
+		4EB764811CF4515D00333EC5 /* area-46.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB763C81CF4515D00333EC5 /* area-46.json */; };
+		4EB764821CF4515D00333EC5 /* 15-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB763CA1CF4515D00333EC5 /* 15-1.png */; };
+		4EB764831CF4515D00333EC5 /* 15-10.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB763CB1CF4515D00333EC5 /* 15-10.png */; };
+		4EB764841CF4515D00333EC5 /* 15-10@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB763CC1CF4515D00333EC5 /* 15-10@2x.png */; };
+		4EB764851CF4515D00333EC5 /* 15-1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB763CD1CF4515D00333EC5 /* 15-1@2x.png */; };
+		4EB764861CF4515D00333EC5 /* 15-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB763CE1CF4515D00333EC5 /* 15-2.png */; };
+		4EB764871CF4515D00333EC5 /* 15-2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB763CF1CF4515D00333EC5 /* 15-2@2x.png */; };
+		4EB764881CF4515D00333EC5 /* 15-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB763D01CF4515D00333EC5 /* 15-3.png */; };
+		4EB764891CF4515D00333EC5 /* 15-3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB763D11CF4515D00333EC5 /* 15-3@2x.png */; };
+		4EB7648A1CF4515D00333EC5 /* 15-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB763D21CF4515D00333EC5 /* 15-4.png */; };
+		4EB7648B1CF4515D00333EC5 /* 15-4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB763D31CF4515D00333EC5 /* 15-4@2x.png */; };
+		4EB7648C1CF4515D00333EC5 /* 15-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB763D41CF4515D00333EC5 /* 15-5.png */; };
+		4EB7648D1CF4515D00333EC5 /* 15-5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB763D51CF4515D00333EC5 /* 15-5@2x.png */; };
+		4EB7648E1CF4515D00333EC5 /* 15-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB763D61CF4515D00333EC5 /* 15-6.png */; };
+		4EB7648F1CF4515D00333EC5 /* 15-6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB763D71CF4515D00333EC5 /* 15-6@2x.png */; };
+		4EB764901CF4515D00333EC5 /* 15-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB763D81CF4515D00333EC5 /* 15-7.png */; };
+		4EB764911CF4515D00333EC5 /* 15-7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB763D91CF4515D00333EC5 /* 15-7@2x.png */; };
+		4EB764921CF4515D00333EC5 /* 15-8.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB763DA1CF4515D00333EC5 /* 15-8.png */; };
+		4EB764931CF4515D00333EC5 /* 15-8@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB763DB1CF4515D00333EC5 /* 15-8@2x.png */; };
+		4EB764941CF4515D00333EC5 /* 15-9.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB763DC1CF4515D00333EC5 /* 15-9.png */; };
+		4EB764951CF4515D00333EC5 /* 15-9@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB763DD1CF4515D00333EC5 /* 15-9@2x.png */; };
+		4EB764961CF4515D00333EC5 /* buick-1.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB763DF1CF4515D00333EC5 /* buick-1.json */; };
+		4EB764971CF4515D00333EC5 /* buick-10.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB763E01CF4515D00333EC5 /* buick-10.json */; };
+		4EB764981CF4515D00333EC5 /* buick-2.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB763E11CF4515D00333EC5 /* buick-2.json */; };
+		4EB764991CF4515D00333EC5 /* buick-3.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB763E21CF4515D00333EC5 /* buick-3.json */; };
+		4EB7649A1CF4515D00333EC5 /* buick-4.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB763E31CF4515D00333EC5 /* buick-4.json */; };
+		4EB7649B1CF4515D00333EC5 /* buick-5.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB763E41CF4515D00333EC5 /* buick-5.json */; };
+		4EB7649C1CF4515D00333EC5 /* buick-6.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB763E51CF4515D00333EC5 /* buick-6.json */; };
+		4EB7649D1CF4515D00333EC5 /* buick-7.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB763E61CF4515D00333EC5 /* buick-7.json */; };
+		4EB7649E1CF4515D00333EC5 /* buick-8.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB763E71CF4515D00333EC5 /* buick-8.json */; };
+		4EB7649F1CF4515D00333EC5 /* buick-9.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB763E81CF4515D00333EC5 /* buick-9.json */; };
+		4EB764A01CF4515D00333EC5 /* 46-20.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB763EA1CF4515D00333EC5 /* 46-20.png */; };
+		4EB764A11CF4515D00333EC5 /* 46-20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB763EB1CF4515D00333EC5 /* 46-20@2x.png */; };
+		4EB764A21CF4515D00333EC5 /* 46-21.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB763EC1CF4515D00333EC5 /* 46-21.png */; };
+		4EB764A31CF4515D00333EC5 /* 46-21@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB763ED1CF4515D00333EC5 /* 46-21@2x.png */; };
+		4EB764A41CF4515D00333EC5 /* 46-22.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB763EE1CF4515D00333EC5 /* 46-22.png */; };
+		4EB764A51CF4515D00333EC5 /* 46-22@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB763EF1CF4515D00333EC5 /* 46-22@2x.png */; };
+		4EB764A61CF4515D00333EC5 /* 46-23.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB763F01CF4515D00333EC5 /* 46-23.png */; };
+		4EB764A71CF4515D00333EC5 /* 46-23@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB763F11CF4515D00333EC5 /* 46-23@2x.png */; };
+		4EB764A81CF4515D00333EC5 /* 46-24.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB763F21CF4515D00333EC5 /* 46-24.png */; };
+		4EB764A91CF4515D00333EC5 /* 46-24@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB763F31CF4515D00333EC5 /* 46-24@2x.png */; };
+		4EB764AA1CF4515D00333EC5 /* cadillac-20.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB763F51CF4515D00333EC5 /* cadillac-20.json */; };
+		4EB764AB1CF4515D00333EC5 /* cadillac-21.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB763F61CF4515D00333EC5 /* cadillac-21.json */; };
+		4EB764AC1CF4515D00333EC5 /* cadillac-22.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB763F71CF4515D00333EC5 /* cadillac-22.json */; };
+		4EB764AD1CF4515D00333EC5 /* cadillac-23.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB763F81CF4515D00333EC5 /* cadillac-23.json */; };
+		4EB764AE1CF4515D00333EC5 /* cadillac-24.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB763F91CF4515D00333EC5 /* cadillac-24.json */; };
+		4EB764AF1CF4515D00333EC5 /* 14-11.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB763FB1CF4515D00333EC5 /* 14-11.png */; };
+		4EB764B01CF4515D00333EC5 /* 14-11@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB763FC1CF4515D00333EC5 /* 14-11@2x.png */; };
+		4EB764B11CF4515D00333EC5 /* 14-12.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB763FD1CF4515D00333EC5 /* 14-12.png */; };
+		4EB764B21CF4515D00333EC5 /* 14-12@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB763FE1CF4515D00333EC5 /* 14-12@2x.png */; };
+		4EB764B31CF4515D00333EC5 /* 14-13.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB763FF1CF4515D00333EC5 /* 14-13.png */; };
+		4EB764B41CF4515D00333EC5 /* 14-13@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB764001CF4515D00333EC5 /* 14-13@2x.png */; };
+		4EB764B51CF4515D00333EC5 /* 14-14.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB764011CF4515D00333EC5 /* 14-14.png */; };
+		4EB764B61CF4515D00333EC5 /* 14-14@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB764021CF4515D00333EC5 /* 14-14@2x.png */; };
+		4EB764B71CF4515D00333EC5 /* 14-15.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB764031CF4515D00333EC5 /* 14-15.png */; };
+		4EB764B81CF4515D00333EC5 /* 14-15@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB764041CF4515D00333EC5 /* 14-15@2x.png */; };
+		4EB764B91CF4515D00333EC5 /* 14-16.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB764051CF4515D00333EC5 /* 14-16.png */; };
+		4EB764BA1CF4515D00333EC5 /* 14-16@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB764061CF4515D00333EC5 /* 14-16@2x.png */; };
+		4EB764BB1CF4515D00333EC5 /* 14-17.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB764071CF4515D00333EC5 /* 14-17.png */; };
+		4EB764BC1CF4515D00333EC5 /* 14-17@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB764081CF4515D00333EC5 /* 14-17@2x.png */; };
+		4EB764BD1CF4515D00333EC5 /* 14-18.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB764091CF4515D00333EC5 /* 14-18.png */; };
+		4EB764BE1CF4515D00333EC5 /* 14-18@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB7640A1CF4515D00333EC5 /* 14-18@2x.png */; };
+		4EB764BF1CF4515D00333EC5 /* 14-19.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB7640B1CF4515D00333EC5 /* 14-19.png */; };
+		4EB764C01CF4515D00333EC5 /* 14-19@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB7640C1CF4515D00333EC5 /* 14-19@2x.png */; };
+		4EB764C11CF4515D00333EC5 /* chervolet-11.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB7640E1CF4515D00333EC5 /* chervolet-11.json */; };
+		4EB764C21CF4515D00333EC5 /* chervolet-12.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB7640F1CF4515D00333EC5 /* chervolet-12.json */; };
+		4EB764C31CF4515D00333EC5 /* chervolet-13.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB764101CF4515D00333EC5 /* chervolet-13.json */; };
+		4EB764C41CF4515D00333EC5 /* chervolet-14.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB764111CF4515D00333EC5 /* chervolet-14.json */; };
+		4EB764C51CF4515D00333EC5 /* chervolet-15.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB764121CF4515D00333EC5 /* chervolet-15.json */; };
+		4EB764C61CF4515D00333EC5 /* chervolet-16.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB764131CF4515D00333EC5 /* chervolet-16.json */; };
+		4EB764C71CF4515D00333EC5 /* chervolet-17.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB764141CF4515D00333EC5 /* chervolet-17.json */; };
+		4EB764C81CF4515D00333EC5 /* chervolet-18.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB764151CF4515D00333EC5 /* chervolet-18.json */; };
+		4EB764C91CF4515D00333EC5 /* chervolet-19.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB764161CF4515D00333EC5 /* chervolet-19.json */; };
+		4EB764CA1CF4515D00333EC5 /* china.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB764171CF4515D00333EC5 /* china.json */; };
+		4EB764CB1CF4515D00333EC5 /* 上海 - 10.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB764191CF4515D00333EC5 /* 上海 - 10.json */; };
+		4EB764CC1CF4515D00333EC5 /* 云南 - 25.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB7641A1CF4515D00333EC5 /* 云南 - 25.json */; };
+		4EB764CD1CF4515D00333EC5 /* 内蒙古 - 4.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB7641B1CF4515D00333EC5 /* 内蒙古 - 4.json */; };
+		4EB764CE1CF4515D00333EC5 /* 北京 - 1.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB7641C1CF4515D00333EC5 /* 北京 - 1.json */; };
+		4EB764CF1CF4515D00333EC5 /* 吉林 - 6.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB7641D1CF4515D00333EC5 /* 吉林 - 6.json */; };
+		4EB764D01CF4515D00333EC5 /* 四川 - 23.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB7641E1CF4515D00333EC5 /* 四川 - 23.json */; };
+		4EB764D11CF4515D00333EC5 /* 天津 - 2.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB7641F1CF4515D00333EC5 /* 天津 - 2.json */; };
+		4EB764D21CF4515D00333EC5 /* 宁夏 - 29.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB764201CF4515D00333EC5 /* 宁夏 - 29.json */; };
+		4EB764D31CF4515D00333EC5 /* 安徽 - 13.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB764211CF4515D00333EC5 /* 安徽 - 13.json */; };
+		4EB764D41CF4515D00333EC5 /* 山东 - 8.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB764221CF4515D00333EC5 /* 山东 - 8.json */; };
+		4EB764D51CF4515D00333EC5 /* 山西 - 22.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB764231CF4515D00333EC5 /* 山西 - 22.json */; };
+		4EB764D61CF4515D00333EC5 /* 广东 - 18.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB764241CF4515D00333EC5 /* 广东 - 18.json */; };
+		4EB764D71CF4515D00333EC5 /* 广西 - 19.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB764251CF4515D00333EC5 /* 广西 - 19.json */; };
+		4EB764D81CF4515D00333EC5 /* 新疆 - 30.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB764261CF4515D00333EC5 /* 新疆 - 30.json */; };
+		4EB764D91CF4515D00333EC5 /* 江苏 - 11.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB764271CF4515D00333EC5 /* 江苏 - 11.json */; };
+		4EB764DA1CF4515D00333EC5 /* 江西 - 16.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB764281CF4515D00333EC5 /* 江西 - 16.json */; };
+		4EB764DB1CF4515D00333EC5 /* 河北 - 3.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB764291CF4515D00333EC5 /* 河北 - 3.json */; };
+		4EB764DC1CF4515D00333EC5 /* 河南 - 9.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB7642A1CF4515D00333EC5 /* 河南 - 9.json */; };
+		4EB764DD1CF4515D00333EC5 /* 浙江 - 12.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB7642B1CF4515D00333EC5 /* 浙江 - 12.json */; };
+		4EB764DE1CF4515D00333EC5 /* 海南 - 20.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB7642C1CF4515D00333EC5 /* 海南 - 20.json */; };
+		4EB764DF1CF4515D00333EC5 /* 湖北 - 14.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB7642D1CF4515D00333EC5 /* 湖北 - 14.json */; };
+		4EB764E01CF4515D00333EC5 /* 湖南 - 17.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB7642E1CF4515D00333EC5 /* 湖南 - 17.json */; };
+		4EB764E11CF4515D00333EC5 /* 甘肃 - 27.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB7642F1CF4515D00333EC5 /* 甘肃 - 27.json */; };
+		4EB764E21CF4515D00333EC5 /* 福建 - 15.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB764301CF4515D00333EC5 /* 福建 - 15.json */; };
+		4EB764E31CF4515D00333EC5 /* 西藏 - 31.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB764311CF4515D00333EC5 /* 西藏 - 31.json */; };
+		4EB764E41CF4515D00333EC5 /* 贵州 - 24.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB764321CF4515D00333EC5 /* 贵州 - 24.json */; };
+		4EB764E51CF4515D00333EC5 /* 辽宁 - 5.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB764331CF4515D00333EC5 /* 辽宁 - 5.json */; };
+		4EB764E61CF4515D00333EC5 /* 重庆 - 21.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB764341CF4515D00333EC5 /* 重庆 - 21.json */; };
+		4EB764E71CF4515D00333EC5 /* 陕西 - 26.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB764351CF4515D00333EC5 /* 陕西 - 26.json */; };
+		4EB764E81CF4515D00333EC5 /* 青海 - 28.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB764361CF4515D00333EC5 /* 青海 - 28.json */; };
+		4EB764E91CF4515D00333EC5 /* 黑龙江 - 7.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB764371CF4515D00333EC5 /* 黑龙江 - 7.json */; };
+		4EB764EA1CF4515D00333EC5 /* china.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB764391CF4515D00333EC5 /* china.json */; };
+		4EB764EB1CF4515D00333EC5 /* 上海 - 10.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB7643B1CF4515D00333EC5 /* 上海 - 10.json */; };
+		4EB764EC1CF4515D00333EC5 /* 云南 - 25.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB7643C1CF4515D00333EC5 /* 云南 - 25.json */; };
+		4EB764ED1CF4515D00333EC5 /* 内蒙古 - 4.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB7643D1CF4515D00333EC5 /* 内蒙古 - 4.json */; };
+		4EB764EE1CF4515D00333EC5 /* 北京 - 1.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB7643E1CF4515D00333EC5 /* 北京 - 1.json */; };
+		4EB764EF1CF4515D00333EC5 /* 吉林 - 6.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB7643F1CF4515D00333EC5 /* 吉林 - 6.json */; };
+		4EB764F01CF4515D00333EC5 /* 四川 - 23.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB764401CF4515D00333EC5 /* 四川 - 23.json */; };
+		4EB764F11CF4515D00333EC5 /* 天津 - 2.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB764411CF4515D00333EC5 /* 天津 - 2.json */; };
+		4EB764F21CF4515D00333EC5 /* 宁夏 - 29.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB764421CF4515D00333EC5 /* 宁夏 - 29.json */; };
+		4EB764F31CF4515D00333EC5 /* 安徽 - 13.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB764431CF4515D00333EC5 /* 安徽 - 13.json */; };
+		4EB764F41CF4515D00333EC5 /* 山东 - 8.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB764441CF4515D00333EC5 /* 山东 - 8.json */; };
+		4EB764F51CF4515D00333EC5 /* 山西 - 22.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB764451CF4515D00333EC5 /* 山西 - 22.json */; };
+		4EB764F61CF4515D00333EC5 /* 广东 - 18.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB764461CF4515D00333EC5 /* 广东 - 18.json */; };
+		4EB764F71CF4515D00333EC5 /* 广西 - 19.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB764471CF4515D00333EC5 /* 广西 - 19.json */; };
+		4EB764F81CF4515D00333EC5 /* 新疆 - 30.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB764481CF4515D00333EC5 /* 新疆 - 30.json */; };
+		4EB764F91CF4515D00333EC5 /* 江苏 - 11.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB764491CF4515D00333EC5 /* 江苏 - 11.json */; };
+		4EB764FA1CF4515D00333EC5 /* 江西 - 16.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB7644A1CF4515D00333EC5 /* 江西 - 16.json */; };
+		4EB764FB1CF4515D00333EC5 /* 河北 - 3.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB7644B1CF4515D00333EC5 /* 河北 - 3.json */; };
+		4EB764FC1CF4515D00333EC5 /* 河南 - 9.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB7644C1CF4515D00333EC5 /* 河南 - 9.json */; };
+		4EB764FD1CF4515D00333EC5 /* 浙江 - 12.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB7644D1CF4515D00333EC5 /* 浙江 - 12.json */; };
+		4EB764FE1CF4515D00333EC5 /* 海南 - 20.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB7644E1CF4515D00333EC5 /* 海南 - 20.json */; };
+		4EB764FF1CF4515D00333EC5 /* 湖北 - 14.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB7644F1CF4515D00333EC5 /* 湖北 - 14.json */; };
+		4EB765001CF4515D00333EC5 /* 湖南 - 17.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB764501CF4515D00333EC5 /* 湖南 - 17.json */; };
+		4EB765011CF4515D00333EC5 /* 甘肃 - 27.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB764511CF4515D00333EC5 /* 甘肃 - 27.json */; };
+		4EB765021CF4515D00333EC5 /* 福建 - 15.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB764521CF4515D00333EC5 /* 福建 - 15.json */; };
+		4EB765031CF4515D00333EC5 /* 西藏 - 31.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB764531CF4515D00333EC5 /* 西藏 - 31.json */; };
+		4EB765041CF4515D00333EC5 /* 贵州 - 24.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB764541CF4515D00333EC5 /* 贵州 - 24.json */; };
+		4EB765051CF4515D00333EC5 /* 辽宁 - 5.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB764551CF4515D00333EC5 /* 辽宁 - 5.json */; };
+		4EB765061CF4515D00333EC5 /* 重庆 - 21.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB764561CF4515D00333EC5 /* 重庆 - 21.json */; };
+		4EB765071CF4515D00333EC5 /* 陕西 - 26.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB764571CF4515D00333EC5 /* 陕西 - 26.json */; };
+		4EB765081CF4515D00333EC5 /* 青海 - 28.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB764581CF4515D00333EC5 /* 青海 - 28.json */; };
+		4EB765091CF4515D00333EC5 /* 黑龙江 - 7.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EB764591CF4515D00333EC5 /* 黑龙江 - 7.json */; };
+		4EB7650A1CF4515D00333EC5 /* WSChinaMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB7645B1CF4515D00333EC5 /* WSChinaMapViewController.m */; };
+		4EB7650C1CF4515D00333EC5 /* HTFirstLetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB764601CF4515D00333EC5 /* HTFirstLetter.m */; };
+		4EB7650D1CF4515D00333EC5 /* NSArray+FirstLetterArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB764621CF4515D00333EC5 /* NSArray+FirstLetterArray.m */; };
+		4EB7650E1CF4515D00333EC5 /* NSString+FirstLetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB764641CF4515D00333EC5 /* NSString+FirstLetter.m */; };
+		4EB7650F1CF4515D00333EC5 /* POAPinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB764661CF4515D00333EC5 /* POAPinyin.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4EB765101CF4515D00333EC5 /* TAxisXYInfoDrawingDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB7646A1CF4515D00333EC5 /* TAxisXYInfoDrawingDataSource.m */; };
+		4EB765111CF4515D00333EC5 /* THistogramInfoDrawingDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB7646C1CF4515D00333EC5 /* THistogramInfoDrawingDataSource.m */; };
+		4EB765121CF4515D00333EC5 /* TLinearInfoDrawingDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB7646E1CF4515D00333EC5 /* TLinearInfoDrawingDataSource.m */; };
+		4EB765131CF4515D00333EC5 /* TLineBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB764701CF4515D00333EC5 /* TLineBaseModel.m */; };
+		4EB765141CF4515D00333EC5 /* TSMWSBaseAxisRenderer+Protected.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB764731CF4515D00333EC5 /* TSMWSBaseAxisRenderer+Protected.m */; };
+		4EB765151CF4515D00333EC5 /* TSMWSBaseAxisRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB764751CF4515D00333EC5 /* TSMWSBaseAxisRenderer.m */; };
+		4EB765161CF4515D00333EC5 /* TSMWSBaseGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB764771CF4515D00333EC5 /* TSMWSBaseGraphView.m */; };
+		4EB765171CF4515D00333EC5 /* TSMWSHistogramDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB7647A1CF4515D00333EC5 /* TSMWSHistogramDrawing.m */; };
+		4EB765181CF4515D00333EC5 /* TSMWSLinearDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB7647C1CF4515D00333EC5 /* TSMWSLinearDrawing.m */; };
+		4EB765191CF4515D00333EC5 /* TSMWSStandardAxisRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB7647E1CF4515D00333EC5 /* TSMWSStandardAxisRenderer.m */; };
+		4EB765291CF4516900333EC5 /* TChart1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB7651D1CF4516900333EC5 /* TChart1ViewController.m */; };
+		4EB7652A1CF4516900333EC5 /* TChart2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB7651F1CF4516900333EC5 /* TChart2ViewController.m */; };
+		4EB7652B1CF4516900333EC5 /* TChart3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB765211CF4516900333EC5 /* TChart3ViewController.m */; };
+		4EB7652C1CF4516900333EC5 /* TChart4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB765231CF4516900333EC5 /* TChart4ViewController.m */; };
+		4EB7652D1CF4516900333EC5 /* TChart5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB765251CF4516900333EC5 /* TChart5ViewController.m */; };
+		4EB7652E1CF4516900333EC5 /* TTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB765281CF4516900333EC5 /* TTableViewController.m */; };
+		4EB765331CF451B100333EC5 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 4EB765301CF451B100333EC5 /* README.md */; };
+		4EB765341CF451B100333EC5 /* screen1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB765311CF451B100333EC5 /* screen1.png */; };
+		4EB765351CF451B100333EC5 /* screen2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB765321CF451B100333EC5 /* screen2.png */; };
+		4EB765391CF4537000333EC5 /* OBShapedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB765381CF4537000333EC5 /* OBShapedButton.m */; };
+		4EB7653E1CF4543B00333EC5 /* WSAreaInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB7653D1CF4543B00333EC5 /* WSAreaInfo.m */; };
+		4EB765441CF4569E00333EC5 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB765431CF4569E00333EC5 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4EB765481CF4573F00333EC5 /* UIImage+ColorAtPixel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB765471CF4573F00333EC5 /* UIImage+ColorAtPixel.m */; };
+		4EB7654A1CF45A9500333EC5 /* AreaInfoJson.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 4EB765491CF45A9500333EC5 /* AreaInfoJson.geojson */; };
+		4ED83B5F1CF57B94008A213D /* XLLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED83B5B1CF57B94008A213D /* XLLayout.m */; };
+		4ED83B601CF57B94008A213D /* XLPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED83B5D1CF57B94008A213D /* XLPhotoCell.m */; };
+		4ED83B611CF57B94008A213D /* XLPhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4ED83B5E1CF57B94008A213D /* XLPhotoCell.xib */; };
+		4ED83B671CF57C1B008A213D /* CoverFlow1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED83B661CF57C1B008A213D /* CoverFlow1ViewController.m */; };
+		4ED83B7D1CF581E6008A213D /* CoverFlow2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED83B7C1CF581E6008A213D /* CoverFlow2ViewController.m */; };
 		4EDD82211CEEEF1400DDF834 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4EDD81B71CEEEF1400DDF834 /* Info.plist */; };
 		4EDD82221CEEEF1400DDF834 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4EDD81B71CEEEF1400DDF834 /* Info.plist */; };
 		4EDD82231CEEEF1400DDF834 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4EDD81B71CEEEF1400DDF834 /* Info.plist */; };
@@ -357,9 +474,6 @@
 		4EDD83351CEEEF1400DDF834 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4EDD82201CEEEF1400DDF834 /* Info.plist */; };
 		4EDD83361CEEEF1400DDF834 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4EDD82201CEEEF1400DDF834 /* Info.plist */; };
 		4EDD83371CEEEF1400DDF834 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4EDD82201CEEEF1400DDF834 /* Info.plist */; };
-		4EDD83411CEEF25500DDF834 /* TChart4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDD83401CEEF25500DDF834 /* TChart4ViewController.m */; };
-		4EDD83421CEEF25500DDF834 /* TChart4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDD83401CEEF25500DDF834 /* TChart4ViewController.m */; };
-		4EDD83431CEEF25500DDF834 /* TChart4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDD83401CEEF25500DDF834 /* TChart4ViewController.m */; };
 		BB198F0153BCE3F6972047DF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 919146E287F46529149D1569 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -411,47 +525,211 @@
 		4E4F4D901CED570D004301A5 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4E4F4D931CED570D004301A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E4F4D951CED570D004301A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
-		4E4F4D971CED570D004301A5 /* HTFirstLetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTFirstLetter.h; sourceTree = "<group>"; };
-		4E4F4D981CED570D004301A5 /* HTFirstLetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTFirstLetter.m; sourceTree = "<group>"; };
-		4E4F4D991CED570D004301A5 /* NSArray+FirstLetterArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+FirstLetterArray.h"; sourceTree = "<group>"; };
-		4E4F4D9A1CED570D004301A5 /* NSArray+FirstLetterArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+FirstLetterArray.m"; sourceTree = "<group>"; };
-		4E4F4D9B1CED570D004301A5 /* NSString+FirstLetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FirstLetter.h"; sourceTree = "<group>"; };
-		4E4F4D9C1CED570D004301A5 /* NSString+FirstLetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FirstLetter.m"; sourceTree = "<group>"; };
-		4E4F4D9D1CED570D004301A5 /* POAPinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POAPinyin.h; sourceTree = "<group>"; };
-		4E4F4D9E1CED570D004301A5 /* POAPinyin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POAPinyin.m; sourceTree = "<group>"; };
-		4E4F4D9F1CED570D004301A5 /* TChart1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TChart1ViewController.h; sourceTree = "<group>"; };
-		4E4F4DA01CED570D004301A5 /* TChart1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TChart1ViewController.m; sourceTree = "<group>"; };
-		4E4F4DA11CED570D004301A5 /* TChart2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TChart2ViewController.h; sourceTree = "<group>"; };
-		4E4F4DA21CED570D004301A5 /* TChart2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TChart2ViewController.m; sourceTree = "<group>"; };
-		4E4F4DA31CED570D004301A5 /* TTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTableViewController.h; sourceTree = "<group>"; };
-		4E4F4DA41CED570D004301A5 /* TTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTableViewController.m; sourceTree = "<group>"; };
-		4E4F4DA71CED570D004301A5 /* TAxisXYInfoDrawingDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAxisXYInfoDrawingDataSource.h; sourceTree = "<group>"; };
-		4E4F4DA81CED570D004301A5 /* TAxisXYInfoDrawingDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAxisXYInfoDrawingDataSource.m; sourceTree = "<group>"; };
-		4E4F4DA91CED570D004301A5 /* THistogramInfoDrawingDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THistogramInfoDrawingDataSource.h; sourceTree = "<group>"; };
-		4E4F4DAA1CED570D004301A5 /* THistogramInfoDrawingDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THistogramInfoDrawingDataSource.m; sourceTree = "<group>"; };
-		4E4F4DAB1CED570D004301A5 /* TLinearInfoDrawingDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLinearInfoDrawingDataSource.h; sourceTree = "<group>"; };
-		4E4F4DAC1CED570D004301A5 /* TLinearInfoDrawingDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLinearInfoDrawingDataSource.m; sourceTree = "<group>"; };
-		4E4F4DAD1CED570D004301A5 /* TLineBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLineBaseModel.h; sourceTree = "<group>"; };
-		4E4F4DAE1CED570D004301A5 /* TLineBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLineBaseModel.m; sourceTree = "<group>"; };
-		4E4F4DAF1CED570D004301A5 /* TSMWSCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSMWSCommon.h; sourceTree = "<group>"; };
-		4E4F4DB01CED570D004301A5 /* TSMWSBaseAxisRenderer+Protected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TSMWSBaseAxisRenderer+Protected.h"; sourceTree = "<group>"; };
-		4E4F4DB11CED570D004301A5 /* TSMWSBaseAxisRenderer+Protected.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TSMWSBaseAxisRenderer+Protected.m"; sourceTree = "<group>"; };
-		4E4F4DB21CED570D004301A5 /* TSMWSBaseAxisRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSMWSBaseAxisRenderer.h; sourceTree = "<group>"; };
-		4E4F4DB31CED570D004301A5 /* TSMWSBaseAxisRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSMWSBaseAxisRenderer.m; sourceTree = "<group>"; };
-		4E4F4DB41CED570D004301A5 /* TSMWSBaseGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSMWSBaseGraphView.h; sourceTree = "<group>"; };
-		4E4F4DB51CED570D004301A5 /* TSMWSBaseGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSMWSBaseGraphView.m; sourceTree = "<group>"; };
-		4E4F4DB61CED570D004301A5 /* TSMWSDrawingStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSMWSDrawingStrategy.h; sourceTree = "<group>"; };
-		4E4F4DB71CED570D004301A5 /* TSMWSHistogramDrawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSMWSHistogramDrawing.h; sourceTree = "<group>"; };
-		4E4F4DB81CED570D004301A5 /* TSMWSHistogramDrawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSMWSHistogramDrawing.m; sourceTree = "<group>"; };
-		4E4F4DB91CED570D004301A5 /* TSMWSLinearDrawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSMWSLinearDrawing.h; sourceTree = "<group>"; };
-		4E4F4DBA1CED570D004301A5 /* TSMWSLinearDrawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSMWSLinearDrawing.m; sourceTree = "<group>"; };
-		4E4F4DBB1CED570D004301A5 /* TSMWSStandardAxisRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSMWSStandardAxisRenderer.h; sourceTree = "<group>"; };
-		4E4F4DBC1CED570D004301A5 /* TSMWSStandardAxisRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSMWSStandardAxisRenderer.m; sourceTree = "<group>"; };
-		4E4F4DF91CED63E4004301A5 /* TChart3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TChart3ViewController.h; sourceTree = "<group>"; };
-		4E4F4DFA1CED63E4004301A5 /* TChart3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TChart3ViewController.m; sourceTree = "<group>"; };
-		4ED260411CED77C400484581 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		4ED260431CED78B700484581 /* screen1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen1.png; sourceTree = "<group>"; };
-		4ED260441CED78B700484581 /* screen2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen2.png; sourceTree = "<group>"; };
+		4E89742A1CF306490021F1BD /* Document */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Document; sourceTree = "<group>"; };
+		4EB763C61CF4515D00333EC5 /* area-14.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "area-14.json"; sourceTree = "<group>"; };
+		4EB763C71CF4515D00333EC5 /* area-15.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "area-15.json"; sourceTree = "<group>"; };
+		4EB763C81CF4515D00333EC5 /* area-46.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "area-46.json"; sourceTree = "<group>"; };
+		4EB763CA1CF4515D00333EC5 /* 15-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "15-1.png"; sourceTree = "<group>"; };
+		4EB763CB1CF4515D00333EC5 /* 15-10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "15-10.png"; sourceTree = "<group>"; };
+		4EB763CC1CF4515D00333EC5 /* 15-10@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "15-10@2x.png"; sourceTree = "<group>"; };
+		4EB763CD1CF4515D00333EC5 /* 15-1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "15-1@2x.png"; sourceTree = "<group>"; };
+		4EB763CE1CF4515D00333EC5 /* 15-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "15-2.png"; sourceTree = "<group>"; };
+		4EB763CF1CF4515D00333EC5 /* 15-2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "15-2@2x.png"; sourceTree = "<group>"; };
+		4EB763D01CF4515D00333EC5 /* 15-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "15-3.png"; sourceTree = "<group>"; };
+		4EB763D11CF4515D00333EC5 /* 15-3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "15-3@2x.png"; sourceTree = "<group>"; };
+		4EB763D21CF4515D00333EC5 /* 15-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "15-4.png"; sourceTree = "<group>"; };
+		4EB763D31CF4515D00333EC5 /* 15-4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "15-4@2x.png"; sourceTree = "<group>"; };
+		4EB763D41CF4515D00333EC5 /* 15-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "15-5.png"; sourceTree = "<group>"; };
+		4EB763D51CF4515D00333EC5 /* 15-5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "15-5@2x.png"; sourceTree = "<group>"; };
+		4EB763D61CF4515D00333EC5 /* 15-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "15-6.png"; sourceTree = "<group>"; };
+		4EB763D71CF4515D00333EC5 /* 15-6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "15-6@2x.png"; sourceTree = "<group>"; };
+		4EB763D81CF4515D00333EC5 /* 15-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "15-7.png"; sourceTree = "<group>"; };
+		4EB763D91CF4515D00333EC5 /* 15-7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "15-7@2x.png"; sourceTree = "<group>"; };
+		4EB763DA1CF4515D00333EC5 /* 15-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "15-8.png"; sourceTree = "<group>"; };
+		4EB763DB1CF4515D00333EC5 /* 15-8@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "15-8@2x.png"; sourceTree = "<group>"; };
+		4EB763DC1CF4515D00333EC5 /* 15-9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "15-9.png"; sourceTree = "<group>"; };
+		4EB763DD1CF4515D00333EC5 /* 15-9@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "15-9@2x.png"; sourceTree = "<group>"; };
+		4EB763DF1CF4515D00333EC5 /* buick-1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "buick-1.json"; sourceTree = "<group>"; };
+		4EB763E01CF4515D00333EC5 /* buick-10.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "buick-10.json"; sourceTree = "<group>"; };
+		4EB763E11CF4515D00333EC5 /* buick-2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "buick-2.json"; sourceTree = "<group>"; };
+		4EB763E21CF4515D00333EC5 /* buick-3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "buick-3.json"; sourceTree = "<group>"; };
+		4EB763E31CF4515D00333EC5 /* buick-4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "buick-4.json"; sourceTree = "<group>"; };
+		4EB763E41CF4515D00333EC5 /* buick-5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "buick-5.json"; sourceTree = "<group>"; };
+		4EB763E51CF4515D00333EC5 /* buick-6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "buick-6.json"; sourceTree = "<group>"; };
+		4EB763E61CF4515D00333EC5 /* buick-7.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "buick-7.json"; sourceTree = "<group>"; };
+		4EB763E71CF4515D00333EC5 /* buick-8.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "buick-8.json"; sourceTree = "<group>"; };
+		4EB763E81CF4515D00333EC5 /* buick-9.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "buick-9.json"; sourceTree = "<group>"; };
+		4EB763EA1CF4515D00333EC5 /* 46-20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "46-20.png"; sourceTree = "<group>"; };
+		4EB763EB1CF4515D00333EC5 /* 46-20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "46-20@2x.png"; sourceTree = "<group>"; };
+		4EB763EC1CF4515D00333EC5 /* 46-21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "46-21.png"; sourceTree = "<group>"; };
+		4EB763ED1CF4515D00333EC5 /* 46-21@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "46-21@2x.png"; sourceTree = "<group>"; };
+		4EB763EE1CF4515D00333EC5 /* 46-22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "46-22.png"; sourceTree = "<group>"; };
+		4EB763EF1CF4515D00333EC5 /* 46-22@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "46-22@2x.png"; sourceTree = "<group>"; };
+		4EB763F01CF4515D00333EC5 /* 46-23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "46-23.png"; sourceTree = "<group>"; };
+		4EB763F11CF4515D00333EC5 /* 46-23@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "46-23@2x.png"; sourceTree = "<group>"; };
+		4EB763F21CF4515D00333EC5 /* 46-24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "46-24.png"; sourceTree = "<group>"; };
+		4EB763F31CF4515D00333EC5 /* 46-24@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "46-24@2x.png"; sourceTree = "<group>"; };
+		4EB763F51CF4515D00333EC5 /* cadillac-20.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "cadillac-20.json"; sourceTree = "<group>"; };
+		4EB763F61CF4515D00333EC5 /* cadillac-21.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "cadillac-21.json"; sourceTree = "<group>"; };
+		4EB763F71CF4515D00333EC5 /* cadillac-22.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "cadillac-22.json"; sourceTree = "<group>"; };
+		4EB763F81CF4515D00333EC5 /* cadillac-23.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "cadillac-23.json"; sourceTree = "<group>"; };
+		4EB763F91CF4515D00333EC5 /* cadillac-24.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "cadillac-24.json"; sourceTree = "<group>"; };
+		4EB763FB1CF4515D00333EC5 /* 14-11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "14-11.png"; sourceTree = "<group>"; };
+		4EB763FC1CF4515D00333EC5 /* 14-11@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "14-11@2x.png"; sourceTree = "<group>"; };
+		4EB763FD1CF4515D00333EC5 /* 14-12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "14-12.png"; sourceTree = "<group>"; };
+		4EB763FE1CF4515D00333EC5 /* 14-12@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "14-12@2x.png"; sourceTree = "<group>"; };
+		4EB763FF1CF4515D00333EC5 /* 14-13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "14-13.png"; sourceTree = "<group>"; };
+		4EB764001CF4515D00333EC5 /* 14-13@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "14-13@2x.png"; sourceTree = "<group>"; };
+		4EB764011CF4515D00333EC5 /* 14-14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "14-14.png"; sourceTree = "<group>"; };
+		4EB764021CF4515D00333EC5 /* 14-14@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "14-14@2x.png"; sourceTree = "<group>"; };
+		4EB764031CF4515D00333EC5 /* 14-15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "14-15.png"; sourceTree = "<group>"; };
+		4EB764041CF4515D00333EC5 /* 14-15@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "14-15@2x.png"; sourceTree = "<group>"; };
+		4EB764051CF4515D00333EC5 /* 14-16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "14-16.png"; sourceTree = "<group>"; };
+		4EB764061CF4515D00333EC5 /* 14-16@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "14-16@2x.png"; sourceTree = "<group>"; };
+		4EB764071CF4515D00333EC5 /* 14-17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "14-17.png"; sourceTree = "<group>"; };
+		4EB764081CF4515D00333EC5 /* 14-17@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "14-17@2x.png"; sourceTree = "<group>"; };
+		4EB764091CF4515D00333EC5 /* 14-18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "14-18.png"; sourceTree = "<group>"; };
+		4EB7640A1CF4515D00333EC5 /* 14-18@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "14-18@2x.png"; sourceTree = "<group>"; };
+		4EB7640B1CF4515D00333EC5 /* 14-19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "14-19.png"; sourceTree = "<group>"; };
+		4EB7640C1CF4515D00333EC5 /* 14-19@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "14-19@2x.png"; sourceTree = "<group>"; };
+		4EB7640E1CF4515D00333EC5 /* chervolet-11.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "chervolet-11.json"; sourceTree = "<group>"; };
+		4EB7640F1CF4515D00333EC5 /* chervolet-12.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "chervolet-12.json"; sourceTree = "<group>"; };
+		4EB764101CF4515D00333EC5 /* chervolet-13.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "chervolet-13.json"; sourceTree = "<group>"; };
+		4EB764111CF4515D00333EC5 /* chervolet-14.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "chervolet-14.json"; sourceTree = "<group>"; };
+		4EB764121CF4515D00333EC5 /* chervolet-15.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "chervolet-15.json"; sourceTree = "<group>"; };
+		4EB764131CF4515D00333EC5 /* chervolet-16.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "chervolet-16.json"; sourceTree = "<group>"; };
+		4EB764141CF4515D00333EC5 /* chervolet-17.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "chervolet-17.json"; sourceTree = "<group>"; };
+		4EB764151CF4515D00333EC5 /* chervolet-18.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "chervolet-18.json"; sourceTree = "<group>"; };
+		4EB764161CF4515D00333EC5 /* chervolet-19.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "chervolet-19.json"; sourceTree = "<group>"; };
+		4EB764171CF4515D00333EC5 /* china.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = china.json; sourceTree = "<group>"; };
+		4EB764191CF4515D00333EC5 /* 上海 - 10.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "上海 - 10.json"; sourceTree = "<group>"; };
+		4EB7641A1CF4515D00333EC5 /* 云南 - 25.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "云南 - 25.json"; sourceTree = "<group>"; };
+		4EB7641B1CF4515D00333EC5 /* 内蒙古 - 4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "内蒙古 - 4.json"; sourceTree = "<group>"; };
+		4EB7641C1CF4515D00333EC5 /* 北京 - 1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "北京 - 1.json"; sourceTree = "<group>"; };
+		4EB7641D1CF4515D00333EC5 /* 吉林 - 6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "吉林 - 6.json"; sourceTree = "<group>"; };
+		4EB7641E1CF4515D00333EC5 /* 四川 - 23.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "四川 - 23.json"; sourceTree = "<group>"; };
+		4EB7641F1CF4515D00333EC5 /* 天津 - 2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "天津 - 2.json"; sourceTree = "<group>"; };
+		4EB764201CF4515D00333EC5 /* 宁夏 - 29.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "宁夏 - 29.json"; sourceTree = "<group>"; };
+		4EB764211CF4515D00333EC5 /* 安徽 - 13.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "安徽 - 13.json"; sourceTree = "<group>"; };
+		4EB764221CF4515D00333EC5 /* 山东 - 8.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "山东 - 8.json"; sourceTree = "<group>"; };
+		4EB764231CF4515D00333EC5 /* 山西 - 22.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "山西 - 22.json"; sourceTree = "<group>"; };
+		4EB764241CF4515D00333EC5 /* 广东 - 18.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "广东 - 18.json"; sourceTree = "<group>"; };
+		4EB764251CF4515D00333EC5 /* 广西 - 19.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "广西 - 19.json"; sourceTree = "<group>"; };
+		4EB764261CF4515D00333EC5 /* 新疆 - 30.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "新疆 - 30.json"; sourceTree = "<group>"; };
+		4EB764271CF4515D00333EC5 /* 江苏 - 11.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "江苏 - 11.json"; sourceTree = "<group>"; };
+		4EB764281CF4515D00333EC5 /* 江西 - 16.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "江西 - 16.json"; sourceTree = "<group>"; };
+		4EB764291CF4515D00333EC5 /* 河北 - 3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "河北 - 3.json"; sourceTree = "<group>"; };
+		4EB7642A1CF4515D00333EC5 /* 河南 - 9.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "河南 - 9.json"; sourceTree = "<group>"; };
+		4EB7642B1CF4515D00333EC5 /* 浙江 - 12.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "浙江 - 12.json"; sourceTree = "<group>"; };
+		4EB7642C1CF4515D00333EC5 /* 海南 - 20.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "海南 - 20.json"; sourceTree = "<group>"; };
+		4EB7642D1CF4515D00333EC5 /* 湖北 - 14.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "湖北 - 14.json"; sourceTree = "<group>"; };
+		4EB7642E1CF4515D00333EC5 /* 湖南 - 17.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "湖南 - 17.json"; sourceTree = "<group>"; };
+		4EB7642F1CF4515D00333EC5 /* 甘肃 - 27.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "甘肃 - 27.json"; sourceTree = "<group>"; };
+		4EB764301CF4515D00333EC5 /* 福建 - 15.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "福建 - 15.json"; sourceTree = "<group>"; };
+		4EB764311CF4515D00333EC5 /* 西藏 - 31.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "西藏 - 31.json"; sourceTree = "<group>"; };
+		4EB764321CF4515D00333EC5 /* 贵州 - 24.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "贵州 - 24.json"; sourceTree = "<group>"; };
+		4EB764331CF4515D00333EC5 /* 辽宁 - 5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "辽宁 - 5.json"; sourceTree = "<group>"; };
+		4EB764341CF4515D00333EC5 /* 重庆 - 21.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "重庆 - 21.json"; sourceTree = "<group>"; };
+		4EB764351CF4515D00333EC5 /* 陕西 - 26.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "陕西 - 26.json"; sourceTree = "<group>"; };
+		4EB764361CF4515D00333EC5 /* 青海 - 28.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "青海 - 28.json"; sourceTree = "<group>"; };
+		4EB764371CF4515D00333EC5 /* 黑龙江 - 7.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "黑龙江 - 7.json"; sourceTree = "<group>"; };
+		4EB764391CF4515D00333EC5 /* china.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = china.json; sourceTree = "<group>"; };
+		4EB7643B1CF4515D00333EC5 /* 上海 - 10.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "上海 - 10.json"; sourceTree = "<group>"; };
+		4EB7643C1CF4515D00333EC5 /* 云南 - 25.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "云南 - 25.json"; sourceTree = "<group>"; };
+		4EB7643D1CF4515D00333EC5 /* 内蒙古 - 4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "内蒙古 - 4.json"; sourceTree = "<group>"; };
+		4EB7643E1CF4515D00333EC5 /* 北京 - 1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "北京 - 1.json"; sourceTree = "<group>"; };
+		4EB7643F1CF4515D00333EC5 /* 吉林 - 6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "吉林 - 6.json"; sourceTree = "<group>"; };
+		4EB764401CF4515D00333EC5 /* 四川 - 23.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "四川 - 23.json"; sourceTree = "<group>"; };
+		4EB764411CF4515D00333EC5 /* 天津 - 2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "天津 - 2.json"; sourceTree = "<group>"; };
+		4EB764421CF4515D00333EC5 /* 宁夏 - 29.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "宁夏 - 29.json"; sourceTree = "<group>"; };
+		4EB764431CF4515D00333EC5 /* 安徽 - 13.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "安徽 - 13.json"; sourceTree = "<group>"; };
+		4EB764441CF4515D00333EC5 /* 山东 - 8.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "山东 - 8.json"; sourceTree = "<group>"; };
+		4EB764451CF4515D00333EC5 /* 山西 - 22.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "山西 - 22.json"; sourceTree = "<group>"; };
+		4EB764461CF4515D00333EC5 /* 广东 - 18.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "广东 - 18.json"; sourceTree = "<group>"; };
+		4EB764471CF4515D00333EC5 /* 广西 - 19.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "广西 - 19.json"; sourceTree = "<group>"; };
+		4EB764481CF4515D00333EC5 /* 新疆 - 30.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "新疆 - 30.json"; sourceTree = "<group>"; };
+		4EB764491CF4515D00333EC5 /* 江苏 - 11.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "江苏 - 11.json"; sourceTree = "<group>"; };
+		4EB7644A1CF4515D00333EC5 /* 江西 - 16.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "江西 - 16.json"; sourceTree = "<group>"; };
+		4EB7644B1CF4515D00333EC5 /* 河北 - 3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "河北 - 3.json"; sourceTree = "<group>"; };
+		4EB7644C1CF4515D00333EC5 /* 河南 - 9.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "河南 - 9.json"; sourceTree = "<group>"; };
+		4EB7644D1CF4515D00333EC5 /* 浙江 - 12.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "浙江 - 12.json"; sourceTree = "<group>"; };
+		4EB7644E1CF4515D00333EC5 /* 海南 - 20.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "海南 - 20.json"; sourceTree = "<group>"; };
+		4EB7644F1CF4515D00333EC5 /* 湖北 - 14.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "湖北 - 14.json"; sourceTree = "<group>"; };
+		4EB764501CF4515D00333EC5 /* 湖南 - 17.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "湖南 - 17.json"; sourceTree = "<group>"; };
+		4EB764511CF4515D00333EC5 /* 甘肃 - 27.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "甘肃 - 27.json"; sourceTree = "<group>"; };
+		4EB764521CF4515D00333EC5 /* 福建 - 15.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "福建 - 15.json"; sourceTree = "<group>"; };
+		4EB764531CF4515D00333EC5 /* 西藏 - 31.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "西藏 - 31.json"; sourceTree = "<group>"; };
+		4EB764541CF4515D00333EC5 /* 贵州 - 24.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "贵州 - 24.json"; sourceTree = "<group>"; };
+		4EB764551CF4515D00333EC5 /* 辽宁 - 5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "辽宁 - 5.json"; sourceTree = "<group>"; };
+		4EB764561CF4515D00333EC5 /* 重庆 - 21.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "重庆 - 21.json"; sourceTree = "<group>"; };
+		4EB764571CF4515D00333EC5 /* 陕西 - 26.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "陕西 - 26.json"; sourceTree = "<group>"; };
+		4EB764581CF4515D00333EC5 /* 青海 - 28.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "青海 - 28.json"; sourceTree = "<group>"; };
+		4EB764591CF4515D00333EC5 /* 黑龙江 - 7.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "黑龙江 - 7.json"; sourceTree = "<group>"; };
+		4EB7645A1CF4515D00333EC5 /* WSChinaMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSChinaMapViewController.h; sourceTree = "<group>"; };
+		4EB7645B1CF4515D00333EC5 /* WSChinaMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSChinaMapViewController.m; sourceTree = "<group>"; };
+		4EB7645F1CF4515D00333EC5 /* HTFirstLetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTFirstLetter.h; sourceTree = "<group>"; };
+		4EB764601CF4515D00333EC5 /* HTFirstLetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTFirstLetter.m; sourceTree = "<group>"; };
+		4EB764611CF4515D00333EC5 /* NSArray+FirstLetterArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+FirstLetterArray.h"; sourceTree = "<group>"; };
+		4EB764621CF4515D00333EC5 /* NSArray+FirstLetterArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+FirstLetterArray.m"; sourceTree = "<group>"; };
+		4EB764631CF4515D00333EC5 /* NSString+FirstLetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FirstLetter.h"; sourceTree = "<group>"; };
+		4EB764641CF4515D00333EC5 /* NSString+FirstLetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FirstLetter.m"; sourceTree = "<group>"; };
+		4EB764651CF4515D00333EC5 /* POAPinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POAPinyin.h; sourceTree = "<group>"; };
+		4EB764661CF4515D00333EC5 /* POAPinyin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POAPinyin.m; sourceTree = "<group>"; };
+		4EB764691CF4515D00333EC5 /* TAxisXYInfoDrawingDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAxisXYInfoDrawingDataSource.h; sourceTree = "<group>"; };
+		4EB7646A1CF4515D00333EC5 /* TAxisXYInfoDrawingDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAxisXYInfoDrawingDataSource.m; sourceTree = "<group>"; };
+		4EB7646B1CF4515D00333EC5 /* THistogramInfoDrawingDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THistogramInfoDrawingDataSource.h; sourceTree = "<group>"; };
+		4EB7646C1CF4515D00333EC5 /* THistogramInfoDrawingDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THistogramInfoDrawingDataSource.m; sourceTree = "<group>"; };
+		4EB7646D1CF4515D00333EC5 /* TLinearInfoDrawingDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLinearInfoDrawingDataSource.h; sourceTree = "<group>"; };
+		4EB7646E1CF4515D00333EC5 /* TLinearInfoDrawingDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLinearInfoDrawingDataSource.m; sourceTree = "<group>"; };
+		4EB7646F1CF4515D00333EC5 /* TLineBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLineBaseModel.h; sourceTree = "<group>"; };
+		4EB764701CF4515D00333EC5 /* TLineBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLineBaseModel.m; sourceTree = "<group>"; };
+		4EB764711CF4515D00333EC5 /* TSMWSCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSMWSCommon.h; sourceTree = "<group>"; };
+		4EB764721CF4515D00333EC5 /* TSMWSBaseAxisRenderer+Protected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TSMWSBaseAxisRenderer+Protected.h"; sourceTree = "<group>"; };
+		4EB764731CF4515D00333EC5 /* TSMWSBaseAxisRenderer+Protected.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TSMWSBaseAxisRenderer+Protected.m"; sourceTree = "<group>"; };
+		4EB764741CF4515D00333EC5 /* TSMWSBaseAxisRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSMWSBaseAxisRenderer.h; sourceTree = "<group>"; };
+		4EB764751CF4515D00333EC5 /* TSMWSBaseAxisRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSMWSBaseAxisRenderer.m; sourceTree = "<group>"; };
+		4EB764761CF4515D00333EC5 /* TSMWSBaseGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSMWSBaseGraphView.h; sourceTree = "<group>"; };
+		4EB764771CF4515D00333EC5 /* TSMWSBaseGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSMWSBaseGraphView.m; sourceTree = "<group>"; };
+		4EB764781CF4515D00333EC5 /* TSMWSDrawingStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSMWSDrawingStrategy.h; sourceTree = "<group>"; };
+		4EB764791CF4515D00333EC5 /* TSMWSHistogramDrawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSMWSHistogramDrawing.h; sourceTree = "<group>"; };
+		4EB7647A1CF4515D00333EC5 /* TSMWSHistogramDrawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSMWSHistogramDrawing.m; sourceTree = "<group>"; };
+		4EB7647B1CF4515D00333EC5 /* TSMWSLinearDrawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSMWSLinearDrawing.h; sourceTree = "<group>"; };
+		4EB7647C1CF4515D00333EC5 /* TSMWSLinearDrawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSMWSLinearDrawing.m; sourceTree = "<group>"; };
+		4EB7647D1CF4515D00333EC5 /* TSMWSStandardAxisRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSMWSStandardAxisRenderer.h; sourceTree = "<group>"; };
+		4EB7647E1CF4515D00333EC5 /* TSMWSStandardAxisRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSMWSStandardAxisRenderer.m; sourceTree = "<group>"; };
+		4EB7651C1CF4516900333EC5 /* TChart1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TChart1ViewController.h; sourceTree = "<group>"; };
+		4EB7651D1CF4516900333EC5 /* TChart1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TChart1ViewController.m; sourceTree = "<group>"; };
+		4EB7651E1CF4516900333EC5 /* TChart2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TChart2ViewController.h; sourceTree = "<group>"; };
+		4EB7651F1CF4516900333EC5 /* TChart2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TChart2ViewController.m; sourceTree = "<group>"; };
+		4EB765201CF4516900333EC5 /* TChart3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TChart3ViewController.h; sourceTree = "<group>"; };
+		4EB765211CF4516900333EC5 /* TChart3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TChart3ViewController.m; sourceTree = "<group>"; };
+		4EB765221CF4516900333EC5 /* TChart4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TChart4ViewController.h; sourceTree = "<group>"; };
+		4EB765231CF4516900333EC5 /* TChart4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TChart4ViewController.m; sourceTree = "<group>"; };
+		4EB765241CF4516900333EC5 /* TChart5ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TChart5ViewController.h; sourceTree = "<group>"; };
+		4EB765251CF4516900333EC5 /* TChart5ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TChart5ViewController.m; sourceTree = "<group>"; };
+		4EB765271CF4516900333EC5 /* TTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTableViewController.h; sourceTree = "<group>"; };
+		4EB765281CF4516900333EC5 /* TTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTableViewController.m; sourceTree = "<group>"; };
+		4EB765301CF451B100333EC5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4EB765311CF451B100333EC5 /* screen1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen1.png; sourceTree = "<group>"; };
+		4EB765321CF451B100333EC5 /* screen2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen2.png; sourceTree = "<group>"; };
+		4EB765371CF4537000333EC5 /* OBShapedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBShapedButton.h; sourceTree = "<group>"; };
+		4EB765381CF4537000333EC5 /* OBShapedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBShapedButton.m; sourceTree = "<group>"; };
+		4EB7653C1CF4543B00333EC5 /* WSAreaInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSAreaInfo.h; sourceTree = "<group>"; };
+		4EB7653D1CF4543B00333EC5 /* WSAreaInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSAreaInfo.m; sourceTree = "<group>"; };
+		4EB765421CF4569E00333EC5 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		4EB765431CF4569E00333EC5 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		4EB765461CF4573F00333EC5 /* UIImage+ColorAtPixel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ColorAtPixel.h"; sourceTree = "<group>"; };
+		4EB765471CF4573F00333EC5 /* UIImage+ColorAtPixel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ColorAtPixel.m"; sourceTree = "<group>"; };
+		4EB765491CF45A9500333EC5 /* AreaInfoJson.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AreaInfoJson.geojson; sourceTree = "<group>"; };
+		4ED83B5A1CF57B94008A213D /* XLLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLLayout.h; sourceTree = "<group>"; };
+		4ED83B5B1CF57B94008A213D /* XLLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLLayout.m; sourceTree = "<group>"; };
+		4ED83B5C1CF57B94008A213D /* XLPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPhotoCell.h; sourceTree = "<group>"; };
+		4ED83B5D1CF57B94008A213D /* XLPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLPhotoCell.m; sourceTree = "<group>"; };
+		4ED83B5E1CF57B94008A213D /* XLPhotoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XLPhotoCell.xib; sourceTree = "<group>"; };
+		4ED83B651CF57C1B008A213D /* CoverFlow1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoverFlow1ViewController.h; sourceTree = "<group>"; };
+		4ED83B661CF57C1B008A213D /* CoverFlow1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoverFlow1ViewController.m; sourceTree = "<group>"; };
+		4ED83B7B1CF581E6008A213D /* CoverFlow2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoverFlow2ViewController.h; sourceTree = "<group>"; };
+		4ED83B7C1CF581E6008A213D /* CoverFlow2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoverFlow2ViewController.m; sourceTree = "<group>"; };
 		4EDD81B21CEEEF1400DDF834 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Charts.xcodeproj; sourceTree = "<group>"; };
 		4EDD81B61CEEEF1400DDF834 /* ChartsTV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartsTV.h; sourceTree = "<group>"; };
 		4EDD81B71CEEEF1400DDF834 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -549,8 +827,6 @@
 		4EDD821F1CEEEF1400DDF834 /* Charts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Charts.h; sourceTree = "<group>"; };
 		4EDD82201CEEEF1400DDF834 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EDD833E1CEEEF9E00DDF834 /* TSMWSChartPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSMWSChartPrefixHeader.pch; sourceTree = "<group>"; };
-		4EDD833F1CEEF25500DDF834 /* TChart4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TChart4ViewController.h; sourceTree = "<group>"; };
-		4EDD83401CEEF25500DDF834 /* TChart4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TChart4ViewController.m; sourceTree = "<group>"; };
 		919146E287F46529149D1569 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5611418AD0DD795458B8E59 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -593,6 +869,8 @@
 		4E4F4D4D1CED567F004301A5 = {
 			isa = PBXGroup;
 			children = (
+				4E89742A1CF306490021F1BD /* Document */,
+				4EB7652F1CF451B100333EC5 /* ReadMe */,
 				4EDD81B11CEEEF1400DDF834 /* Charts */,
 				4E4F4D581CED567F004301A5 /* TSMWSChart */,
 				4E4F4D751CED567F004301A5 /* TSMWSChartTests */,
@@ -616,23 +894,10 @@
 		4E4F4D581CED567F004301A5 /* TSMWSChart */ = {
 			isa = PBXGroup;
 			children = (
-				4ED260431CED78B700484581 /* screen1.png */,
-				4ED260441CED78B700484581 /* screen2.png */,
-				4ED260411CED77C400484581 /* README.md */,
-				4E4F4D961CED570D004301A5 /* Pinyin */,
-				4E4F4DA51CED570D004301A5 /* WSAnalysisGraph */,
+				4EB763C31CF4515D00333EC5 /* Lib */,
+				4EB7651A1CF4516900333EC5 /* ViewContoller */,
 				4E4F4D8F1CED570D004301A5 /* AppDelegate.h */,
 				4E4F4D901CED570D004301A5 /* AppDelegate.m */,
-				4E4F4DA31CED570D004301A5 /* TTableViewController.h */,
-				4E4F4DA41CED570D004301A5 /* TTableViewController.m */,
-				4E4F4D9F1CED570D004301A5 /* TChart1ViewController.h */,
-				4E4F4DA01CED570D004301A5 /* TChart1ViewController.m */,
-				4E4F4DA11CED570D004301A5 /* TChart2ViewController.h */,
-				4E4F4DA21CED570D004301A5 /* TChart2ViewController.m */,
-				4E4F4DF91CED63E4004301A5 /* TChart3ViewController.h */,
-				4E4F4DFA1CED63E4004301A5 /* TChart3ViewController.m */,
-				4EDD833F1CEEF25500DDF834 /* TChart4ViewController.h */,
-				4EDD83401CEEF25500DDF834 /* TChart4ViewController.m */,
 				4E4F4D681CED567F004301A5 /* Assets.xcassets */,
 				4E4F4D6D1CED567F004301A5 /* Info.plist */,
 				4EDD833E1CEEEF9E00DDF834 /* TSMWSChartPrefixHeader.pch */,
@@ -678,56 +943,406 @@
 			path = Base.lproj;
 			sourceTree = "<group>";
 		};
-		4E4F4D961CED570D004301A5 /* Pinyin */ = {
+		4EB763C31CF4515D00333EC5 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
-				4E4F4D971CED570D004301A5 /* HTFirstLetter.h */,
-				4E4F4D981CED570D004301A5 /* HTFirstLetter.m */,
-				4E4F4D991CED570D004301A5 /* NSArray+FirstLetterArray.h */,
-				4E4F4D9A1CED570D004301A5 /* NSArray+FirstLetterArray.m */,
-				4E4F4D9B1CED570D004301A5 /* NSString+FirstLetter.h */,
-				4E4F4D9C1CED570D004301A5 /* NSString+FirstLetter.m */,
-				4E4F4D9D1CED570D004301A5 /* POAPinyin.h */,
-				4E4F4D9E1CED570D004301A5 /* POAPinyin.m */,
+				4ED83B591CF57B94008A213D /* XLLayout */,
+				4EB763C41CF4515D00333EC5 /* ChinaMapView */,
+				4EB7645E1CF4515D00333EC5 /* Pinyin */,
+				4EB764671CF4515D00333EC5 /* WSAnalysisGraph */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		4EB763C41CF4515D00333EC5 /* ChinaMapView */ = {
+			isa = PBXGroup;
+			children = (
+				4EB765411CF4569E00333EC5 /* JSONKit */,
+				4EB7653B1CF4543B00333EC5 /* Model */,
+				4EB765361CF4537000333EC5 /* OBShapedButton */,
+				4EB763C51CF4515D00333EC5 /* mapResources */,
+				4EB764381CF4515D00333EC5 /* maps */,
+				4EB7645A1CF4515D00333EC5 /* WSChinaMapViewController.h */,
+				4EB7645B1CF4515D00333EC5 /* WSChinaMapViewController.m */,
+			);
+			path = ChinaMapView;
+			sourceTree = "<group>";
+		};
+		4EB763C51CF4515D00333EC5 /* mapResources */ = {
+			isa = PBXGroup;
+			children = (
+				4EB763C61CF4515D00333EC5 /* area-14.json */,
+				4EB763C71CF4515D00333EC5 /* area-15.json */,
+				4EB763C81CF4515D00333EC5 /* area-46.json */,
+				4EB763C91CF4515D00333EC5 /* buick */,
+				4EB763E91CF4515D00333EC5 /* cadillac */,
+				4EB763FA1CF4515D00333EC5 /* chervolet */,
+				4EB764171CF4515D00333EC5 /* china.json */,
+				4EB764181CF4515D00333EC5 /* provinces */,
+			);
+			path = mapResources;
+			sourceTree = "<group>";
+		};
+		4EB763C91CF4515D00333EC5 /* buick */ = {
+			isa = PBXGroup;
+			children = (
+				4EB763CA1CF4515D00333EC5 /* 15-1.png */,
+				4EB763CB1CF4515D00333EC5 /* 15-10.png */,
+				4EB763CC1CF4515D00333EC5 /* 15-10@2x.png */,
+				4EB763CD1CF4515D00333EC5 /* 15-1@2x.png */,
+				4EB763CE1CF4515D00333EC5 /* 15-2.png */,
+				4EB763CF1CF4515D00333EC5 /* 15-2@2x.png */,
+				4EB763D01CF4515D00333EC5 /* 15-3.png */,
+				4EB763D11CF4515D00333EC5 /* 15-3@2x.png */,
+				4EB763D21CF4515D00333EC5 /* 15-4.png */,
+				4EB763D31CF4515D00333EC5 /* 15-4@2x.png */,
+				4EB763D41CF4515D00333EC5 /* 15-5.png */,
+				4EB763D51CF4515D00333EC5 /* 15-5@2x.png */,
+				4EB763D61CF4515D00333EC5 /* 15-6.png */,
+				4EB763D71CF4515D00333EC5 /* 15-6@2x.png */,
+				4EB763D81CF4515D00333EC5 /* 15-7.png */,
+				4EB763D91CF4515D00333EC5 /* 15-7@2x.png */,
+				4EB763DA1CF4515D00333EC5 /* 15-8.png */,
+				4EB763DB1CF4515D00333EC5 /* 15-8@2x.png */,
+				4EB763DC1CF4515D00333EC5 /* 15-9.png */,
+				4EB763DD1CF4515D00333EC5 /* 15-9@2x.png */,
+				4EB763DE1CF4515D00333EC5 /* buick */,
+			);
+			path = buick;
+			sourceTree = "<group>";
+		};
+		4EB763DE1CF4515D00333EC5 /* buick */ = {
+			isa = PBXGroup;
+			children = (
+				4EB763DF1CF4515D00333EC5 /* buick-1.json */,
+				4EB763E01CF4515D00333EC5 /* buick-10.json */,
+				4EB763E11CF4515D00333EC5 /* buick-2.json */,
+				4EB763E21CF4515D00333EC5 /* buick-3.json */,
+				4EB763E31CF4515D00333EC5 /* buick-4.json */,
+				4EB763E41CF4515D00333EC5 /* buick-5.json */,
+				4EB763E51CF4515D00333EC5 /* buick-6.json */,
+				4EB763E61CF4515D00333EC5 /* buick-7.json */,
+				4EB763E71CF4515D00333EC5 /* buick-8.json */,
+				4EB763E81CF4515D00333EC5 /* buick-9.json */,
+			);
+			path = buick;
+			sourceTree = "<group>";
+		};
+		4EB763E91CF4515D00333EC5 /* cadillac */ = {
+			isa = PBXGroup;
+			children = (
+				4EB763EA1CF4515D00333EC5 /* 46-20.png */,
+				4EB763EB1CF4515D00333EC5 /* 46-20@2x.png */,
+				4EB763EC1CF4515D00333EC5 /* 46-21.png */,
+				4EB763ED1CF4515D00333EC5 /* 46-21@2x.png */,
+				4EB763EE1CF4515D00333EC5 /* 46-22.png */,
+				4EB763EF1CF4515D00333EC5 /* 46-22@2x.png */,
+				4EB763F01CF4515D00333EC5 /* 46-23.png */,
+				4EB763F11CF4515D00333EC5 /* 46-23@2x.png */,
+				4EB763F21CF4515D00333EC5 /* 46-24.png */,
+				4EB763F31CF4515D00333EC5 /* 46-24@2x.png */,
+				4EB763F41CF4515D00333EC5 /* cadillac */,
+			);
+			path = cadillac;
+			sourceTree = "<group>";
+		};
+		4EB763F41CF4515D00333EC5 /* cadillac */ = {
+			isa = PBXGroup;
+			children = (
+				4EB763F51CF4515D00333EC5 /* cadillac-20.json */,
+				4EB763F61CF4515D00333EC5 /* cadillac-21.json */,
+				4EB763F71CF4515D00333EC5 /* cadillac-22.json */,
+				4EB763F81CF4515D00333EC5 /* cadillac-23.json */,
+				4EB763F91CF4515D00333EC5 /* cadillac-24.json */,
+			);
+			path = cadillac;
+			sourceTree = "<group>";
+		};
+		4EB763FA1CF4515D00333EC5 /* chervolet */ = {
+			isa = PBXGroup;
+			children = (
+				4EB763FB1CF4515D00333EC5 /* 14-11.png */,
+				4EB763FC1CF4515D00333EC5 /* 14-11@2x.png */,
+				4EB763FD1CF4515D00333EC5 /* 14-12.png */,
+				4EB763FE1CF4515D00333EC5 /* 14-12@2x.png */,
+				4EB763FF1CF4515D00333EC5 /* 14-13.png */,
+				4EB764001CF4515D00333EC5 /* 14-13@2x.png */,
+				4EB764011CF4515D00333EC5 /* 14-14.png */,
+				4EB764021CF4515D00333EC5 /* 14-14@2x.png */,
+				4EB764031CF4515D00333EC5 /* 14-15.png */,
+				4EB764041CF4515D00333EC5 /* 14-15@2x.png */,
+				4EB764051CF4515D00333EC5 /* 14-16.png */,
+				4EB764061CF4515D00333EC5 /* 14-16@2x.png */,
+				4EB764071CF4515D00333EC5 /* 14-17.png */,
+				4EB764081CF4515D00333EC5 /* 14-17@2x.png */,
+				4EB764091CF4515D00333EC5 /* 14-18.png */,
+				4EB7640A1CF4515D00333EC5 /* 14-18@2x.png */,
+				4EB7640B1CF4515D00333EC5 /* 14-19.png */,
+				4EB7640C1CF4515D00333EC5 /* 14-19@2x.png */,
+				4EB7640D1CF4515D00333EC5 /* chervolet */,
+			);
+			path = chervolet;
+			sourceTree = "<group>";
+		};
+		4EB7640D1CF4515D00333EC5 /* chervolet */ = {
+			isa = PBXGroup;
+			children = (
+				4EB7640E1CF4515D00333EC5 /* chervolet-11.json */,
+				4EB7640F1CF4515D00333EC5 /* chervolet-12.json */,
+				4EB764101CF4515D00333EC5 /* chervolet-13.json */,
+				4EB764111CF4515D00333EC5 /* chervolet-14.json */,
+				4EB764121CF4515D00333EC5 /* chervolet-15.json */,
+				4EB764131CF4515D00333EC5 /* chervolet-16.json */,
+				4EB764141CF4515D00333EC5 /* chervolet-17.json */,
+				4EB764151CF4515D00333EC5 /* chervolet-18.json */,
+				4EB764161CF4515D00333EC5 /* chervolet-19.json */,
+			);
+			path = chervolet;
+			sourceTree = "<group>";
+		};
+		4EB764181CF4515D00333EC5 /* provinces */ = {
+			isa = PBXGroup;
+			children = (
+				4EB764191CF4515D00333EC5 /* 上海 - 10.json */,
+				4EB7641A1CF4515D00333EC5 /* 云南 - 25.json */,
+				4EB7641B1CF4515D00333EC5 /* 内蒙古 - 4.json */,
+				4EB7641C1CF4515D00333EC5 /* 北京 - 1.json */,
+				4EB7641D1CF4515D00333EC5 /* 吉林 - 6.json */,
+				4EB7641E1CF4515D00333EC5 /* 四川 - 23.json */,
+				4EB7641F1CF4515D00333EC5 /* 天津 - 2.json */,
+				4EB764201CF4515D00333EC5 /* 宁夏 - 29.json */,
+				4EB764211CF4515D00333EC5 /* 安徽 - 13.json */,
+				4EB764221CF4515D00333EC5 /* 山东 - 8.json */,
+				4EB764231CF4515D00333EC5 /* 山西 - 22.json */,
+				4EB764241CF4515D00333EC5 /* 广东 - 18.json */,
+				4EB764251CF4515D00333EC5 /* 广西 - 19.json */,
+				4EB764261CF4515D00333EC5 /* 新疆 - 30.json */,
+				4EB764271CF4515D00333EC5 /* 江苏 - 11.json */,
+				4EB764281CF4515D00333EC5 /* 江西 - 16.json */,
+				4EB764291CF4515D00333EC5 /* 河北 - 3.json */,
+				4EB7642A1CF4515D00333EC5 /* 河南 - 9.json */,
+				4EB7642B1CF4515D00333EC5 /* 浙江 - 12.json */,
+				4EB7642C1CF4515D00333EC5 /* 海南 - 20.json */,
+				4EB7642D1CF4515D00333EC5 /* 湖北 - 14.json */,
+				4EB7642E1CF4515D00333EC5 /* 湖南 - 17.json */,
+				4EB7642F1CF4515D00333EC5 /* 甘肃 - 27.json */,
+				4EB764301CF4515D00333EC5 /* 福建 - 15.json */,
+				4EB764311CF4515D00333EC5 /* 西藏 - 31.json */,
+				4EB764321CF4515D00333EC5 /* 贵州 - 24.json */,
+				4EB764331CF4515D00333EC5 /* 辽宁 - 5.json */,
+				4EB764341CF4515D00333EC5 /* 重庆 - 21.json */,
+				4EB764351CF4515D00333EC5 /* 陕西 - 26.json */,
+				4EB764361CF4515D00333EC5 /* 青海 - 28.json */,
+				4EB764371CF4515D00333EC5 /* 黑龙江 - 7.json */,
+			);
+			path = provinces;
+			sourceTree = "<group>";
+		};
+		4EB764381CF4515D00333EC5 /* maps */ = {
+			isa = PBXGroup;
+			children = (
+				4EB764391CF4515D00333EC5 /* china.json */,
+				4EB7643A1CF4515D00333EC5 /* provinces */,
+			);
+			path = maps;
+			sourceTree = "<group>";
+		};
+		4EB7643A1CF4515D00333EC5 /* provinces */ = {
+			isa = PBXGroup;
+			children = (
+				4EB7643B1CF4515D00333EC5 /* 上海 - 10.json */,
+				4EB7643C1CF4515D00333EC5 /* 云南 - 25.json */,
+				4EB7643D1CF4515D00333EC5 /* 内蒙古 - 4.json */,
+				4EB7643E1CF4515D00333EC5 /* 北京 - 1.json */,
+				4EB7643F1CF4515D00333EC5 /* 吉林 - 6.json */,
+				4EB764401CF4515D00333EC5 /* 四川 - 23.json */,
+				4EB764411CF4515D00333EC5 /* 天津 - 2.json */,
+				4EB764421CF4515D00333EC5 /* 宁夏 - 29.json */,
+				4EB764431CF4515D00333EC5 /* 安徽 - 13.json */,
+				4EB764441CF4515D00333EC5 /* 山东 - 8.json */,
+				4EB764451CF4515D00333EC5 /* 山西 - 22.json */,
+				4EB764461CF4515D00333EC5 /* 广东 - 18.json */,
+				4EB764471CF4515D00333EC5 /* 广西 - 19.json */,
+				4EB764481CF4515D00333EC5 /* 新疆 - 30.json */,
+				4EB764491CF4515D00333EC5 /* 江苏 - 11.json */,
+				4EB7644A1CF4515D00333EC5 /* 江西 - 16.json */,
+				4EB7644B1CF4515D00333EC5 /* 河北 - 3.json */,
+				4EB7644C1CF4515D00333EC5 /* 河南 - 9.json */,
+				4EB7644D1CF4515D00333EC5 /* 浙江 - 12.json */,
+				4EB7644E1CF4515D00333EC5 /* 海南 - 20.json */,
+				4EB7644F1CF4515D00333EC5 /* 湖北 - 14.json */,
+				4EB764501CF4515D00333EC5 /* 湖南 - 17.json */,
+				4EB764511CF4515D00333EC5 /* 甘肃 - 27.json */,
+				4EB764521CF4515D00333EC5 /* 福建 - 15.json */,
+				4EB764531CF4515D00333EC5 /* 西藏 - 31.json */,
+				4EB764541CF4515D00333EC5 /* 贵州 - 24.json */,
+				4EB764551CF4515D00333EC5 /* 辽宁 - 5.json */,
+				4EB764561CF4515D00333EC5 /* 重庆 - 21.json */,
+				4EB764571CF4515D00333EC5 /* 陕西 - 26.json */,
+				4EB764581CF4515D00333EC5 /* 青海 - 28.json */,
+				4EB764591CF4515D00333EC5 /* 黑龙江 - 7.json */,
+			);
+			path = provinces;
+			sourceTree = "<group>";
+		};
+		4EB7645E1CF4515D00333EC5 /* Pinyin */ = {
+			isa = PBXGroup;
+			children = (
+				4EB7645F1CF4515D00333EC5 /* HTFirstLetter.h */,
+				4EB764601CF4515D00333EC5 /* HTFirstLetter.m */,
+				4EB764611CF4515D00333EC5 /* NSArray+FirstLetterArray.h */,
+				4EB764621CF4515D00333EC5 /* NSArray+FirstLetterArray.m */,
+				4EB764631CF4515D00333EC5 /* NSString+FirstLetter.h */,
+				4EB764641CF4515D00333EC5 /* NSString+FirstLetter.m */,
+				4EB764651CF4515D00333EC5 /* POAPinyin.h */,
+				4EB764661CF4515D00333EC5 /* POAPinyin.m */,
 			);
 			path = Pinyin;
 			sourceTree = "<group>";
 		};
-		4E4F4DA51CED570D004301A5 /* WSAnalysisGraph */ = {
+		4EB764671CF4515D00333EC5 /* WSAnalysisGraph */ = {
 			isa = PBXGroup;
 			children = (
-				4E4F4DA61CED570D004301A5 /* Service */,
-				4E4F4DB01CED570D004301A5 /* TSMWSBaseAxisRenderer+Protected.h */,
-				4E4F4DB11CED570D004301A5 /* TSMWSBaseAxisRenderer+Protected.m */,
-				4E4F4DB21CED570D004301A5 /* TSMWSBaseAxisRenderer.h */,
-				4E4F4DB31CED570D004301A5 /* TSMWSBaseAxisRenderer.m */,
-				4E4F4DB41CED570D004301A5 /* TSMWSBaseGraphView.h */,
-				4E4F4DB51CED570D004301A5 /* TSMWSBaseGraphView.m */,
-				4E4F4DB61CED570D004301A5 /* TSMWSDrawingStrategy.h */,
-				4E4F4DB71CED570D004301A5 /* TSMWSHistogramDrawing.h */,
-				4E4F4DB81CED570D004301A5 /* TSMWSHistogramDrawing.m */,
-				4E4F4DB91CED570D004301A5 /* TSMWSLinearDrawing.h */,
-				4E4F4DBA1CED570D004301A5 /* TSMWSLinearDrawing.m */,
-				4E4F4DBB1CED570D004301A5 /* TSMWSStandardAxisRenderer.h */,
-				4E4F4DBC1CED570D004301A5 /* TSMWSStandardAxisRenderer.m */,
+				4EB764681CF4515D00333EC5 /* Service */,
+				4EB764721CF4515D00333EC5 /* TSMWSBaseAxisRenderer+Protected.h */,
+				4EB764731CF4515D00333EC5 /* TSMWSBaseAxisRenderer+Protected.m */,
+				4EB764741CF4515D00333EC5 /* TSMWSBaseAxisRenderer.h */,
+				4EB764751CF4515D00333EC5 /* TSMWSBaseAxisRenderer.m */,
+				4EB764761CF4515D00333EC5 /* TSMWSBaseGraphView.h */,
+				4EB764771CF4515D00333EC5 /* TSMWSBaseGraphView.m */,
+				4EB764781CF4515D00333EC5 /* TSMWSDrawingStrategy.h */,
+				4EB764791CF4515D00333EC5 /* TSMWSHistogramDrawing.h */,
+				4EB7647A1CF4515D00333EC5 /* TSMWSHistogramDrawing.m */,
+				4EB7647B1CF4515D00333EC5 /* TSMWSLinearDrawing.h */,
+				4EB7647C1CF4515D00333EC5 /* TSMWSLinearDrawing.m */,
+				4EB7647D1CF4515D00333EC5 /* TSMWSStandardAxisRenderer.h */,
+				4EB7647E1CF4515D00333EC5 /* TSMWSStandardAxisRenderer.m */,
 			);
 			path = WSAnalysisGraph;
 			sourceTree = "<group>";
 		};
-		4E4F4DA61CED570D004301A5 /* Service */ = {
+		4EB764681CF4515D00333EC5 /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				4E4F4DA71CED570D004301A5 /* TAxisXYInfoDrawingDataSource.h */,
-				4E4F4DA81CED570D004301A5 /* TAxisXYInfoDrawingDataSource.m */,
-				4E4F4DA91CED570D004301A5 /* THistogramInfoDrawingDataSource.h */,
-				4E4F4DAA1CED570D004301A5 /* THistogramInfoDrawingDataSource.m */,
-				4E4F4DAB1CED570D004301A5 /* TLinearInfoDrawingDataSource.h */,
-				4E4F4DAC1CED570D004301A5 /* TLinearInfoDrawingDataSource.m */,
-				4E4F4DAD1CED570D004301A5 /* TLineBaseModel.h */,
-				4E4F4DAE1CED570D004301A5 /* TLineBaseModel.m */,
-				4E4F4DAF1CED570D004301A5 /* TSMWSCommon.h */,
+				4EB764691CF4515D00333EC5 /* TAxisXYInfoDrawingDataSource.h */,
+				4EB7646A1CF4515D00333EC5 /* TAxisXYInfoDrawingDataSource.m */,
+				4EB7646B1CF4515D00333EC5 /* THistogramInfoDrawingDataSource.h */,
+				4EB7646C1CF4515D00333EC5 /* THistogramInfoDrawingDataSource.m */,
+				4EB7646D1CF4515D00333EC5 /* TLinearInfoDrawingDataSource.h */,
+				4EB7646E1CF4515D00333EC5 /* TLinearInfoDrawingDataSource.m */,
+				4EB7646F1CF4515D00333EC5 /* TLineBaseModel.h */,
+				4EB764701CF4515D00333EC5 /* TLineBaseModel.m */,
+				4EB764711CF4515D00333EC5 /* TSMWSCommon.h */,
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		4EB7651A1CF4516900333EC5 /* ViewContoller */ = {
+			isa = PBXGroup;
+			children = (
+				4ED83B641CF57C00008A213D /* CoverFlow */,
+				4EB7651B1CF4516900333EC5 /* Chart */,
+				4EB765261CF4516900333EC5 /* Map */,
+				4EB765271CF4516900333EC5 /* TTableViewController.h */,
+				4EB765281CF4516900333EC5 /* TTableViewController.m */,
+			);
+			path = ViewContoller;
+			sourceTree = "<group>";
+		};
+		4EB7651B1CF4516900333EC5 /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				4EB7651C1CF4516900333EC5 /* TChart1ViewController.h */,
+				4EB7651D1CF4516900333EC5 /* TChart1ViewController.m */,
+				4EB7651E1CF4516900333EC5 /* TChart2ViewController.h */,
+				4EB7651F1CF4516900333EC5 /* TChart2ViewController.m */,
+				4EB765201CF4516900333EC5 /* TChart3ViewController.h */,
+				4EB765211CF4516900333EC5 /* TChart3ViewController.m */,
+				4EB765221CF4516900333EC5 /* TChart4ViewController.h */,
+				4EB765231CF4516900333EC5 /* TChart4ViewController.m */,
+				4EB765241CF4516900333EC5 /* TChart5ViewController.h */,
+				4EB765251CF4516900333EC5 /* TChart5ViewController.m */,
+			);
+			path = Chart;
+			sourceTree = "<group>";
+		};
+		4EB765261CF4516900333EC5 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		4EB7652F1CF451B100333EC5 /* ReadMe */ = {
+			isa = PBXGroup;
+			children = (
+				4EB765301CF451B100333EC5 /* README.md */,
+				4EB765311CF451B100333EC5 /* screen1.png */,
+				4EB765321CF451B100333EC5 /* screen2.png */,
+			);
+			name = ReadMe;
+			path = TSMWSChart/ReadMe;
+			sourceTree = "<group>";
+		};
+		4EB765361CF4537000333EC5 /* OBShapedButton */ = {
+			isa = PBXGroup;
+			children = (
+				4EB765451CF4573F00333EC5 /* UIImage+ColorAtPixel */,
+				4EB765371CF4537000333EC5 /* OBShapedButton.h */,
+				4EB765381CF4537000333EC5 /* OBShapedButton.m */,
+			);
+			path = OBShapedButton;
+			sourceTree = "<group>";
+		};
+		4EB7653B1CF4543B00333EC5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4EB7653C1CF4543B00333EC5 /* WSAreaInfo.h */,
+				4EB7653D1CF4543B00333EC5 /* WSAreaInfo.m */,
+				4EB765491CF45A9500333EC5 /* AreaInfoJson.geojson */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4EB765411CF4569E00333EC5 /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				4EB765421CF4569E00333EC5 /* JSONKit.h */,
+				4EB765431CF4569E00333EC5 /* JSONKit.m */,
+			);
+			path = JSONKit;
+			sourceTree = "<group>";
+		};
+		4EB765451CF4573F00333EC5 /* UIImage+ColorAtPixel */ = {
+			isa = PBXGroup;
+			children = (
+				4EB765461CF4573F00333EC5 /* UIImage+ColorAtPixel.h */,
+				4EB765471CF4573F00333EC5 /* UIImage+ColorAtPixel.m */,
+			);
+			path = "UIImage+ColorAtPixel";
+			sourceTree = "<group>";
+		};
+		4ED83B591CF57B94008A213D /* XLLayout */ = {
+			isa = PBXGroup;
+			children = (
+				4ED83B5A1CF57B94008A213D /* XLLayout.h */,
+				4ED83B5B1CF57B94008A213D /* XLLayout.m */,
+				4ED83B5C1CF57B94008A213D /* XLPhotoCell.h */,
+				4ED83B5D1CF57B94008A213D /* XLPhotoCell.m */,
+				4ED83B5E1CF57B94008A213D /* XLPhotoCell.xib */,
+			);
+			path = XLLayout;
+			sourceTree = "<group>";
+		};
+		4ED83B641CF57C00008A213D /* CoverFlow */ = {
+			isa = PBXGroup;
+			children = (
+				4ED83B651CF57C1B008A213D /* CoverFlow1ViewController.h */,
+				4ED83B661CF57C1B008A213D /* CoverFlow1ViewController.m */,
+				4ED83B7B1CF581E6008A213D /* CoverFlow2ViewController.h */,
+				4ED83B7C1CF581E6008A213D /* CoverFlow2ViewController.m */,
+			);
+			path = CoverFlow;
 			sourceTree = "<group>";
 		};
 		4EDD81B11CEEEF1400DDF834 /* Charts */ = {
@@ -1084,13 +1699,155 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EB764961CF4515D00333EC5 /* buick-1.json in Resources */,
+				4EB764D41CF4515D00333EC5 /* 山东 - 8.json in Resources */,
+				4EB764F31CF4515D00333EC5 /* 安徽 - 13.json in Resources */,
+				4EB764D51CF4515D00333EC5 /* 山西 - 22.json in Resources */,
+				4EB764F81CF4515D00333EC5 /* 新疆 - 30.json in Resources */,
+				4EB764A31CF4515D00333EC5 /* 46-21@2x.png in Resources */,
+				4EB764991CF4515D00333EC5 /* buick-3.json in Resources */,
+				4EB764B41CF4515D00333EC5 /* 14-13@2x.png in Resources */,
+				4EB764B01CF4515D00333EC5 /* 14-11@2x.png in Resources */,
+				4EB764E61CF4515D00333EC5 /* 重庆 - 21.json in Resources */,
+				4EB764E91CF4515D00333EC5 /* 黑龙江 - 7.json in Resources */,
+				4EB764E51CF4515D00333EC5 /* 辽宁 - 5.json in Resources */,
+				4EB764B11CF4515D00333EC5 /* 14-12.png in Resources */,
+				4EB764EF1CF4515D00333EC5 /* 吉林 - 6.json in Resources */,
+				4EB764F21CF4515D00333EC5 /* 宁夏 - 29.json in Resources */,
+				4EB764BB1CF4515D00333EC5 /* 14-17.png in Resources */,
+				4EB764861CF4515D00333EC5 /* 15-2.png in Resources */,
+				4EB764A71CF4515D00333EC5 /* 46-23@2x.png in Resources */,
+				4EB765031CF4515D00333EC5 /* 西藏 - 31.json in Resources */,
+				4EB7649F1CF4515D00333EC5 /* buick-9.json in Resources */,
+				4EB764A41CF4515D00333EC5 /* 46-22.png in Resources */,
+				4EB764C41CF4515D00333EC5 /* chervolet-14.json in Resources */,
+				4EB764EA1CF4515D00333EC5 /* china.json in Resources */,
+				4EB765011CF4515D00333EC5 /* 甘肃 - 27.json in Resources */,
 				4E4F4DC01CED570D004301A5 /* LaunchScreen.storyboard in Resources */,
+				4EB764AA1CF4515D00333EC5 /* cadillac-20.json in Resources */,
+				4EB765071CF4515D00333EC5 /* 陕西 - 26.json in Resources */,
+				4EB764C71CF4515D00333EC5 /* chervolet-17.json in Resources */,
+				4EB764B91CF4515D00333EC5 /* 14-16.png in Resources */,
+				4EB764DB1CF4515D00333EC5 /* 河北 - 3.json in Resources */,
+				4EB764CD1CF4515D00333EC5 /* 内蒙古 - 4.json in Resources */,
+				4EB764E21CF4515D00333EC5 /* 福建 - 15.json in Resources */,
+				4EB764981CF4515D00333EC5 /* buick-2.json in Resources */,
+				4EB764A21CF4515D00333EC5 /* 46-21.png in Resources */,
+				4EB764EB1CF4515D00333EC5 /* 上海 - 10.json in Resources */,
+				4EB7648A1CF4515D00333EC5 /* 15-4.png in Resources */,
+				4EB764F01CF4515D00333EC5 /* 四川 - 23.json in Resources */,
+				4EB764DC1CF4515D00333EC5 /* 河南 - 9.json in Resources */,
+				4EB764C01CF4515D00333EC5 /* 14-19@2x.png in Resources */,
+				4EB764F11CF4515D00333EC5 /* 天津 - 2.json in Resources */,
 				4E4F4D691CED567F004301A5 /* Assets.xcassets in Resources */,
+				4EB764D01CF4515D00333EC5 /* 四川 - 23.json in Resources */,
+				4EB764DD1CF4515D00333EC5 /* 浙江 - 12.json in Resources */,
+				4EB764C31CF4515D00333EC5 /* chervolet-13.json in Resources */,
+				4EB7648B1CF4515D00333EC5 /* 15-4@2x.png in Resources */,
+				4EB764E11CF4515D00333EC5 /* 甘肃 - 27.json in Resources */,
+				4EB764AD1CF4515D00333EC5 /* cadillac-23.json in Resources */,
+				4EB764A01CF4515D00333EC5 /* 46-20.png in Resources */,
+				4EB764AE1CF4515D00333EC5 /* cadillac-24.json in Resources */,
+				4EB764CC1CF4515D00333EC5 /* 云南 - 25.json in Resources */,
+				4EB765051CF4515D00333EC5 /* 辽宁 - 5.json in Resources */,
+				4EB764DF1CF4515D00333EC5 /* 湖北 - 14.json in Resources */,
+				4EB764801CF4515D00333EC5 /* area-15.json in Resources */,
+				4EB764A11CF4515D00333EC5 /* 46-20@2x.png in Resources */,
+				4EB764921CF4515D00333EC5 /* 15-8.png in Resources */,
+				4EB7649B1CF4515D00333EC5 /* buick-5.json in Resources */,
+				4EB764A91CF4515D00333EC5 /* 46-24@2x.png in Resources */,
+				4EB7648F1CF4515D00333EC5 /* 15-6@2x.png in Resources */,
+				4EB764901CF4515D00333EC5 /* 15-7.png in Resources */,
+				4EB765091CF4515D00333EC5 /* 黑龙江 - 7.json in Resources */,
+				4EB764C51CF4515D00333EC5 /* chervolet-15.json in Resources */,
+				4EB764AF1CF4515D00333EC5 /* 14-11.png in Resources */,
+				4EB764D11CF4515D00333EC5 /* 天津 - 2.json in Resources */,
+				4EB7648D1CF4515D00333EC5 /* 15-5@2x.png in Resources */,
+				4EB764911CF4515D00333EC5 /* 15-7@2x.png in Resources */,
+				4EB764C21CF4515D00333EC5 /* chervolet-12.json in Resources */,
+				4EB764821CF4515D00333EC5 /* 15-1.png in Resources */,
+				4EB764A81CF4515D00333EC5 /* 46-24.png in Resources */,
+				4EB764DE1CF4515D00333EC5 /* 海南 - 20.json in Resources */,
+				4EB764B61CF4515D00333EC5 /* 14-14@2x.png in Resources */,
+				4EB764BA1CF4515D00333EC5 /* 14-16@2x.png in Resources */,
+				4EB764F91CF4515D00333EC5 /* 江苏 - 11.json in Resources */,
+				4EB765021CF4515D00333EC5 /* 福建 - 15.json in Resources */,
+				4EB764FD1CF4515D00333EC5 /* 浙江 - 12.json in Resources */,
+				4EB764BE1CF4515D00333EC5 /* 14-18@2x.png in Resources */,
+				4EB764C11CF4515D00333EC5 /* chervolet-11.json in Resources */,
+				4EB7648C1CF4515D00333EC5 /* 15-5.png in Resources */,
+				4EB7647F1CF4515D00333EC5 /* area-14.json in Resources */,
+				4EB764A61CF4515D00333EC5 /* 46-23.png in Resources */,
 				4EDD82211CEEEF1400DDF834 /* Info.plist in Resources */,
-				4ED260461CED78B700484581 /* screen2.png in Resources */,
+				4EB764DA1CF4515D00333EC5 /* 江西 - 16.json in Resources */,
+				4EB764BD1CF4515D00333EC5 /* 14-18.png in Resources */,
+				4EB764EE1CF4515D00333EC5 /* 北京 - 1.json in Resources */,
+				4EB764CA1CF4515D00333EC5 /* china.json in Resources */,
+				4EB7649D1CF4515D00333EC5 /* buick-7.json in Resources */,
+				4EB764B81CF4515D00333EC5 /* 14-15@2x.png in Resources */,
+				4EB764CB1CF4515D00333EC5 /* 上海 - 10.json in Resources */,
+				4EB764D81CF4515D00333EC5 /* 新疆 - 30.json in Resources */,
+				4EB765351CF451B100333EC5 /* screen2.png in Resources */,
+				4EB764951CF4515D00333EC5 /* 15-9@2x.png in Resources */,
+				4EB7648E1CF4515D00333EC5 /* 15-6.png in Resources */,
+				4EB764B31CF4515D00333EC5 /* 14-13.png in Resources */,
+				4EB764C81CF4515D00333EC5 /* chervolet-18.json in Resources */,
+				4EB764E71CF4515D00333EC5 /* 陕西 - 26.json in Resources */,
+				4EB764CE1CF4515D00333EC5 /* 北京 - 1.json in Resources */,
+				4EB764A51CF4515D00333EC5 /* 46-22@2x.png in Resources */,
+				4EB764D21CF4515D00333EC5 /* 宁夏 - 29.json in Resources */,
+				4EB764FB1CF4515D00333EC5 /* 河北 - 3.json in Resources */,
+				4EB764BC1CF4515D00333EC5 /* 14-17@2x.png in Resources */,
+				4EB764851CF4515D00333EC5 /* 15-1@2x.png in Resources */,
+				4EB764D61CF4515D00333EC5 /* 广东 - 18.json in Resources */,
+				4EB765081CF4515D00333EC5 /* 青海 - 28.json in Resources */,
+				4EB7649C1CF4515D00333EC5 /* buick-6.json in Resources */,
+				4EB764881CF4515D00333EC5 /* 15-3.png in Resources */,
+				4EB764FE1CF4515D00333EC5 /* 海南 - 20.json in Resources */,
+				4EB764F51CF4515D00333EC5 /* 山西 - 22.json in Resources */,
+				4EB765061CF4515D00333EC5 /* 重庆 - 21.json in Resources */,
+				4EB764AC1CF4515D00333EC5 /* cadillac-22.json in Resources */,
+				4EB7649A1CF4515D00333EC5 /* buick-4.json in Resources */,
+				4EB764931CF4515D00333EC5 /* 15-8@2x.png in Resources */,
 				4E4F4DC31CED570D004301A5 /* Main.storyboard in Resources */,
-				4ED260451CED78B700484581 /* screen1.png in Resources */,
+				4EB764B71CF4515D00333EC5 /* 14-15.png in Resources */,
+				4EB764E41CF4515D00333EC5 /* 贵州 - 24.json in Resources */,
+				4EB764FF1CF4515D00333EC5 /* 湖北 - 14.json in Resources */,
+				4EB764F71CF4515D00333EC5 /* 广西 - 19.json in Resources */,
+				4EB764D71CF4515D00333EC5 /* 广西 - 19.json in Resources */,
+				4EB764F61CF4515D00333EC5 /* 广东 - 18.json in Resources */,
+				4EB764BF1CF4515D00333EC5 /* 14-19.png in Resources */,
+				4EB764891CF4515D00333EC5 /* 15-3@2x.png in Resources */,
+				4EB765041CF4515D00333EC5 /* 贵州 - 24.json in Resources */,
+				4EB764D91CF4515D00333EC5 /* 江苏 - 11.json in Resources */,
+				4EB764E01CF4515D00333EC5 /* 湖南 - 17.json in Resources */,
+				4EB764EC1CF4515D00333EC5 /* 云南 - 25.json in Resources */,
+				4EB764E81CF4515D00333EC5 /* 青海 - 28.json in Resources */,
+				4EB764F41CF4515D00333EC5 /* 山东 - 8.json in Resources */,
+				4EB7649E1CF4515D00333EC5 /* buick-8.json in Resources */,
+				4ED83B611CF57B94008A213D /* XLPhotoCell.xib in Resources */,
+				4EB764AB1CF4515D00333EC5 /* cadillac-21.json in Resources */,
+				4EB764831CF4515D00333EC5 /* 15-10.png in Resources */,
+				4EB764CF1CF4515D00333EC5 /* 吉林 - 6.json in Resources */,
+				4EB764811CF4515D00333EC5 /* area-46.json in Resources */,
+				4EB764FC1CF4515D00333EC5 /* 河南 - 9.json in Resources */,
+				4EB764D31CF4515D00333EC5 /* 安徽 - 13.json in Resources */,
+				4EB765341CF451B100333EC5 /* screen1.png in Resources */,
+				4EB764971CF4515D00333EC5 /* buick-10.json in Resources */,
+				4EB764841CF4515D00333EC5 /* 15-10@2x.png in Resources */,
+				4EB764C61CF4515D00333EC5 /* chervolet-16.json in Resources */,
 				4EDD83351CEEEF1400DDF834 /* Info.plist in Resources */,
+				4EB764C91CF4515D00333EC5 /* chervolet-19.json in Resources */,
+				4EB7654A1CF45A9500333EC5 /* AreaInfoJson.geojson in Resources */,
+				4EB764941CF4515D00333EC5 /* 15-9.png in Resources */,
+				4E89742B1CF306490021F1BD /* Document in Resources */,
+				4EB764FA1CF4515D00333EC5 /* 江西 - 16.json in Resources */,
+				4EB765001CF4515D00333EC5 /* 湖南 - 17.json in Resources */,
+				4EB764E31CF4515D00333EC5 /* 西藏 - 31.json in Resources */,
+				4EB764B51CF4515D00333EC5 /* 14-14.png in Resources */,
+				4EB764B21CF4515D00333EC5 /* 14-12@2x.png in Resources */,
+				4EB764ED1CF4515D00333EC5 /* 内蒙古 - 4.json in Resources */,
+				4EB764871CF4515D00333EC5 /* 15-2@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1172,7 +1929,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EDD828A1CEEEF1400DDF834 /* ChartDataSet.swift in Sources */,
-				4EDD83411CEEF25500DDF834 /* TChart4ViewController.m in Sources */,
 				4EDD82601CEEEF1400DDF834 /* ChartYAxis.swift in Sources */,
 				4EDD82AE1CEEEF1400DDF834 /* ChartDataApproximatorFilter.swift in Sources */,
 				4EDD83081CEEEF1400DDF834 /* ChartYAxisRendererHorizontalBarChart.swift in Sources */,
@@ -1186,51 +1942,58 @@
 				4EDD82E71CEEEF1400DDF834 /* BubbleChartRenderer.swift in Sources */,
 				4EDD82871CEEEF1400DDF834 /* ChartDataEntry.swift in Sources */,
 				4EDD826F1CEEEF1400DDF834 /* BarLineScatterCandleBubbleChartDataSet.swift in Sources */,
-				4E4F4DE11CED570D004301A5 /* TLinearInfoDrawingDataSource.m in Sources */,
 				4EDD82A51CEEEF1400DDF834 /* RadarChartDataSet.swift in Sources */,
-				4E4F4DED1CED570D004301A5 /* TSMWSBaseGraphView.m in Sources */,
 				4EDD830B1CEEEF1400DDF834 /* ChartYAxisRendererRadarChart.swift in Sources */,
-				4E4F4DD21CED570D004301A5 /* TChart1ViewController.m in Sources */,
 				4EDD82F61CEEEF1400DDF834 /* ChartRendererBase.swift in Sources */,
+				4EB765151CF4515D00333EC5 /* TSMWSBaseAxisRenderer.m in Sources */,
 				4EDD823F1CEEEF1400DDF834 /* LineChartView.swift in Sources */,
 				4EDD82271CEEEF1400DDF834 /* ChartAnimator.swift in Sources */,
-				4E4F4DCF1CED570D004301A5 /* POAPinyin.m in Sources */,
+				4EB7653E1CF4543B00333EC5 /* WSAreaInfo.m in Sources */,
 				4EDD82D81CEEEF1400DDF834 /* CandleChartDataProvider.swift in Sources */,
+				4ED83B7D1CF581E6008A213D /* CoverFlow2ViewController.m in Sources */,
 				4EDD83291CEEEF1400DDF834 /* ChartTransformer.swift in Sources */,
 				4EDD82901CEEEF1400DDF834 /* LineChartData.swift in Sources */,
 				4EDD82241CEEEF1400DDF834 /* ChartAnimationEasing.swift in Sources */,
 				4EDD82391CEEEF1400DDF834 /* CombinedChartView.swift in Sources */,
 				4EDD83201CEEEF1400DDF834 /* ScatterChartRenderer.swift in Sources */,
 				4EDD826C1CEEEF1400DDF834 /* BarLineScatterCandleBubbleChartData.swift in Sources */,
+				4ED83B5F1CF57B94008A213D /* XLLayout.m in Sources */,
+				4EB765131CF4515D00333EC5 /* TLineBaseModel.m in Sources */,
 				4EDD82EA1CEEEF1400DDF834 /* CandleStickChartRenderer.swift in Sources */,
-				4E4F4DCC1CED570D004301A5 /* NSString+FirstLetter.m in Sources */,
 				4EDD831D1CEEEF1400DDF834 /* RadarChartRenderer.swift in Sources */,
 				4EDD82331CEEEF1400DDF834 /* CandleStickChartView.swift in Sources */,
 				4EDD822A1CEEEF1400DDF834 /* BarChartView.swift in Sources */,
+				4EB7652C1CF4516900333EC5 /* TChart4ViewController.m in Sources */,
 				4EDD827E1CEEEF1400DDF834 /* CandleChartDataEntry.swift in Sources */,
+				4EB765481CF4573F00333EC5 /* UIImage+ColorAtPixel.m in Sources */,
 				4EDD823C1CEEEF1400DDF834 /* HorizontalBarChartView.swift in Sources */,
-				4E4F4DDE1CED570D004301A5 /* THistogramInfoDrawingDataSource.m in Sources */,
-				4E4F4DF01CED570D004301A5 /* TSMWSHistogramDrawing.m in Sources */,
 				4EDD82361CEEEF1400DDF834 /* ChartViewBase.swift in Sources */,
 				4EDD82421CEEEF1400DDF834 /* PieChartView.swift in Sources */,
 				4EDD824B1CEEEF1400DDF834 /* ScatterChartView.swift in Sources */,
+				4EB765111CF4515D00333EC5 /* THistogramInfoDrawingDataSource.m in Sources */,
+				4EB765161CF4515D00333EC5 /* TSMWSBaseGraphView.m in Sources */,
+				4EB765121CF4515D00333EC5 /* TLinearInfoDrawingDataSource.m in Sources */,
 				4EDD82CC1CEEEF1400DDF834 /* HorizontalBarChartHighlighter.swift in Sources */,
+				4EB765391CF4537000333EC5 /* OBShapedButton.m in Sources */,
 				4EDD82C61CEEEF1400DDF834 /* ChartRange.swift in Sources */,
 				4EDD82781CEEEF1400DDF834 /* BubbleChartDataSet.swift in Sources */,
 				4EDD82541CEEEF1400DDF834 /* ChartLegend.swift in Sources */,
 				4EDD822D1CEEEF1400DDF834 /* BarLineChartViewBase.swift in Sources */,
+				4EB765441CF4569E00333EC5 /* JSONKit.m in Sources */,
 				4EDD827B1CEEEF1400DDF834 /* CandleChartData.swift in Sources */,
+				4EB7650A1CF4515D00333EC5 /* WSChinaMapViewController.m in Sources */,
 				4E4F4D5B1CED567F004301A5 /* main.m in Sources */,
 				4EDD82F91CEEEF1400DDF834 /* ChartXAxisRenderer.swift in Sources */,
 				4EDD82FF1CEEEF1400DDF834 /* ChartXAxisRendererHorizontalBarChart.swift in Sources */,
 				4EDD82FC1CEEEF1400DDF834 /* ChartXAxisRendererBarChart.swift in Sources */,
 				4EDD82811CEEEF1400DDF834 /* CandleChartDataSet.swift in Sources */,
 				4EDD82841CEEEF1400DDF834 /* ChartData.swift in Sources */,
+				4EB765181CF4515D00333EC5 /* TSMWSLinearDrawing.m in Sources */,
+				4ED83B601CF57B94008A213D /* XLPhotoCell.m in Sources */,
 				4EDD82451CEEEF1400DDF834 /* PieRadarChartViewBase.swift in Sources */,
 				4EDD82B11CEEEF1400DDF834 /* ChartDataBaseFilter.swift in Sources */,
 				4EDD83111CEEEF1400DDF834 /* HorizontalBarChartRenderer.swift in Sources */,
 				4EDD83231CEEEF1400DDF834 /* ChartColorTemplates.swift in Sources */,
-				4E4F4DD81CED570D004301A5 /* TTableViewController.m in Sources */,
 				4EDD82B41CEEEF1400DDF834 /* ChartDefaultXAxisValueFormatter.swift in Sources */,
 				4EDD83141CEEEF1400DDF834 /* LineChartRenderer.swift in Sources */,
 				4EDD829F1CEEEF1400DDF834 /* PieChartDataSet.swift in Sources */,
@@ -1239,22 +2002,26 @@
 				4EDD82DE1CEEEF1400DDF834 /* LineChartDataProvider.swift in Sources */,
 				4EDD82301CEEEF1400DDF834 /* BubbleChartView.swift in Sources */,
 				4EDD829C1CEEEF1400DDF834 /* PieChartData.swift in Sources */,
+				4EB7652E1CF4516900333EC5 /* TTableViewController.m in Sources */,
 				4EDD83021CEEEF1400DDF834 /* ChartXAxisRendererRadarChart.swift in Sources */,
 				4EDD82CF1CEEEF1400DDF834 /* BarChartDataProvider.swift in Sources */,
 				4EDD82961CEEEF1400DDF834 /* LineRadarChartDataSet.swift in Sources */,
 				4EDD82C01CEEEF1400DDF834 /* ChartHighlight.swift in Sources */,
+				4EB7652D1CF4516900333EC5 /* TChart5ViewController.m in Sources */,
+				4EB765331CF451B100333EC5 /* README.md in Sources */,
+				4EB765141CF4515D00333EC5 /* TSMWSBaseAxisRenderer+Protected.m in Sources */,
 				4EDD828D1CEEEF1400DDF834 /* CombinedChartData.swift in Sources */,
+				4EB765171CF4515D00333EC5 /* TSMWSHistogramDrawing.m in Sources */,
 				4EDD82F01CEEEF1400DDF834 /* ChartDataRendererBase.swift in Sources */,
 				4EDD82A21CEEEF1400DDF834 /* RadarChartData.swift in Sources */,
 				4EDD82C91CEEEF1400DDF834 /* CombinedHighlighter.swift in Sources */,
-				4E4F4DFB1CED63E4004301A5 /* TChart3ViewController.m in Sources */,
 				4EDD824E1CEEEF1400DDF834 /* ChartAxisBase.swift in Sources */,
 				4EDD82481CEEEF1400DDF834 /* RadarChartView.swift in Sources */,
 				4EDD83321CEEEF1400DDF834 /* ChartViewPortHandler.swift in Sources */,
 				4EDD832F1CEEEF1400DDF834 /* ChartUtils.swift in Sources */,
 				4EDD82D51CEEEF1400DDF834 /* BubbleChartDataProvider.swift in Sources */,
 				4EDD825D1CEEEF1400DDF834 /* ChartXAxis.swift in Sources */,
-				4E4F4DF61CED570D004301A5 /* TSMWSStandardAxisRenderer.m in Sources */,
+				4EB765291CF4516900333EC5 /* TChart1ViewController.m in Sources */,
 				4EDD82691CEEEF1400DDF834 /* BarChartDataSet.swift in Sources */,
 				4EDD82BA1CEEEF1400DDF834 /* ChartXAxisValueFormatter.swift in Sources */,
 				4EDD82B71CEEEF1400DDF834 /* ChartFillFormatter.swift in Sources */,
@@ -1263,28 +2030,28 @@
 				4EDD82721CEEEF1400DDF834 /* BubbleChartData.swift in Sources */,
 				4EDD82F31CEEEF1400DDF834 /* ChartLegendRenderer.swift in Sources */,
 				4EDD82751CEEEF1400DDF834 /* BubbleChartDataEntry.swift in Sources */,
-				4E4F4DEA1CED570D004301A5 /* TSMWSBaseAxisRenderer.m in Sources */,
-				4E4F4DD51CED570D004301A5 /* TChart2ViewController.m in Sources */,
 				4EDD832C1CEEEF1400DDF834 /* ChartTransformerHorizontalBarChart.swift in Sources */,
-				4E4F4DF31CED570D004301A5 /* TSMWSLinearDrawing.m in Sources */,
+				4ED83B671CF57C1B008A213D /* CoverFlow1ViewController.m in Sources */,
 				4EDD82ED1CEEEF1400DDF834 /* ChartAxisRendererBase.swift in Sources */,
 				4EDD82E11CEEEF1400DDF834 /* ScatterChartDataProvider.swift in Sources */,
+				4EB7650F1CF4515D00333EC5 /* POAPinyin.m in Sources */,
 				4E4F4D671CED567F004301A5 /* TSMWSChart.xcdatamodeld in Sources */,
-				4E4F4DE41CED570D004301A5 /* TLineBaseModel.m in Sources */,
+				4EB7652B1CF4516900333EC5 /* TChart3ViewController.m in Sources */,
 				4EDD831A1CEEEF1400DDF834 /* PieChartRenderer.swift in Sources */,
 				4EDD82C31CEEEF1400DDF834 /* ChartHighlighter.swift in Sources */,
-				4E4F4DDB1CED570D004301A5 /* TAxisXYInfoDrawingDataSource.m in Sources */,
+				4EB7650D1CF4515D00333EC5 /* NSArray+FirstLetterArray.m in Sources */,
 				4EDD82BD1CEEEF1400DDF834 /* BarChartHighlighter.swift in Sources */,
-				4E4F4DC91CED570D004301A5 /* NSArray+FirstLetterArray.m in Sources */,
+				4EB7652A1CF4516900333EC5 /* TChart2ViewController.m in Sources */,
 				4EDD82DB1CEEEF1400DDF834 /* ChartDataProvider.swift in Sources */,
 				4EDD82511CEEEF1400DDF834 /* ChartComponentBase.swift in Sources */,
+				4EB765191CF4515D00333EC5 /* TSMWSStandardAxisRenderer.m in Sources */,
 				4EDD83051CEEEF1400DDF834 /* ChartYAxisRenderer.swift in Sources */,
-				4E4F4DC61CED570D004301A5 /* HTFirstLetter.m in Sources */,
 				4E4F4DBD1CED570D004301A5 /* AppDelegate.m in Sources */,
-				4ED260421CED77C400484581 /* README.md in Sources */,
+				4EB7650E1CF4515D00333EC5 /* NSString+FirstLetter.m in Sources */,
 				4EDD82AB1CEEEF1400DDF834 /* ScatterChartDataSet.swift in Sources */,
 				4EDD83261CEEEF1400DDF834 /* ChartSelectionDetail.swift in Sources */,
-				4E4F4DE71CED570D004301A5 /* TSMWSBaseAxisRenderer+Protected.m in Sources */,
+				4EB7650C1CF4515D00333EC5 /* HTFirstLetter.m in Sources */,
+				4EB765101CF4515D00333EC5 /* TAxisXYInfoDrawingDataSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1303,7 +2070,6 @@
 				4EDD82701CEEEF1400DDF834 /* BarLineScatterCandleBubbleChartDataSet.swift in Sources */,
 				4EDD830C1CEEEF1400DDF834 /* ChartYAxisRendererRadarChart.swift in Sources */,
 				4EDD829A1CEEEF1400DDF834 /* LineScatterCandleChartDataSet.swift in Sources */,
-				4E4F4DF11CED570D004301A5 /* TSMWSHistogramDrawing.m in Sources */,
 				4EDD83331CEEEF1400DDF834 /* ChartViewPortHandler.swift in Sources */,
 				4EDD82C71CEEEF1400DDF834 /* ChartRange.swift in Sources */,
 				4EDD82731CEEEF1400DDF834 /* BubbleChartData.swift in Sources */,
@@ -1319,15 +2085,11 @@
 				4EDD82A91CEEEF1400DDF834 /* ScatterChartData.swift in Sources */,
 				4EDD82641CEEEF1400DDF834 /* BarChartData.swift in Sources */,
 				4EDD82B51CEEEF1400DDF834 /* ChartDefaultXAxisValueFormatter.swift in Sources */,
-				4EDD83421CEEF25500DDF834 /* TChart4ViewController.m in Sources */,
 				4EDD83151CEEEF1400DDF834 /* LineChartRenderer.swift in Sources */,
 				4EDD82FD1CEEEF1400DDF834 /* ChartXAxisRendererBarChart.swift in Sources */,
 				4EDD822B1CEEEF1400DDF834 /* BarChartView.swift in Sources */,
-				4E4F4DCD1CED570D004301A5 /* NSString+FirstLetter.m in Sources */,
-				4E4F4DD61CED570D004301A5 /* TChart2ViewController.m in Sources */,
 				4EDD824F1CEEEF1400DDF834 /* ChartAxisBase.swift in Sources */,
 				4EDD828E1CEEEF1400DDF834 /* CombinedChartData.swift in Sources */,
-				4E4F4DDF1CED570D004301A5 /* THistogramInfoDrawingDataSource.m in Sources */,
 				4EDD82551CEEEF1400DDF834 /* ChartLegend.swift in Sources */,
 				4EDD82521CEEEF1400DDF834 /* ChartComponentBase.swift in Sources */,
 				4EDD83001CEEEF1400DDF834 /* ChartXAxisRendererHorizontalBarChart.swift in Sources */,
@@ -1338,16 +2100,12 @@
 				4E4F4DBE1CED570D004301A5 /* AppDelegate.m in Sources */,
 				4EDD82E51CEEEF1400DDF834 /* BarChartRenderer.swift in Sources */,
 				4EDD83211CEEEF1400DDF834 /* ScatterChartRenderer.swift in Sources */,
-				4E4F4DC71CED570D004301A5 /* HTFirstLetter.m in Sources */,
-				4E4F4DEE1CED570D004301A5 /* TSMWSBaseGraphView.m in Sources */,
 				4EDD82971CEEEF1400DDF834 /* LineRadarChartDataSet.swift in Sources */,
 				4EDD83091CEEEF1400DDF834 /* ChartYAxisRendererHorizontalBarChart.swift in Sources */,
 				4EDD82DF1CEEEF1400DDF834 /* LineChartDataProvider.swift in Sources */,
 				4EDD826A1CEEEF1400DDF834 /* BarChartDataSet.swift in Sources */,
 				4EDD82491CEEEF1400DDF834 /* RadarChartView.swift in Sources */,
 				4EDD82E21CEEEF1400DDF834 /* ScatterChartDataProvider.swift in Sources */,
-				4E4F4DE51CED570D004301A5 /* TLineBaseModel.m in Sources */,
-				4E4F4DDC1CED570D004301A5 /* TAxisXYInfoDrawingDataSource.m in Sources */,
 				4EDD82431CEEEF1400DDF834 /* PieChartView.swift in Sources */,
 				4EDD82401CEEEF1400DDF834 /* LineChartView.swift in Sources */,
 				4E4F4D771CED567F004301A5 /* TSMWSChartTests.m in Sources */,
@@ -1358,28 +2116,22 @@
 				4EDD826D1CEEEF1400DDF834 /* BarLineScatterCandleBubbleChartData.swift in Sources */,
 				4EDD82251CEEEF1400DDF834 /* ChartAnimationEasing.swift in Sources */,
 				4EDD82311CEEEF1400DDF834 /* BubbleChartView.swift in Sources */,
-				4E4F4DE21CED570D004301A5 /* TLinearInfoDrawingDataSource.m in Sources */,
 				4EDD82F11CEEEF1400DDF834 /* ChartDataRendererBase.swift in Sources */,
 				4EDD82581CEEEF1400DDF834 /* ChartLimitLine.swift in Sources */,
 				4EDD82761CEEEF1400DDF834 /* BubbleChartDataEntry.swift in Sources */,
 				4EDD828B1CEEEF1400DDF834 /* ChartDataSet.swift in Sources */,
-				4E4F4DCA1CED570D004301A5 /* NSArray+FirstLetterArray.m in Sources */,
 				4EDD82BB1CEEEF1400DDF834 /* ChartXAxisValueFormatter.swift in Sources */,
 				4EDD82341CEEEF1400DDF834 /* CandleStickChartView.swift in Sources */,
 				4EDD83031CEEEF1400DDF834 /* ChartXAxisRendererRadarChart.swift in Sources */,
 				4EDD82911CEEEF1400DDF834 /* LineChartData.swift in Sources */,
-				4E4F4DE81CED570D004301A5 /* TSMWSBaseAxisRenderer+Protected.m in Sources */,
 				4EDD82D91CEEEF1400DDF834 /* CandleChartDataProvider.swift in Sources */,
 				4EDD82E81CEEEF1400DDF834 /* BubbleChartRenderer.swift in Sources */,
-				4E4F4DD01CED570D004301A5 /* POAPinyin.m in Sources */,
 				4EDD82A01CEEEF1400DDF834 /* PieChartDataSet.swift in Sources */,
-				4E4F4DFC1CED63E4004301A5 /* TChart3ViewController.m in Sources */,
 				4EDD83181CEEEF1400DDF834 /* LineScatterCandleRadarChartRenderer.swift in Sources */,
 				4EDD831E1CEEEF1400DDF834 /* RadarChartRenderer.swift in Sources */,
 				4EDD82A31CEEEF1400DDF834 /* RadarChartData.swift in Sources */,
 				4EDD82CA1CEEEF1400DDF834 /* CombinedHighlighter.swift in Sources */,
 				4EDD83061CEEEF1400DDF834 /* ChartYAxisRenderer.swift in Sources */,
-				4E4F4DEB1CED570D004301A5 /* TSMWSBaseAxisRenderer.m in Sources */,
 				4EDD82C41CEEEF1400DDF834 /* ChartHighlighter.swift in Sources */,
 				4EDD823A1CEEEF1400DDF834 /* CombinedChartView.swift in Sources */,
 				4EDD82AC1CEEEF1400DDF834 /* ScatterChartDataSet.swift in Sources */,
@@ -1389,16 +2141,12 @@
 				4EDD82281CEEEF1400DDF834 /* ChartAnimator.swift in Sources */,
 				4EDD82B81CEEEF1400DDF834 /* ChartFillFormatter.swift in Sources */,
 				4EDD82B21CEEEF1400DDF834 /* ChartDataBaseFilter.swift in Sources */,
-				4E4F4DD91CED570D004301A5 /* TTableViewController.m in Sources */,
 				4EDD82FA1CEEEF1400DDF834 /* ChartXAxisRenderer.swift in Sources */,
-				4E4F4DF71CED570D004301A5 /* TSMWSStandardAxisRenderer.m in Sources */,
 				4EDD825B1CEEEF1400DDF834 /* ChartMarker.swift in Sources */,
 				4EDD83241CEEEF1400DDF834 /* ChartColorTemplates.swift in Sources */,
 				4EDD82371CEEEF1400DDF834 /* ChartViewBase.swift in Sources */,
 				4EDD82851CEEEF1400DDF834 /* ChartData.swift in Sources */,
-				4E4F4DF41CED570D004301A5 /* TSMWSLinearDrawing.m in Sources */,
 				4EDD824C1CEEEF1400DDF834 /* ScatterChartView.swift in Sources */,
-				4E4F4DD31CED570D004301A5 /* TChart1ViewController.m in Sources */,
 				4EDD82F71CEEEF1400DDF834 /* ChartRendererBase.swift in Sources */,
 				4EDD829D1CEEEF1400DDF834 /* PieChartData.swift in Sources */,
 				4EDD83121CEEEF1400DDF834 /* HorizontalBarChartRenderer.swift in Sources */,
@@ -1422,7 +2170,6 @@
 				4EDD82711CEEEF1400DDF834 /* BarLineScatterCandleBubbleChartDataSet.swift in Sources */,
 				4EDD830D1CEEEF1400DDF834 /* ChartYAxisRendererRadarChart.swift in Sources */,
 				4EDD829B1CEEEF1400DDF834 /* LineScatterCandleChartDataSet.swift in Sources */,
-				4E4F4DF21CED570D004301A5 /* TSMWSHistogramDrawing.m in Sources */,
 				4EDD83341CEEEF1400DDF834 /* ChartViewPortHandler.swift in Sources */,
 				4EDD82C81CEEEF1400DDF834 /* ChartRange.swift in Sources */,
 				4EDD82741CEEEF1400DDF834 /* BubbleChartData.swift in Sources */,
@@ -1438,15 +2185,11 @@
 				4EDD82AA1CEEEF1400DDF834 /* ScatterChartData.swift in Sources */,
 				4EDD82651CEEEF1400DDF834 /* BarChartData.swift in Sources */,
 				4EDD82B61CEEEF1400DDF834 /* ChartDefaultXAxisValueFormatter.swift in Sources */,
-				4EDD83431CEEF25500DDF834 /* TChart4ViewController.m in Sources */,
 				4EDD83161CEEEF1400DDF834 /* LineChartRenderer.swift in Sources */,
 				4EDD82FE1CEEEF1400DDF834 /* ChartXAxisRendererBarChart.swift in Sources */,
 				4EDD822C1CEEEF1400DDF834 /* BarChartView.swift in Sources */,
-				4E4F4DCE1CED570D004301A5 /* NSString+FirstLetter.m in Sources */,
-				4E4F4DD71CED570D004301A5 /* TChart2ViewController.m in Sources */,
 				4EDD82501CEEEF1400DDF834 /* ChartAxisBase.swift in Sources */,
 				4EDD828F1CEEEF1400DDF834 /* CombinedChartData.swift in Sources */,
-				4E4F4DE01CED570D004301A5 /* THistogramInfoDrawingDataSource.m in Sources */,
 				4EDD82561CEEEF1400DDF834 /* ChartLegend.swift in Sources */,
 				4EDD82531CEEEF1400DDF834 /* ChartComponentBase.swift in Sources */,
 				4EDD83011CEEEF1400DDF834 /* ChartXAxisRendererHorizontalBarChart.swift in Sources */,
@@ -1457,16 +2200,12 @@
 				4E4F4DBF1CED570D004301A5 /* AppDelegate.m in Sources */,
 				4EDD82E61CEEEF1400DDF834 /* BarChartRenderer.swift in Sources */,
 				4EDD83221CEEEF1400DDF834 /* ScatterChartRenderer.swift in Sources */,
-				4E4F4DC81CED570D004301A5 /* HTFirstLetter.m in Sources */,
-				4E4F4DEF1CED570D004301A5 /* TSMWSBaseGraphView.m in Sources */,
 				4EDD82981CEEEF1400DDF834 /* LineRadarChartDataSet.swift in Sources */,
 				4EDD830A1CEEEF1400DDF834 /* ChartYAxisRendererHorizontalBarChart.swift in Sources */,
 				4EDD82E01CEEEF1400DDF834 /* LineChartDataProvider.swift in Sources */,
 				4EDD826B1CEEEF1400DDF834 /* BarChartDataSet.swift in Sources */,
 				4EDD824A1CEEEF1400DDF834 /* RadarChartView.swift in Sources */,
 				4EDD82E31CEEEF1400DDF834 /* ScatterChartDataProvider.swift in Sources */,
-				4E4F4DE61CED570D004301A5 /* TLineBaseModel.m in Sources */,
-				4E4F4DDD1CED570D004301A5 /* TAxisXYInfoDrawingDataSource.m in Sources */,
 				4EDD82441CEEEF1400DDF834 /* PieChartView.swift in Sources */,
 				4EDD82411CEEEF1400DDF834 /* LineChartView.swift in Sources */,
 				4E4F4D821CED567F004301A5 /* TSMWSChartUITests.m in Sources */,
@@ -1477,28 +2216,22 @@
 				4EDD826E1CEEEF1400DDF834 /* BarLineScatterCandleBubbleChartData.swift in Sources */,
 				4EDD82261CEEEF1400DDF834 /* ChartAnimationEasing.swift in Sources */,
 				4EDD82321CEEEF1400DDF834 /* BubbleChartView.swift in Sources */,
-				4E4F4DE31CED570D004301A5 /* TLinearInfoDrawingDataSource.m in Sources */,
 				4EDD82F21CEEEF1400DDF834 /* ChartDataRendererBase.swift in Sources */,
 				4EDD82591CEEEF1400DDF834 /* ChartLimitLine.swift in Sources */,
 				4EDD82771CEEEF1400DDF834 /* BubbleChartDataEntry.swift in Sources */,
 				4EDD828C1CEEEF1400DDF834 /* ChartDataSet.swift in Sources */,
-				4E4F4DCB1CED570D004301A5 /* NSArray+FirstLetterArray.m in Sources */,
 				4EDD82BC1CEEEF1400DDF834 /* ChartXAxisValueFormatter.swift in Sources */,
 				4EDD82351CEEEF1400DDF834 /* CandleStickChartView.swift in Sources */,
 				4EDD83041CEEEF1400DDF834 /* ChartXAxisRendererRadarChart.swift in Sources */,
 				4EDD82921CEEEF1400DDF834 /* LineChartData.swift in Sources */,
-				4E4F4DE91CED570D004301A5 /* TSMWSBaseAxisRenderer+Protected.m in Sources */,
 				4EDD82DA1CEEEF1400DDF834 /* CandleChartDataProvider.swift in Sources */,
 				4EDD82E91CEEEF1400DDF834 /* BubbleChartRenderer.swift in Sources */,
-				4E4F4DD11CED570D004301A5 /* POAPinyin.m in Sources */,
 				4EDD82A11CEEEF1400DDF834 /* PieChartDataSet.swift in Sources */,
-				4E4F4DFD1CED63E4004301A5 /* TChart3ViewController.m in Sources */,
 				4EDD83191CEEEF1400DDF834 /* LineScatterCandleRadarChartRenderer.swift in Sources */,
 				4EDD831F1CEEEF1400DDF834 /* RadarChartRenderer.swift in Sources */,
 				4EDD82A41CEEEF1400DDF834 /* RadarChartData.swift in Sources */,
 				4EDD82CB1CEEEF1400DDF834 /* CombinedHighlighter.swift in Sources */,
 				4EDD83071CEEEF1400DDF834 /* ChartYAxisRenderer.swift in Sources */,
-				4E4F4DEC1CED570D004301A5 /* TSMWSBaseAxisRenderer.m in Sources */,
 				4EDD82C51CEEEF1400DDF834 /* ChartHighlighter.swift in Sources */,
 				4EDD823B1CEEEF1400DDF834 /* CombinedChartView.swift in Sources */,
 				4EDD82AD1CEEEF1400DDF834 /* ScatterChartDataSet.swift in Sources */,
@@ -1508,16 +2241,12 @@
 				4EDD82291CEEEF1400DDF834 /* ChartAnimator.swift in Sources */,
 				4EDD82B91CEEEF1400DDF834 /* ChartFillFormatter.swift in Sources */,
 				4EDD82B31CEEEF1400DDF834 /* ChartDataBaseFilter.swift in Sources */,
-				4E4F4DDA1CED570D004301A5 /* TTableViewController.m in Sources */,
 				4EDD82FB1CEEEF1400DDF834 /* ChartXAxisRenderer.swift in Sources */,
-				4E4F4DF81CED570D004301A5 /* TSMWSStandardAxisRenderer.m in Sources */,
 				4EDD825C1CEEEF1400DDF834 /* ChartMarker.swift in Sources */,
 				4EDD83251CEEEF1400DDF834 /* ChartColorTemplates.swift in Sources */,
 				4EDD82381CEEEF1400DDF834 /* ChartViewBase.swift in Sources */,
 				4EDD82861CEEEF1400DDF834 /* ChartData.swift in Sources */,
-				4E4F4DF51CED570D004301A5 /* TSMWSLinearDrawing.m in Sources */,
 				4EDD824D1CEEEF1400DDF834 /* ScatterChartView.swift in Sources */,
-				4E4F4DD41CED570D004301A5 /* TChart1ViewController.m in Sources */,
 				4EDD82F81CEEEF1400DDF834 /* ChartRendererBase.swift in Sources */,
 				4EDD829E1CEEEF1400DDF834 /* PieChartData.swift in Sources */,
 				4EDD83131CEEEF1400DDF834 /* HorizontalBarChartRenderer.swift in Sources */,
@@ -1650,7 +2379,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = TSMWSChart/TSMWSChartPrefixHeader.pch;
 				INFOPLIST_FILE = TSMWSChart/Info.plist;
@@ -1670,7 +2399,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = TSMWSChart/TSMWSChartPrefixHeader.pch;
 				INFOPLIST_FILE = TSMWSChart/Info.plist;
