@@ -195,6 +195,7 @@
 		4ED83C181CF5A1B9008A213D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 4ED83C151CF5A1B9008A213D /* README.md */; };
 		4ED83C191CF5A1B9008A213D /* screen1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4ED83C161CF5A1B9008A213D /* screen1.png */; };
 		4ED83C1A1CF5A1B9008A213D /* screen2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4ED83C171CF5A1B9008A213D /* screen2.png */; };
+		4ED83C261CF5A5BB008A213D /* screen3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4ED83C251CF5A5BB008A213D /* screen3.png */; };
 		4EDD82211CEEEF1400DDF834 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4EDD81B71CEEEF1400DDF834 /* Info.plist */; };
 		4EDD82221CEEEF1400DDF834 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4EDD81B71CEEEF1400DDF834 /* Info.plist */; };
 		4EDD82231CEEEF1400DDF834 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4EDD81B71CEEEF1400DDF834 /* Info.plist */; };
@@ -730,6 +731,7 @@
 		4ED83C151CF5A1B9008A213D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4ED83C161CF5A1B9008A213D /* screen1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen1.png; sourceTree = "<group>"; };
 		4ED83C171CF5A1B9008A213D /* screen2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen2.png; sourceTree = "<group>"; };
+		4ED83C251CF5A5BB008A213D /* screen3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen3.png; sourceTree = "<group>"; };
 		4EDD81B21CEEEF1400DDF834 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Charts.xcodeproj; sourceTree = "<group>"; };
 		4EDD81B61CEEEF1400DDF834 /* ChartsTV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartsTV.h; sourceTree = "<group>"; };
 		4EDD81B71CEEEF1400DDF834 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -1340,6 +1342,7 @@
 				4ED83C151CF5A1B9008A213D /* README.md */,
 				4ED83C161CF5A1B9008A213D /* screen1.png */,
 				4ED83C171CF5A1B9008A213D /* screen2.png */,
+				4ED83C251CF5A5BB008A213D /* screen3.png */,
 			);
 			path = ReadMe;
 			sourceTree = "<group>";
@@ -1819,6 +1822,7 @@
 				4EB764BF1CF4515D00333EC5 /* 14-19.png in Resources */,
 				4EB764891CF4515D00333EC5 /* 15-3@2x.png in Resources */,
 				4EB765041CF4515D00333EC5 /* 贵州 - 24.json in Resources */,
+				4ED83C261CF5A5BB008A213D /* screen3.png in Resources */,
 				4EB764D91CF4515D00333EC5 /* 江苏 - 11.json in Resources */,
 				4EB764E01CF4515D00333EC5 /* 湖南 - 17.json in Resources */,
 				4EB764EC1CF4515D00333EC5 /* 云南 - 25.json in Resources */,
