@@ -13,7 +13,26 @@
 @end
 
 @implementation AppDelegate
+//这是公钥字符串，base64的
+#define  RSA_KEY_BASE64 @"MIICATCCAWoCCQCeCD99n1QUkzANBgkqhkiG9w0BAQUFADBFMQswCQYDVQQGEwJBVTETMBEGA1UECBMKU29tZS1TdGF0ZTEhMB8GA1UEChMYSW50ZXJuZXQgV2lkZ2l0cyBQdHkgTHRkMB4XDTE0MDUwNjEzNTU1OVoXDTI0MDUwMzEzNTU1OVowRTELMAkGA1UEBhMCQVUxEzARBgNVBAgTClNvbWUtU3RhdGUxITAfBgNVBAoTGEludGVybmV0IFdpZGdpdHMgUHR5IEx0ZDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAkjpjE/bh9O4aebXVcS0KJd5MvRQBTSSwr54YI3LTcahIpQtq8axaHrP+k/Ao/CyjbqMdqI8YNL2DeFiDdDNy62H1lT9BNr7UvMhsjWuGUripa1jUr3L3qmtyLIjGf2mo+MOKbelAqTNSZKpyr+xvstQae3U1eI1bAoUyr6x6rz8CAwEAATANBgkqhkiG9w0BAQUFAAOBgQBGWxiuO8omtX6styR4z34wzCnK9OmB0M+pyIeWnOTCkMKjL8/HnBF7DRaH/xnTi416MJGHv1W1is3Y81fqXTCZjntmPc3sawZ7LGQYp9r+aouUFg12nB68IM+1FBL9Oho3YH/IM7yPvXi/VKsl00wCT1wNXGnEfK4rIj+9Id0Fig=="
 
+- (SecKeyRef)getPublicKey{
+    
+    NSData *certificateData = [NSData dataWithBase64EncodedString:RSA_KEY_BASE64];//这里解base64
+    
+    SecCertificateRef myCertificate = nil;
+    
+    
+    myCertificate = SecCertificateCreateWithData(kCFAllocatorDefault, (__bridge CFDataRef)certificateData);
+    SecPolicyRef myPolicy = SecPolicyCreateBasicX509();
+    SecTrustRef myTrust;
+    OSStatus status = SecTrustCreateWithCertificates(myCertificate,myPolicy,&myTrust);
+    SecTrustResultType trustResult;
+    if (status == noErr) {
+        status = SecTrustEvaluate(myTrust, &trustResult);
+    }
+    return SecTrustCopyPublicKey(myTrust);
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.

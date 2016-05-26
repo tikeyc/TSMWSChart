@@ -624,7 +624,8 @@
 
         if ([[[self contentView] subviews] count] > 0)
         {
-            CGRect bounds = [[[[self contentView] subviews] lastObject] frame];
+            UIView *view = [[[self contentView] subviews] lastObject];
+            CGRect bounds = [view frame];
             for (UIButton *button in [[self contentView] subviews])
             {
                 bounds = CGRectUnion(bounds, [button frame]);

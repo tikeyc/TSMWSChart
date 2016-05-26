@@ -15,4 +15,6 @@
 
 #import "TSMWSChart-Swift.h"
 
+#import "YYKit.h"
+
 #endif /* TSMWSChartPrefixHeader_pch */

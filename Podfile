@@ -1,12 +1,14 @@
 platform :ios, '9.3'
 
-pod 'ZCharts', '~> 2.0.0'
+pod 'ZCharts'
 
-pod 'pop', '~> 1.0.9'
+pod 'pop'
 
-pod 'ZXPAutoLayout', '~> 1.3.4'
+pod 'ZXPAutoLayout'
 
-pod 'iOS-Echarts', '~> 1.1.6'
+pod 'iOS-Echarts'
 
-pod 'YYKit', '~> 1.0.5'
+pod 'YYKit'
+
+pod 'AsyncDisplayKit'
 
