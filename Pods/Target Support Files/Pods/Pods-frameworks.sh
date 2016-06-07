@@ -82,3 +82,26 @@ strip_invalid_archs() {
   fi
 }
 
+
+if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "Pods/AsyncDisplayKit.framework"
+  install_framework "Pods/PINCache.framework"
+  install_framework "Pods/PINRemoteImage.framework"
+  install_framework "Pods/XCGLogger.framework"
+  install_framework "Pods/YYKit.framework"
+  install_framework "Pods/ZCharts.framework"
+  install_framework "Pods/ZXPAutoLayout.framework"
+  install_framework "Pods/iOS_Echarts.framework"
+  install_framework "Pods/pop.framework"
+fi
+if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "Pods/AsyncDisplayKit.framework"
+  install_framework "Pods/PINCache.framework"
+  install_framework "Pods/PINRemoteImage.framework"
+  install_framework "Pods/XCGLogger.framework"
+  install_framework "Pods/YYKit.framework"
+  install_framework "Pods/ZCharts.framework"
+  install_framework "Pods/ZXPAutoLayout.framework"
+  install_framework "Pods/iOS_Echarts.framework"
+  install_framework "Pods/pop.framework"
+fi

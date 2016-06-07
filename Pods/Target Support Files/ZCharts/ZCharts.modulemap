@@ -1,0 +1,6 @@
+framework module ZCharts {
+  umbrella header "ZCharts-umbrella.h"
+
+  export *
+  module * { export * }
+}

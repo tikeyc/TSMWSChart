@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'B68A5DAF0B206437CC350F2F'
+               BlueprintIdentifier = 'E967D1EA388AF80B4FF7F023'
                BlueprintName = 'AsyncDisplayKit'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libAsyncDisplayKit.a'>
+               BuildableName = 'AsyncDisplayKit.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

@@ -1,4 +1,5 @@
 platform :ios, '9.3'
+use_frameworks!
 
 pod 'ZCharts'
 
@@ -12,3 +13,5 @@ pod 'YYKit'
 
 pod 'AsyncDisplayKit'
 
+
+pod 'XCGLogger'
